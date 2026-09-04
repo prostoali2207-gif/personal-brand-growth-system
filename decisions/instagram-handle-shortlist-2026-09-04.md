@@ -1,7 +1,7 @@
 # Instagram handle shortlist — 2026-09-04
 
 decision_id: PBGS-INSTAGRAM-HANDLE-001
-status: HYPOTHESIS / SHORTLIST
+status: SUPERSEDED
 final_approval: NOT GIVEN
 owner: User / Personal Brand Growth System
 
@@ -158,3 +158,13 @@ User checks in Instagram:
 
 Then record:
 `OBSERVED AVAILABLE / TAKEN -> USER DECISION -> approved channel inventory update`.
+
+
+## Supersession
+
+Superseded on 2026-09-04 by `PBGS-INSTAGRAM-HANDLE-002`.
+
+Reason:
+- user confirmed `prostoali2207` is the existing primary personal Instagram and the new professional account must be separate;
+- `prostoali` was rejected by Instagram;
+- user explicitly authorized reopening the naming space without using the existing `prostoali` identity as the anchor.
