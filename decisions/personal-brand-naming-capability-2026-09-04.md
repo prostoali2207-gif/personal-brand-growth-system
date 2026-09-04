@@ -5,7 +5,7 @@ date: 2026-09-04
 status: active
 owner: User / Personal Brand Growth System
 architect_classification: CAPABILITY
-upstream_action: NO SEND
+upstream_action: BUILD NEW COMPLETED AS CANDIDATE / NOT QUALIFIED
 
 ## Target job
 
@@ -111,10 +111,23 @@ External professional references:
 - Catchword naming criteria: https://catchwordbranding.com/wp-content/uploads/2014/10/CW_NamingGuide_100914.pdf
 - WIPO materials on personal-name distinctiveness and trademark identity: https://www.wipo.int/en/web/amc/processes/process2/report/html/report
 
-## Upstream escalation rule
+## Upstream status
 
-Do not send this CAPABILITY classification to `professional-ai-agents`.
+The original `NO SEND` reopen trigger was met by repeated materially different naming work (Spline/company-brand naming plus personal-brand/social-handle naming).
 
-Escalate only if repeated materially different naming work demonstrates:
-- a stable reusable profession-level responsibility boundary not covered by composition; and
-- evidence supporting EXTEND or BUILD NEW under Agent Architect methodology.
+Agent Architect upstream decision:
+- **BUILD NEW reusable capability package** `Brand Naming Practitioner`;
+- not a new top-level professional core;
+- frozen candidate: `v0.1.0-candidate`;
+- status: **CANDIDATE / NOT QUALIFIED**;
+- Stage A: `59/59 PASS`;
+- independent qualification terminal state: **NOT_EXECUTABLE / STOP**;
+- no professional PASS/REVISE/FAIL was established because the scored execution chain ended on infrastructure/evaluator defects;
+- candidate is allowed for applied operational use under repository candidate policy, but must never be represented as qualified.
+
+Authoritative upstream record:
+- `professional-ai-agents/architect/evaluation/brand-naming-practitioner/terminal-record-v0.1-not-executable.json`
+- qualification issue `#275`
+- terminal record merged through PR `#279`.
+
+Future qualification work must respect the upstream stop-loss record. A new issue number, provider switch or corpus regeneration does not reset the stopped execution chain.
