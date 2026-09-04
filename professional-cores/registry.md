@@ -42,3 +42,16 @@ Before using a candidate:
 ## GAP rule
 
 If no current qualified/released/candidate core is professionally compatible, record the missing competence as a GAP and route the classification to Agent Architect. Do not create a new professional core from this applied repository.
+
+## Active GAP classification
+
+The current Personal Brand professional GAP matrix is recorded in:
+
+- `decisions/professional-gap-classification-2026-09-04.md`
+
+That record is the applied source of truth for the final classifications:
+`REUSE / ADAPT / EXTEND / SPECIALIZATION / CAPABILITY / DETERMINISTIC TOOL / BUILD NEW / REJECT`.
+
+Applied decisions stay in this repository. Do not mirror every classification into `professional-ai-agents`.
+
+Only an evidence-backed **BUILD NEW** or **EXTEND** requirement may be escalated upstream for Agent Architect research/qualification work. `REUSE`, `SPECIALIZATION`, `CAPABILITY`, `DETERMINISTIC TOOL` and `REJECT` remain applied routing decisions unless later evidence proves a reusable professional behavior delta that changes the classification.
