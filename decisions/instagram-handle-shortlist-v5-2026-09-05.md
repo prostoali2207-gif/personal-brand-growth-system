@@ -123,3 +123,12 @@ Decision state:
 - channel identity is not yet recorded as final/active until Instagram accepts the exact username.
 
 If Instagram accepts `@nosignoutside`, update the channel inventory and mark this naming decision FINAL / APPROVED.
+
+
+## Supersession
+
+Naming was explicitly reopened on 2026-09-05 after professional review found that the selected `@nosignoutside` can first-read as a place/project/studio rather than a person.
+
+Superseded by PBGS-INSTAGRAM-HANDLE-006 for active naming exploration.
+
+The historical fact that the user selected `@nosignoutside` remains true; it is no longer the current naming direction.
