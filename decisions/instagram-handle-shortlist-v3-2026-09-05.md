@@ -2,7 +2,7 @@
 
 decision_id: PBGS-INSTAGRAM-HANDLE-003
 date: 2026-09-05
-status: HYPOTHESIS / SHORTLIST
+status: SUPERSEDED
 final_approval: NOT GIVEN
 professional_owner: Brand Naming Practitioner v0.1 — CANDIDATE / NOT QUALIFIED
 
@@ -153,3 +153,13 @@ Observed current conflicts/rejections include:
 - `notentirelyrandom`: historical exact username occurrence.
 
 Search-engine absence is not treated as proof of Instagram availability or legal clearance.
+
+
+## Supersession
+
+Superseded on 2026-09-05 by `PBGS-INSTAGRAM-HANDLE-004`.
+
+Reason:
+- user identified a real generation-quality gap: Brand Naming Practitioner was useful at screening/convergence but too conservative during open creative exploration;
+- Agent Architect compatibility check found an existing qualified Social Content Creative core whose qualified boundary includes materially distinct creative divergence;
+- naming ownership remains with Brand Naming Practitioner; Market & Competitive Intelligence supplies live collision evidence.
