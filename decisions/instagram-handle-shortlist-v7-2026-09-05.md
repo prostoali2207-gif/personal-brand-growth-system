@@ -151,3 +151,14 @@ Current check order:
 Not final until:
 1. exact Instagram availability is checked in-product;
 2. user approves it in actual profile context.
+
+
+## Criteria-regime notice — v0.2.3
+
+Brand Naming Practitioner v0.2.3 materially changes the personal-brand selection regime by separating:
+- No Unearned Claim hard gate;
+- Recognizable Voice / Identity Specificity positive criterion.
+
+Therefore this v7 ranking is **historical v0.2.2 evidence**, not directly comparable to a v0.2.3 run.
+
+`@thatsali` is not current-primary by inheritance. Re-evaluate candidates under v0.2.3 when decision value justifies it.
