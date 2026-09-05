@@ -2,8 +2,8 @@
 
 decision_id: PBGS-INSTAGRAM-HANDLE-005
 date: 2026-09-05
-status: HYPOTHESIS / SHORTLIST
-final_approval: NOT GIVEN
+status: USER SELECTED / PENDING INSTAGRAM AVAILABILITY
+final_approval: USER SELECTED @nosignoutside; platform availability pending
 
 ## Professional composition
 
@@ -110,3 +110,16 @@ Search-engine absence is not proof of Instagram availability or legal clearance.
 ## History note
 
 Chat-only exploratory lists that were never committed to the applied repository are not backfilled as repository decisions. The repository records actual persisted decision states and their supersession chain rather than fabricating intermediate committed versions.
+
+
+## User selection
+
+Selected by user on 2026-09-05:
+- `@nosignoutside`
+
+Decision state:
+- **USER SELECTED**
+- exact Instagram availability: **UNVERIFIED / PENDING IN-PRODUCT CHECK**
+- channel identity is not yet recorded as final/active until Instagram accepts the exact username.
+
+If Instagram accepts `@nosignoutside`, update the channel inventory and mark this naming decision FINAL / APPROVED.
