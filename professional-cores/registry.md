@@ -43,7 +43,7 @@ Before using a candidate:
 
 ### Brand Naming Practitioner
 For current personal-brand naming work:
-- upstream version: **0.2.0-candidate**;
+- upstream version: **0.2.1-candidate**;
 - lifecycle: **CANDIDATE / NOT QUALIFIED**;
 - issue: `professional-ai-agents#282`;
 - model: `architect/evaluation/brand-naming-practitioner/v0.2/professional-model-candidate-v0.2.md`;

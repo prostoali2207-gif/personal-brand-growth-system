@@ -139,7 +139,7 @@ Agent Architect upstream decision remains:
 ### Current operational candidate v0.2
 Production naming failures from the 2026-09-04/05 applied work triggered an evidence-backed revision through Agent Architect.
 
-- current candidate: **`v0.2.0-candidate`**;
+- current candidate: **`v0.2.1-candidate`**;
 - status: **CANDIDATE / NOT QUALIFIED**;
 - issue: `professional-ai-agents#282`;
 - implementation PR: `professional-ai-agents#283`;
@@ -147,7 +147,7 @@ Production naming failures from the 2026-09-04/05 applied work triggered an evid
   `professional-ai-agents/architect/evaluation/brand-naming-practitioner/v0.2/professional-model-candidate-v0.2.md`;
 - skill:
   `professional-ai-agents/architect/evaluation/brand-naming-practitioner/v0.2/candidate/SKILL.md`;
-- targeted development/regression families: 12;
+- targeted development/regression families: 13;
 - no fresh independent qualification PASS exists yet.
 
 Current applied naming work should use **v0.2**, never present it as qualified, and preserve the v0.1 stop-loss history rather than treating v0.2 as a retry of the stopped v0.1 chain.
