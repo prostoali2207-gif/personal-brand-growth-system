@@ -161,3 +161,8 @@ Evidence status:
 
 Next active candidate:
 - `@aliatwork`
+
+
+## Supersession
+
+Superseded by PBGS-INSTAGRAM-HANDLE-007 after Brand Naming Practitioner v0.2.2 diagnosed v6 as bland-convergence overcorrection.
