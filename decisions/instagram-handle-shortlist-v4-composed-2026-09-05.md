@@ -2,7 +2,7 @@
 
 decision_id: PBGS-INSTAGRAM-HANDLE-004
 date: 2026-09-05
-status: HYPOTHESIS / SHORTLIST
+status: SUPERSEDED
 final_approval: NOT GIVEN
 
 ## Composition
@@ -186,3 +186,13 @@ Current indexed checks performed 2026-09-05:
 - "still curing" is common descriptive language across material/process contexts.
 
 Search-engine absence is not proof of Instagram availability or legal clearance.
+
+
+## Supersession
+
+Superseded on 2026-09-05 by `PBGS-INSTAGRAM-HANDLE-005`.
+
+Reason:
+- the v4 comparison treated the 2026 title `After The Last Door` inconsistently: for this personal-handle brief, an unrelated music/title use is a soft adjacent-meaning signal, not an automatic collision against semantically similar `Past The Last Door`;
+- spoken/written stress testing exposed a material transcription weakness in `pastthelastdoor`: `past` and `passed` are homophones, creating a plausible incorrect typed form after hearing the handle;
+- `nosignoutside` has no comparable spelling fork and therefore moves ahead under the existing accessibility/transcription criterion.
