@@ -4,7 +4,7 @@ Upstream source of truth: `prostoali2207-gif/professional-ai-agents`.
 
 This file is a routing snapshot for the applied repo, not a replacement for the upstream catalog/qualification evidence. Verify upstream state before any material use when freshness matters.
 
-Snapshot checked: 2026-09-03.
+Snapshot checked: 2026-09-05.
 
 ## Qualified library entries
 
@@ -38,6 +38,19 @@ Before using a candidate:
 3. verify professional boundaries and handoff rules;
 4. label the applied handoff/output `CANDIDATE / NOT QUALIFIED` (or the exact upstream status);
 5. require stronger evidence/review for irreversible, risky, expensive, public, or authority-sensitive actions.
+
+## Active applied candidate binding
+
+### Brand Naming Practitioner
+For current personal-brand naming work:
+- upstream version: **0.2.0-candidate**;
+- lifecycle: **CANDIDATE / NOT QUALIFIED**;
+- issue: `professional-ai-agents#282`;
+- model: `architect/evaluation/brand-naming-practitioner/v0.2/professional-model-candidate-v0.2.md`;
+- skill: `architect/evaluation/brand-naming-practitioner/v0.2/candidate/SKILL.md`;
+- v0.1 is historical/frozen and terminal `NOT_EXECUTABLE`, not the current operational candidate.
+
+This explicit binding exists because naming is an active applied workflow and stale candidate routing already caused repeated cross-chat errors.
 
 ## GAP rule
 
