@@ -49,6 +49,16 @@ For project-specific facts, prefer the most direct current evidence in this orde
 
 Newer evidence does not automatically win if authority, scope, identity, or applicability are unclear. Record supersession explicitly.
 
+## Current identity checkpoint
+
+Before any task that depends on the current public identity — including naming, avatar/profile image direction, bio, profile design, channel setup, visual identity, or content packaging — first read:
+
+- `source-of-truth/current-brand-identity.md`
+
+Treat that file as the canonical current project identity state. Do not recover a current name/handle from old chat history or superseded naming decisions when this checkpoint exists.
+
+If the file says a handle is selected but platform availability is still pending, preserve that exact distinction: the selected identity is current for downstream creative direction, while account activation/availability remains unverified.
+
 ## Applied workflow
 
 Typical flow, only when the task reaches those stages:
