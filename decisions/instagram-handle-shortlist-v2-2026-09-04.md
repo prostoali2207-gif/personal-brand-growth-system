@@ -2,7 +2,7 @@
 
 decision_id: PBGS-INSTAGRAM-HANDLE-002
 date: 2026-09-04
-status: HYPOTHESIS / PRIMARY CANDIDATE
+status: SUPERSEDED
 final_approval: NOT GIVEN
 professional_owner: Brand Naming Practitioner v0.1 — CANDIDATE / NOT QUALIFIED
 
@@ -95,3 +95,13 @@ These remain hypotheses and were not selected over the primary candidate.
 Try `@alioperator` in Instagram first.
 
 Do not approve/finalize the channel identity in the repository until Instagram confirms the handle and the user accepts it.
+
+
+## Supersession
+
+Superseded on 2026-09-05 by `PBGS-INSTAGRAM-HANDLE-003`.
+
+Reason:
+- user rejected the role-like tone of `AliOperator`;
+- user removed the requirement to include their name;
+- user authorized a shorter abstract phrase / micro-sentence identity territory, not necessarily related to professional work.
