@@ -54,7 +54,7 @@ Current collision screen:
 - an active 2026 personal-content identity called `Here With Ali` exists, so semantic adjacency is real but not an exact-name collision;
 - classify as **T2 adjacent identity signal**, not fatal.
 
-Instagram exact availability: UNVERIFIED.
+Instagram exact availability: **UNAVAILABLE — verified by user in Instagram on 2026-09-05.**
 
 ### 2. `@aliatwork`
 
@@ -135,17 +135,29 @@ No additional broad naming search is justified before testing the four finalists
 
 Recommended in-product check order:
 
-1. `alihere`
-2. `aliatwork`
-3. `thisisali`
-4. `fromali`
+1. `aliatwork`
+2. `thisisali`
+3. `fromali`
 
 Do not infer availability from web-search absence.
 
 ## Current recommendation
 
-**PRIMARY HYPOTHESIS: `@alihere`**
+**PRIMARY HYPOTHESIS: `@aliatwork`**
 
 This is not final until:
 1. Instagram accepts the exact handle or an approved minimal modifier;
 2. the user approves the identity after seeing it in actual profile context.
+
+
+## Availability update — 2026-09-05
+
+User checked `@alihere` directly in Instagram and confirmed the exact username already exists / is unavailable.
+
+Evidence status:
+- `@alihere`: **VERIFIED UNAVAILABLE**
+- source: in-product Instagram check by user
+- consequence: remove from active check order; do not reopen brand identity architecture.
+
+Next active candidate:
+- `@aliatwork`
