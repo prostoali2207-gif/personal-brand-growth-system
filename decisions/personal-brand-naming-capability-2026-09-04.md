@@ -51,10 +51,10 @@ It may establish current market/competitor evidence and bounded implications. It
 
 Its current frozen candidate contract can supply downstream strategic constraints when applicable, but it does not currently encode naming craft.
 
-### Social Content Creative
-**REJECT as naming owner.**
+### Social Content Creative 0.1.0
+**REJECT as naming owner; REUSE as optional creative challenger.**
 
-Its boundary assumes supplied brand/language context and owns executional public-facing copy, not brand naming.
+Its qualified boundary includes materially distinct creative divergence, but naming ownership remains with Brand Naming Practitioner. Use it only when separation of divergence and convergence adds value. Its qualification does not transfer to naming craft.
 
 ## Applied naming principles
 
@@ -73,9 +73,11 @@ Use these as professional decision criteria, not as a mechanical score that repl
 
 ## Process
 
-`MINIMUM POSITIONING BRIEF -> NAMING TERRITORIES -> DIVERGENT CANDIDATE POOL -> LINGUISTIC/SEMANTIC SCREEN -> DISTINCTIVENESS/COLLISION SCREEN -> PLATFORM PORTABILITY -> SHORTLIST -> AVAILABILITY CHECK -> USER DECISION -> VISUAL/CHANNEL HANDOFF`
+Current v0.2 candidate sequence:
 
-Do not converge on the first plausible handle.
+`FRAME -> LOCK CRITERIA -> DIVERGE -> COUNTER-TERRITORY CHECK -> GENERATE -> SCREEN -> FIRST-READ + ORAL/TYPED TEST -> NATURALNESS/CONTRIVANCE CRITIQUE -> CONSISTENCY CHECK -> COMPARE -> HANDOFF`
+
+Do not converge on the first plausible handle or silently turn a user-suggested territory into the whole search space.
 
 ## Current factual blockers
 
@@ -84,16 +86,21 @@ Do not converge on the first plausible handle.
 - Channel inventory currently contains the schema but no verified Instagram handle/account record.
 - Therefore a profession-grade **final** handle cannot yet be asserted from the repo as a completed naming decision.
 
-## Safe current working territory
+## Current personal-brand naming mode
 
-Until positioning is approved, favor identity-led candidates anchored on **Ali** plus a broad activity/identity modifier rather than an unsupported expertise title.
+Do **not** impose a name-led identity or require `Ali` in the handle.
 
-Current candidate hypotheses may be explored, but must remain labeled HYPOTHESIS until screened:
-- `alibuilds`
-- `builtbyali`
-- `prostoali`
+The current Brand Naming Practitioner v0.2 candidate explicitly allows:
+- name-led identity;
+- person-alias identity;
+- concept-led identity;
+- open exploration across modes.
 
-These are not approved names and availability is not asserted.
+For personal-brand candidates, test the likely first-read identity type (person/alias vs role/title vs place/project/company), naturalness vs contrivance, oral-to-typed robustness, lowercase segmentation, polysemy, and context-sensitive collision relevance.
+
+Historical hypotheses such as `alibuilds`, `builtbyali`, `prostoali`, `alioperator` and other prior shortlist items are decision history only unless explicitly reopened.
+
+The current selected downstream identity state remains governed by `source-of-truth/current-brand-identity.md`.
 
 ## Evidence / methodology
 
@@ -115,19 +122,32 @@ External professional references:
 
 The original `NO SEND` reopen trigger was met by repeated materially different naming work (Spline/company-brand naming plus personal-brand/social-handle naming).
 
-Agent Architect upstream decision:
+Agent Architect upstream decision remains:
 - **BUILD NEW reusable capability package** `Brand Naming Practitioner`;
-- not a new top-level professional core;
-- frozen candidate: `v0.1.0-candidate`;
-- status: **CANDIDATE / NOT QUALIFIED**;
+- not a new top-level professional core.
+
+### Historical v0.1
+- candidate: `v0.1.0-candidate`;
+- status: **FROZEN / NOT QUALIFIED**;
 - Stage A: `59/59 PASS`;
 - independent qualification terminal state: **NOT_EXECUTABLE / STOP**;
-- no professional PASS/REVISE/FAIL was established because the scored execution chain ended on infrastructure/evaluator defects;
-- candidate is allowed for applied operational use under repository candidate policy, but must never be represented as qualified.
+- no professional PASS/REVISE/FAIL was established;
+- authoritative terminal record:
+  `professional-ai-agents/architect/evaluation/brand-naming-practitioner/terminal-record-v0.1-not-executable.json`;
+- issue `#275`, terminal PR `#279`.
 
-Authoritative upstream record:
-- `professional-ai-agents/architect/evaluation/brand-naming-practitioner/terminal-record-v0.1-not-executable.json`
-- qualification issue `#275`
-- terminal record merged through PR `#279`.
+### Current operational candidate v0.2
+Production naming failures from the 2026-09-04/05 applied work triggered an evidence-backed revision through Agent Architect.
 
-Future qualification work must respect the upstream stop-loss record. A new issue number, provider switch or corpus regeneration does not reset the stopped execution chain.
+- current candidate: **`v0.2.0-candidate`**;
+- status: **CANDIDATE / NOT QUALIFIED**;
+- issue: `professional-ai-agents#282`;
+- implementation PR: `professional-ai-agents#283`;
+- model:
+  `professional-ai-agents/architect/evaluation/brand-naming-practitioner/v0.2/professional-model-candidate-v0.2.md`;
+- skill:
+  `professional-ai-agents/architect/evaluation/brand-naming-practitioner/v0.2/candidate/SKILL.md`;
+- targeted development/regression families: 12;
+- no fresh independent qualification PASS exists yet.
+
+Current applied naming work should use **v0.2**, never present it as qualified, and preserve the v0.1 stop-loss history rather than treating v0.2 as a retry of the stopped v0.1 chain.
