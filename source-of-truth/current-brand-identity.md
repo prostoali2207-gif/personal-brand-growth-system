@@ -2,23 +2,25 @@
 
 record_id: PBGS-SOT-IDENTITY-001
 scope: personal professional brand / social identity
-status: provisional
+status: provisional / naming reopened
 verified_at: 2026-09-05
 verified_by: explicit user decision
 source_type: user decision + repository decision record
 source_ref: decisions/instagram-handle-shortlist-v5-2026-09-05.md
 
-## Current selected identity
+## Current identity state
 
-Selected professional Instagram username / brand handle:
+**NO FINAL CURRENT HANDLE. NAMING REOPENED.**
 
-**`@nosignoutside`**
+Previous user selection:
+- `@nosignoutside`
 
-Decision state:
-- **USER SELECTED**
-- this is the current identity to use for downstream brand-dependent work such as avatar direction, profile design, bio framing and visual exploration;
-- exact Instagram username availability / successful account assignment is still **UNVERIFIED / PENDING IN-PRODUCT CHECK**;
-- do not silently substitute an older candidate if availability has not yet been confirmed.
+Current status:
+- `@nosignoutside` is historical / superseded for active naming direction;
+- it must **not** drive avatar, bio, profile-design or visual-identity work as if final;
+- current active shortlist is PBGS-INSTAGRAM-HANDLE-006;
+- current primary hypothesis: `@alihere`;
+- no candidate is final until the user approves it and Instagram availability is verified in-product.
 
 ## Superseded / non-current naming hypotheses
 
@@ -39,9 +41,9 @@ They may appear in decision history only.
 For any future naming-, avatar-, bio-, profile-, visual-identity- or channel-dependent task:
 
 1. read this record first;
-2. use `@nosignoutside` as the current selected identity unless a newer source-of-truth record explicitly supersedes it;
+2. do not assume any handle is final while this record says naming is reopened;
 3. do not infer current identity from chat history or older shortlist files;
-4. if Instagram rejects `@nosignoutside`, record that new platform evidence and reopen naming explicitly rather than falling back silently.
+4. use `decisions/instagram-handle-shortlist-v6-2026-09-05.md` as the current naming shortlist; never fall back silently to an older candidate.
 
 ## Supersession
 
