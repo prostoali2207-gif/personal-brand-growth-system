@@ -18,8 +18,8 @@ Previous user selection:
 Current status:
 - `@nosignoutside` is historical / superseded for active naming direction;
 - it must **not** drive avatar, bio, profile-design or visual-identity work as if final;
-- current active shortlist is PBGS-INSTAGRAM-HANDLE-006;
-- current primary hypothesis: **NONE — v0.2.2 rerun required after bland-convergence failure**;
+- current active shortlist is PBGS-INSTAGRAM-HANDLE-007;
+- current primary hypothesis: `@thatsali`;
 - `@aliatwork` is retained only as a prior shortlist candidate, not the active primary;
 - `@alihere` is verified unavailable in Instagram from the user's direct in-product check;
 - no candidate is final until the user approves it and Instagram availability is verified in-product.
@@ -45,7 +45,7 @@ For any future naming-, avatar-, bio-, profile-, visual-identity- or channel-dep
 1. read this record first;
 2. do not assume any handle is final while this record says naming is reopened;
 3. do not infer current identity from chat history or older shortlist files;
-4. use `decisions/instagram-handle-shortlist-v6-2026-09-05.md` as the current naming shortlist; never fall back silently to an older candidate.
+4. use `decisions/instagram-handle-shortlist-v7-2026-09-05.md` as the current naming shortlist; never fall back silently to an older candidate.
 
 ## Supersession
 
