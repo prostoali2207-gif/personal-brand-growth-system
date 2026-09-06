@@ -160,17 +160,29 @@ Exact Instagram availability: UNVERIFIED.
 The current regime does **not** justify generating another large batch before checking whether the strongest continuity-preserving candidate is viable in Instagram.
 
 Check order:
-1. `prosto.ali`
-2. `shouldwork`
-3. `itshouldwork`
-4. `shouldbefine`
+1. `shouldwork`
+2. `itshouldwork`
+3. `shouldbefine`
 
 ## Current recommendation
 
-**PRIMARY HYPOTHESIS: `@prosto.ali`**
+**PRIMARY HYPOTHESIS: `@shouldwork`**
 
 This is a handle hypothesis, not a final identity decision.
 
 Next discriminating evidence:
 - exact Instagram availability for `prosto.ali`;
 - user reaction to whether preserving `prostoali` identity continuity is desirable for the separate professional account.
+
+
+## Availability update — 2026-09-06
+
+The user checked `@prosto.ali` directly in Instagram and confirmed that the exact username already exists / is unavailable.
+
+Evidence status:
+- `@prosto.ali`: **VERIFIED UNAVAILABLE**
+- source: direct in-product Instagram check by user
+- consequence: remove from active shortlist order.
+
+Next active candidate:
+- `@shouldwork`
