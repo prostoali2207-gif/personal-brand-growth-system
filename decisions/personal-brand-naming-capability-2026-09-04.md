@@ -139,7 +139,7 @@ Agent Architect upstream decision remains:
 ### Current operational candidate v0.2
 Production naming failures from the 2026-09-04/05 applied work triggered an evidence-backed revision through Agent Architect.
 
-- current candidate: **`v0.2.3-candidate`**;
+- current candidate: **`v0.2.4-candidate`**;
 - status: **CANDIDATE / NOT QUALIFIED**;
 - issue: `professional-ai-agents#282`;
 - implementation PR: `professional-ai-agents#283`;
@@ -147,7 +147,7 @@ Production naming failures from the 2026-09-04/05 applied work triggered an evid
   `professional-ai-agents/architect/evaluation/brand-naming-practitioner/v0.2/professional-model-candidate-v0.2.md`;
 - skill:
   `professional-ai-agents/architect/evaluation/brand-naming-practitioner/v0.2/candidate/SKILL.md`;
-- targeted development/regression families: 16;
+- targeted development/regression families: 18;
 - no fresh independent qualification PASS exists yet.
 
 Current applied naming work should use **v0.2**, never present it as qualified, and preserve the v0.1 stop-loss history rather than treating v0.2 as a retry of the stopped v0.1 chain.
@@ -167,3 +167,42 @@ Including `Ali` in the handle does not satisfy recognizable voice automatically.
 Voice/personality claims must be grounded in approved first-party identity/communication evidence; otherwise voice fit remains UNVERIFIED.
 
 Material criteria-version changes invalidate direct cross-version ranking. Historical shortlist outcomes remain historical evidence and require re-evaluation under the current regime before reuse as current professional judgments.
+
+
+## v0.2.4 creative constraint staging
+
+The current candidate separates creative generation from professional evaluation.
+
+### GENERATION MODE
+Only true hard constraints and explicit approved-brief locks may prune:
+- unsupported public claims/status/authority/outcomes;
+- explicit off-limits implications;
+- direct material identity copying/confusion;
+- known hard platform syntax constraints;
+- legal/safety boundaries inside the capability's authority.
+
+Soft criteria are recorded but **not used as generation filters**.
+
+### EVALUATION MODE
+After materially different territories and a broad working pool exist, apply:
+- first-read identity type;
+- naturalness / contrivance;
+- magnetism / blandness;
+- recognizable voice;
+- oral-to-typed robustness;
+- segmentation / polysemy;
+- collision relevance;
+- discovery-path fit;
+- consistency;
+- decision economy.
+
+### Personal-brand identity-mode rule
+
+For an open brief:
+- name-led;
+- person-alias;
+- concept-led
+
+begin as peer territories.
+
+The personal name is not a default/safe baseline and may win only after comparison with materially viable non-name-led work.
