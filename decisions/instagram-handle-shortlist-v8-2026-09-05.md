@@ -199,3 +199,18 @@ Interpretation:
 
 Process correction:
 - stakeholder sound/resonance approval should occur before requesting manual in-product availability checks for future finalists.
+
+
+## Criteria-regime notice — v0.2.4
+
+Brand Naming Practitioner v0.2.4 materially changes the **generation architecture**, not merely finalist scoring.
+
+It introduces:
+- GENERATION MODE with a hard-constraint-only firewall;
+- a divergence gate before soft evaluation;
+- identity-mode parity for open personal-brand briefs;
+- explicit rejection of the personal name as a safe/default baseline.
+
+Therefore v8 remains historical evidence from v0.2.3 and must not seed or constrain the v0.2.4 generation pool.
+
+A fresh v0.2.4 run should begin from the approved brief + hard constraints, not from this shortlist.

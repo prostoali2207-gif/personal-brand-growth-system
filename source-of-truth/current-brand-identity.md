@@ -19,11 +19,12 @@ Current status:
 - `@nosignoutside` is historical / superseded for active naming direction;
 - it must **not** drive avatar, bio, profile-design or visual-identity work as if final;
 - current active shortlist is PBGS-INSTAGRAM-HANDLE-008;
-- current primary hypothesis: **NONE — shouldwork territory rejected on sound/resonance**;
+- current primary hypothesis: **NONE — v0.2.4 fresh rerun required after constraint-staging repair**;
 - `@thatsali` remains a historical v0.2.2 hypothesis, not the active professional primary;
 - `@aliatwork` is retained only as a prior shortlist candidate, not the active primary;
 - `@alihere` is verified unavailable in Instagram from the user's direct in-product check;
 - `@prosto.ali` is verified unavailable in Instagram from the user's direct in-product check;
+- v0.2.3 shortlist v8 is historical under the pre-generation-firewall regime;
 - no candidate is final until the user approves it and Instagram availability is verified in-product.
 
 ## Superseded / non-current naming hypotheses
