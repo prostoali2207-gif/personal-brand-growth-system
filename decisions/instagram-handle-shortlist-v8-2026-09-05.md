@@ -186,3 +186,16 @@ Evidence status:
 
 Next active candidate:
 - `@shouldwork`
+
+
+## Stakeholder sound rejection — 2026-09-06
+
+The user explicitly rejected `@shouldwork` because **“это не звучит”**.
+
+Interpretation:
+- this is stakeholder/aesthetic evidence for the applied personal identity, not a universal naming rule;
+- the shared dry technical-phrase territory `shouldwork / itshouldwork / shouldbefine` is removed from active consideration;
+- do not spend further manual Instagram availability checks on this territory.
+
+Process correction:
+- stakeholder sound/resonance approval should occur before requesting manual in-product availability checks for future finalists.
