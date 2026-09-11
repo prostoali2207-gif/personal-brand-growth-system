@@ -1,12 +1,12 @@
 # Current avatar — Personal Brand Growth System
 
-status: APPROVED PRIMARY AVATAR CANDIDATE
+status: APPROVED PRIMARY AVATAR
 candidate_id: PBGS-AVATAR-R4-INDEPENDENT-2026-09-11
 date: 2026-09-11
 
 ## Decision
 
-R4 is the selected avatar candidate from an independent blind development run.
+R4 is the approved primary avatar from an independent blind development run.
 
 The run explicitly excluded previous avatar geometry, renders, visual concepts, and avatar-related decision records as design inputs.
 
@@ -47,7 +47,7 @@ Final R4 characteristics:
 
 ## Rendered QC
 
-R4 passed the applied avatar review at 48 px and 32 px:
+R4 passed applied avatar review at 48 px and 32 px:
 - silhouette remains legible;
 - the mark remains recognizable as a coherent composition;
 - no dominant letter/initial reading;
@@ -55,18 +55,29 @@ R4 passed the applied avatar review at 48 px and 32 px:
 - accent remains subordinate to the primary form;
 - perceived personality is materially closer to precise / practical / human than corporate-premium tech.
 
-Verdict: PASS as primary avatar candidate.
+A final safe-area repair reduced the approved artwork scale by 8% without changing geometry or color.
+
+## Real platform validation
+
+The final safe-area export was applied in Instagram and visually checked in the actual profile-edit UI.
+
+Observed result:
+- circular crop does not clip the mark;
+- sufficient cream-field breathing room remains;
+- the mark stays recognizable at the rendered profile size;
+- dark Instagram UI increases separation rather than harming readability;
+- no additional geometry or color repair is justified.
+
+Final verdict: **PASS / APPROVED PRIMARY AVATAR**.
 
 ## Export set
 
-Prepared from the approved R4 render:
+Prepared from the approved R4 safe-area master:
 - PNG 2048 x 2048
 - PNG 1024 x 1024
 - PNG 512 x 512
 - PNG 256 x 256
 - JPG 1024 x 1024
-
-The exported square master is cropped inside the original cream circular field so platform-native circular profile masks do not expose the original outer white corners.
 
 ## Reopen triggers
 
