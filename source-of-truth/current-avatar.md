@@ -1,32 +1,79 @@
-# Current avatar
+# Current avatar — Personal Brand Growth System
 
-id: PBGS-SOT-AVATAR-001
-statement: The current personal-brand avatar is the matte/tactile 3D treatment of the frozen asymmetric three-module systems mark.
-scope: personal professional brand / social profile avatar
-status: verified / final
-source_type: user delegation + professional review
-source_ref:
-- decisions/avatar-flat-distinctiveness-review-r5-2026-09-11.md
-- decisions/brand-personality-2026-09-11.md
-- decisions/avatar-final-personality-freeze-2026-09-11.md
-verified_at: 2026-09-11
-verified_by: Personal Brand Growth System
+status: APPROVED PRIMARY AVATAR CANDIDATE
+candidate_id: PBGS-AVATAR-R4-INDEPENDENT-2026-09-11
+date: 2026-09-11
 
-artifact_provenance:
-- ChatGPT generation id: c8aecc9c-7b0e-4114-a5fa-a13b948b738a
-- session filename: a_clean_minimal_modern_3d_rendered_logo_scene_a.png
+## Decision
 
-final_qc:
-- full size: PASS
-- 64 px: PASS
-- 32 px: PASS
-- frozen geometry fidelity: PASS
-- personality contract: PASS
-- corporate/premium-tech reduction: PASS
+R4 is the selected avatar candidate from an independent blind development run.
 
-notes:
-- geometry is frozen;
-- matte/tactile warm-neutral presentation is authoritative;
-- avatar is independent of handle/initials;
-- do not continue aesthetic iteration without a documented reopen trigger;
-- binary asset is a generated conversation artifact unless separately ingested into repository storage.
+The run explicitly excluded previous avatar geometry, renders, visual concepts, and avatar-related decision records as design inputs.
+
+## Professional composition
+
+- Market & Competitive Intelligence 1.0.0 — QUALIFIED — category / visual-market research
+- Visual Design / Art Direction 0.3.0-candidate — CANDIDATE / NOT QUALIFIED — visual direction, divergence, selection, rendered critique and repair
+- Social Content Creative 0.1.0 — QUALIFIED — social-context / semantic stress test
+- Personal Brand Strategy / Positioning — applied SPECIALIZATION — upstream identity and brand constraints
+
+## Upstream identity constraints
+
+The avatar must fit the evidence-backed practice-led systems-builder identity:
+real operational problems -> working software, CRM/SaaS, automation and professional AI-agent systems.
+
+Brand personality:
+- precise;
+- practical;
+- curious;
+- direct;
+- human;
+- low guru / authority theater;
+- low luxury / corporate-premium signaling.
+
+## Selected visual direction
+
+Direction: Cut Block.
+
+Final R4 characteristics:
+- flat 2D mark;
+- dominant charcoal structural form;
+- smaller terracotta structural accent;
+- warm cream field;
+- negative-space relationship between the two forms;
+- no text, handle or initials;
+- no literal AI glyphs, robot/brain/circuit motifs, neon, chrome, glow or cyberpunk language;
+- no dependence on a final username.
+
+## Rendered QC
+
+R4 passed the applied avatar review at 48 px and 32 px:
+- silhouette remains legible;
+- the mark remains recognizable as a coherent composition;
+- no dominant letter/initial reading;
+- no generic AI/cyberpunk visual dependency;
+- accent remains subordinate to the primary form;
+- perceived personality is materially closer to precise / practical / human than corporate-premium tech.
+
+Verdict: PASS as primary avatar candidate.
+
+## Export set
+
+Prepared from the approved R4 render:
+- PNG 2048 x 2048
+- PNG 1024 x 1024
+- PNG 512 x 512
+- PNG 256 x 256
+- JPG 1024 x 1024
+
+The exported square master is cropped inside the original cream circular field so platform-native circular profile masks do not expose the original outer white corners.
+
+## Reopen triggers
+
+Reopen only if:
+- real platform rendering exposes a material legibility/cropping defect;
+- audience evidence shows persistent unintended interpretation;
+- the active positioning or brand-personality contract changes materially;
+- an independent visual review finds a concrete P0/P1 issue.
+
+Do not reopen for cosmetic iteration alone.
