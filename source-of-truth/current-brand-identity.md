@@ -41,6 +41,21 @@ The following are **not current** and must not be presented as the selected bran
 
 They may appear in decision history only.
 
+## Professional identity routing addendum — 2026-09-11
+
+Active positioning decision:
+- `decisions/professional-identity-thesis-2026-09-11.md`
+
+Active professional identity thesis for downstream creative routing:
+- **Real business problems -> working systems.**
+- expanded scope: real operational problems translated into software, automations and professional AI-agent systems, with architecture, decisions, failures, repairs and iterations as the evidence-led narrative.
+
+Important scope:
+- this is an active strategy/creative-routing constraint, **not** a blanket public factual claim;
+- exact public first-person claims remain governed by `brand-claims/`;
+- naming remains reopened and independent of this thesis;
+- avatar/profile/visual-identity work must use this thesis and must not derive its concept from an unapproved handle.
+
 ## Authority rule
 
 For any future naming-, avatar-, bio-, profile-, visual-identity- or channel-dependent task:
@@ -48,7 +63,8 @@ For any future naming-, avatar-, bio-, profile-, visual-identity- or channel-dep
 1. read this record first;
 2. do not assume any handle is final while this record says naming is reopened;
 3. do not infer current identity from chat history or older shortlist files;
-4. use `decisions/instagram-handle-shortlist-v9-2026-09-06.md` as the current naming shortlist; never fall back silently to an older candidate.
+4. use `decisions/instagram-handle-shortlist-v9-2026-09-06.md` as the current naming shortlist; never fall back silently to an older candidate;
+5. for professional identity / avatar / visual-direction constraints, read `decisions/professional-identity-thesis-2026-09-11.md`.
 
 ## Supersession
 
