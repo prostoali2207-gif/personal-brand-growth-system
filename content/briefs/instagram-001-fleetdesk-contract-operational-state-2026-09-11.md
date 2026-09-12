@@ -9,9 +9,20 @@ source_project: FleetDesk
 creator_core: Social Content Creative 0.1.0 — QUALIFIED per library manifest
 release_authority: human only
 
+
+## Strategic role lock
+
+Owner: Growth Strategy & Experiment Portfolio v0.1 — CANDIDATE / NOT QUALIFIED, under the active audience/channel strategy.
+
+- FleetDesk is **evidence of capability / a case from real work**, not the offer being sold by this Reel.
+- The strategic objective is to build credible professional demand around the demonstrated ability to turn real operational problems into working systems and make future qualified project conversations possible.
+- Therefore this Reel must not become a FleetDesk feature tour, product advertisement, or exhaustive proof of every module.
+- Product details are included only when they support the higher-level proof: real operational problem -> system reasoning -> working implementation.
+- The viewer takeaway should be transferable beyond car rental: "this person/team can reason about an operational problem and build a working system around it."
+
 ## Communication job
 
-Show a UAE business operator that FleetDesk is not merely a collection of screens: a rental contract is modeled as an operational object connected to the car, client, payments, fines and Salik, with system state changing around it.
+Use FleetDesk as concrete evidence of the broader systems-building capability: show how a real rental-operation problem was modeled into a working system, using the contract/state relationships as proof rather than presenting FleetDesk itself as the product offer.
 
 ## Audience relevance
 
