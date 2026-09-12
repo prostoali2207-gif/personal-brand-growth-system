@@ -1,14 +1,16 @@
 # Current avatar — Personal Brand Growth System
 
 status: APPROVED PRIMARY AVATAR
-candidate_id: PBGS-AVATAR-D-BLIND-WINNER-2026-09-12
+candidate_id: PBGS-AVATAR-WARM-FLAT-FINAL-2026-09-12
 date: 2026-09-12
 
 ## Decision
 
-Candidate D is the approved primary avatar after blind independent comparative review and real Instagram platform validation.
+The latest warm flat two-module avatar is the approved primary avatar.
 
-D supersedes the previous R4 primary avatar.
+This supersedes Candidate D.
+
+The approval incorporates a baseline correction: an earlier review incorrectly treated a prior "9/10" version as having direct physical contact between the graphite and terracotta masses. Visual re-check showed that the cream separator was present in both the prior and latest versions. Therefore the earlier "implementation drift" rejection was invalid and is withdrawn.
 
 ## Professional composition
 
@@ -28,62 +30,56 @@ Brand personality:
 - curious;
 - direct;
 - human;
+- moderate warmth;
 - low guru / authority theater;
 - low luxury / corporate-premium signaling.
 
-## Selected visual direction
+## Final visual state
 
-Candidate D:
 - flat two-module mark;
-- dominant graphite upper module;
-- terracotta lower module;
-- warm cream field;
-- strong curved negative-space signature between modules;
-- no text, handle or initials;
-- no literal AI glyphs, robot/brain/circuit motifs, neon, chrome, glow or cyberpunk language;
-- no dependence on a final username.
+- warm charcoal primary mass;
+- deeper earthy terracotta secondary mass;
+- warm cream circular field;
+- narrow cream separator / internal seam;
+- rounded but controlled geometry;
+- no literal AI glyphs, robot/brain/circuit motifs, neon, chrome or cyberpunk language;
+- no dependence on handle, initials or an explicit letterform;
+- no glow, cinematic lighting or material-effects dependency as part of the master-avatar logic.
 
-## Blind independent review
+## Baseline correction
 
-Decision record:
-- decisions/avatar-blind-independent-review-2026-09-12.md
+The prior statement that the earlier "9/10" version contained direct physical interlock/contact between the two masses was incorrect.
 
-Candidate D scored 85.0 / 100 and ranked first in the blind comparison.
+Observed fact:
+- both the earlier version and the latest version retain a cream separator between the graphite and terracotta masses;
+- differences are in proportion, color and local seam behavior, not in presence vs absence of direct contact.
 
-Primary reasons:
-- stronger memorability / signature value than the prior safe two-module variant;
-- good 52 px / 32 px viability;
-- warmer and less corporate-tech than metallic alternatives;
-- lower shield/crypto risk than the compact badge alternative;
-- materially simpler than the modular 3D alternative.
+Therefore:
+- the earlier "9/10" score is withdrawn as an authoritative baseline;
+- the later rejection for "implementation drift" is withdrawn;
+- the latest avatar is evaluated on its own actual rendered properties.
 
-## Real platform validation
+## Final judgment
 
-The exported D avatar was applied in Instagram and visually checked in the actual profile-edit UI.
+The latest version is selected because it offers the best current balance of:
+- warmth without becoming playful or soft;
+- professional precision without metallic/corporate severity;
+- strong large-form readability;
+- compact avatar-scale silhouette;
+- sufficient distinctiveness without relying on generic AI/crypto tropes;
+- stronger color and proportion balance than the immediately preceding variants.
 
-Observed result:
-- circular crop preserves the complete mark;
-- the two-module silhouette remains coherent at real profile size;
-- the curved negative-space signature remains perceptible;
-- the graphite / terracotta contrast remains legible on Instagram dark UI;
-- the mark is more distinctive than the previous R4 while retaining brand fit;
-- shield / crypto / generic-AI association does not dominate.
+Final verdict: **APPROVED PRIMARY AVATAR**.
 
-Final verdict: **PASS / APPROVED PRIMARY AVATAR**.
+## Validation note
 
-## Export set
-
-Prepared from candidate D:
-- PNG 2048 x 2048
-- PNG 1024 x 1024
-- PNG 512 x 512
-- PNG 256 x 256
+Small-size reasoning and prior related avatar tests support viability, but the exact latest export should still be re-observed in the live Instagram crop if/when practical. Do not fabricate a platform PASS before that observation.
 
 ## Reopen triggers
 
 Reopen only if:
-- real audience evidence shows persistent unintended interpretation;
-- a material cross-platform rendering defect appears;
+- the live platform crop exposes a material legibility/cropping defect;
+- audience evidence shows persistent unintended interpretation;
 - the active positioning or brand-personality contract changes materially;
 - an independent visual review finds a concrete P0/P1 issue.
 
