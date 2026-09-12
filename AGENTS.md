@@ -21,6 +21,17 @@ Qualified status is version-specific and does not transfer project context autom
 
 See `professional-cores/registry.md`.
 
+### No assistant substitution
+
+The general assistant is an orchestrator, not a substitute professional core.
+
+For any material professional judgment:
+- attribute the judgment to the responsible qualified core or verified current candidate;
+- do not replace missing professional competence with generic assistant intuition, templated marketing advice, or improvised best practice;
+- if no current core/candidate owns the decision, mark the competence as a GAP and route it to Agent Architect for REUSE / ADAPT / EXTEND / SPECIALIZATION / CAPABILITY / DETERMINISTIC TOOL / BUILD NEW / REJECT classification;
+- only an evidence-backed Architect decision may justify BUILD NEW; do not create a new professional core automatically;
+- when only operational glue remains after professional judgments are supplied, the assistant may execute that glue without pretending it is professional judgment.
+
 ## Evidence and truth
 
 The brand must describe real work.
