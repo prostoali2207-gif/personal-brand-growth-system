@@ -1,7 +1,7 @@
 # ORIENTATION-01 — Production handoff v1
 
 date: 2026-09-13
-status: READY_FOR_BASELINE_NARRATION_AND_SOURCE_CAPTURE / NOT APPROVED FOR PUBLISHING
+status: PAUSED / LOCKED SCRIPT SUPERSEDED / DO NOT RECORD
 channel: Instagram
 format_intent: vertical short-form / faceless screen-led
 professional_owners:
@@ -11,6 +11,10 @@ professional_owners:
 - Narration & Voice Performance Direction v0.1 — CANDIDATE / NOT QUALIFIED
 - Video Capture & Camera Operations v0.4 — CANDIDATE / NOT QUALIFIED
 - Video Editing & Post-Production 0.1.0 — QUALIFIED downstream
+
+## Pause note — 2026-09-13
+
+Do not record this version. The locked script was superseded after the Asati spoken-delivery deep sample. Resume production only after human approval of Creative v2 and a refreshed handoff.
 
 ## Locked script
 
