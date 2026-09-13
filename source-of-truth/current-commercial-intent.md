@@ -18,6 +18,21 @@ Current service direction includes:
 
 This is a commercial direction, not a finalized productized-service catalog.
 
+## Service independence — confirmed 2026-09-13
+
+The current service directions are **independent/composable**, not a mandatory sequence.
+
+A client may legitimately need:
+- only a website / landing page;
+- only CRM work;
+- only automation / integration;
+- only a custom internal system;
+- or a combination when the actual problem requires it.
+
+Do not infer that a landing should connect to CRM, or that CRM should lead to automation, merely because those capabilities can be combined.
+
+Breadth in public content should normally emerge across the portfolio rather than by forcing several service categories into every asset.
+
 ## Buyer-language rule
 
 The intended buyer may be non-technical.
