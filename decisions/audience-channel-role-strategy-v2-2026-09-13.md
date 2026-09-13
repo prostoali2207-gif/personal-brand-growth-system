@@ -164,15 +164,17 @@ Formal measurement remains owned by Growth Experimentation & Measurement 1.2.0.
 
 ## Unresolved
 
-### Content / buyer language
-The exact commercial language market is not yet locked:
-- Russian;
-- English;
-- bilingual / mixed.
+### Content / buyer language — RESOLVED 2026-09-13
+Current launch decision:
+**Russian-first / English-accessible**.
 
-This is material for final public copy, but does not block service hierarchy or architecture-level content planning.
+- spoken commercial short-form: Russian;
+- English subtitles on commercially important short-form;
+- English-readable profile/service packaging;
+- no assumption that the total addressable market is Russian-speaking.
 
-Do not infer the addressable market from the user's conversation language alone.
+See:
+`decisions/commercial-content-language-strategy-v1-2026-09-13.md`.
 
 ### CTA / contact path
 Not yet approved.
