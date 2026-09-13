@@ -1,7 +1,10 @@
 # PARTS-FLOW-01 — Post-benchmark architecture v2
 
+## Invalidated 2026-09-13
+This architecture correctly handled the supplied brief, but the upstream brief incorrectly required landing + CRM depth in one first asset. Do not produce it.
+
 date: 2026-09-13
-status: READY FOR CREATIVE / SOURCE VISUAL STILL INCOMPLETE
+status: INVALIDATED BY SERVICE-INDEPENDENCE CORRECTION / HISTORICAL ONLY
 supersedes_for_creative:
 - content/briefs/instagram-parts-flow-01-landing-to-crm-architecture-2026-09-13.md
 owning_core:
