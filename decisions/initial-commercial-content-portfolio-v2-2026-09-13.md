@@ -1,8 +1,11 @@
 # Initial commercial content portfolio v2 — 2026-09-13
 
+## Superseded 2026-09-13
+Use `decisions/initial-commercial-content-portfolio-v3-2026-09-13.md`. Breadth is now distributed across assets; a landing asset no longer needs CRM as a depth signal.
+
 decision_id: PBGS-PORTFOLIO-002
 date: 2026-09-13
-status: ACTIVE / PROVISIONAL STRATEGY / HUMAN-REVERSIBLE
+status: SUPERSEDED / LANDING-TO-CRM FIRST-ASSET MODEL INVALIDATED
 owning_composition:
 - Market & Competitive Intelligence 1.0.0 — QUALIFIED inputs
 - Growth Strategy & Experiment Portfolio v0.1 — CANDIDATE / NOT QUALIFIED
