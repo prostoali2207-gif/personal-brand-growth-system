@@ -1,7 +1,7 @@
-# PBGS-IG-001 — Authorial Voice v0.2 Candidate Diagnostic
+# PBGS-IG-001 — Authorial Voice v0.2 Candidate Diagnostic (SUPERSEDED)
 
 date: 2026-09-13
-status: DEVELOPMENT DIAGNOSTIC / HUMAN REVIEW REQUIRED / NOT APPROVED FOR PUBLISHING
+status: SUPERSEDED BY GENERAL-SYSTEMS REFRAME / RETAINED AS HISTORY
 creator_core: Social Content Creative authorial-voice v0.2 candidate — CANDIDATE / NOT QUALIFIED
 parent_core: Social Content Creative 0.1.0 — QUALIFIED
 architecture: PBGS-CA-01 + CA-03 proof
@@ -162,3 +162,13 @@ Before release:
 - #304 narration-performance GAP remains unresolved;
 - actual vocal prosody/diction must not be inferred from this script;
 - Video Editing & Post-Production owns final audio/edit/QC.
+
+
+## Supersession note — 2026-09-13
+
+This rental-first diagnostic was superseded after strategy review showed excessive domain specificity.
+
+Current creator artifact:
+`content/briefs/instagram-001-general-systems-authorial-v02-2026-09-13.md`
+
+FleetDesk remains evidence, not the subject category.
