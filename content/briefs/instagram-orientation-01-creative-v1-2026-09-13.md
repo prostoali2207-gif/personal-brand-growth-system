@@ -1,11 +1,15 @@
 # ORIENTATION-01 — Social Content Creative v1
 
 date: 2026-09-13
-status: CANDIDATE CREATIVE / HUMAN REVIEW REQUIRED / NOT APPROVED FOR NARRATION OR PUBLISHING
+status: SUPERSEDED AFTER ASATI DEEP-SAMPLE / HISTORICAL ONLY
 architecture: content/briefs/instagram-orientation-01-architecture-2026-09-13.md
 creator:
 - Social Content Creative 0.1.0 — QUALIFIED
 - Authorial Voice v0.4 — CANDIDATE / NOT QUALIFIED / NOT LIBRARY-ADMITTED
+
+## Supersession note — 2026-09-13
+
+The script was directionally correct but remained too presentation-like after the multi-video spoken-delivery benchmark. Superseded by `instagram-orientation-01-creative-v2-2026-09-13.md`.
 
 ## Mode
 
