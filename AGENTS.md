@@ -32,6 +32,29 @@ For any material professional judgment:
 - only an evidence-backed Architect decision may justify BUILD NEW; do not create a new professional core automatically;
 - when only operational glue remains after professional judgments are supplied, the assistant may execute that glue without pretending it is professional judgment.
 
+### Fail-closed professional output gate
+
+Attribution alone is not sufficient. Before any user-visible recommendation, instruction, critique, prioritization, or next-step choice that contains professional judgment:
+
+1. resolve the owning professional core/capability;
+2. verify the exact current qualified version or frozen/current candidate contract and status;
+3. classify each planned user-visible statement as `CORE_OUTPUT`, `OPERATIONAL_GLUE`, or `GAP`;
+4. every `CORE_OUTPUT` statement must be produced under the owning core's declared workflow, required inputs, evidence rules, and boundaries — the general assistant may relay or format it but may not add domain defaults of its own;
+5. if a required input is missing, return the owning core's missing-input, preparation, or escalation state; never fill the missing professional judgment with assistant intuition;
+6. if any planned professional sentence cannot be traced to an owning current core/candidate output, **STOP before answering** and route the competence as a GAP through Agent Architect;
+7. candidate-derived output must retain `CANDIDATE / NOT QUALIFIED` status where material;
+8. `OPERATIONAL_GLUE` is limited to mechanical coordination and formatting. It must not smuggle in professional advice such as how to perform, shoot, edit, write, position, publish, measure, or sell when one of those domains has an owner.
+
+The gate is fail-closed: when ownership or provenance is uncertain, do not improvise.
+
+### Routing-incident remediation
+
+If assistant substitution or another professional-routing violation is detected:
+
+`incident -> classify failure -> root cause -> repair responsible layer -> add regression case -> retest original case + adjacent case -> resume applied work`
+
+Do not treat a corrected reply as remediation by itself. A user correction that exposes a routing failure is production evidence and must be used to strengthen the routing/governance layer, the responsible core, or both, depending on root cause.
+
 ## Evidence and truth
 
 The brand must describe real work.
