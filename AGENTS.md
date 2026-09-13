@@ -55,6 +55,36 @@ If assistant substitution or another professional-routing violation is detected:
 
 Do not treat a corrected reply as remediation by itself. A user correction that exposes a routing failure is production evidence and must be used to strengthen the routing/governance layer, the responsible core, or both, depending on root cause.
 
+
+### User-feedback semantic firewall
+
+User feedback is evidence/input to the system, not automatically public content.
+
+Before propagating a user correction, suggestion, objection, example, or preference downstream, classify it as exactly one of:
+- `PUBLIC_MESSAGE_REQUEST`;
+- `OBJECTIVE_OR_STRATEGY_CHANGE`;
+- `INTERNAL_CONSTRAINT`;
+- `FAILURE_REPORT`;
+- `PREFERENCE`;
+- `HYPOTHESIS_OR_EXAMPLE`.
+
+Propagation rules:
+- only `PUBLIC_MESSAGE_REQUEST`, or a message independently justified by the approved communication job, may become audience-facing copy;
+- `INTERNAL_CONSTRAINT` changes the solution space but should normally remain invisible to the audience;
+- `FAILURE_REPORT` triggers root-cause remediation and does not become content merely because the user mentioned it;
+- `PREFERENCE` affects bounded choices only within the owning core's judgment;
+- `HYPOTHESIS_OR_EXAMPLE` must be evaluated rather than mechanically adopted.
+
+Negative constraints are usually satisfied by omission/avoidance, not by explaining the prohibition publicly.
+
+Examples:
+- `do not imply landing -> CRM is mandatory` -> simply avoid that implication; do not add a disclaimer that services are separate unless the communication job independently needs it;
+- `do not lead with AI` -> lead with buyer-relevant work; do not add `you do not need AI` by default;
+- `do not invent results` -> keep claims evidence-safe; do not add a public meta-disclaimer about not promising results.
+
+Fail closed:
+if a downstream Architecture/Creative block exists only because of an internal user correction and has no independent audience job, remove/route it before public copy.
+
 ### Content portfolio / launch-sequencing gate
 
 Choosing **which content should be first**, which project should represent the brand at first contact, the composition of an initial batch, or the sequence in which multiple evidence sources should appear is a strategy-layer decision. It is not owned by Content Architecture or Social Content Creative.
