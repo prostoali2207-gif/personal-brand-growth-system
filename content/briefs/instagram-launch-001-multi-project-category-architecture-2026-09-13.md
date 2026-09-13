@@ -1,11 +1,19 @@
 # PBGS-LAUNCH-01 — Multi-project Category Establishment Architecture
 
 date: 2026-09-13
-status: ARCHITECTURE READY WITH BOUNDS
+status: INVALIDATED BY UPSTREAM STRATEGY CORRECTION / DO NOT PRODUCE
 portfolio_decision: PBGS-PORTFOLIO-001
 owning_core: Content Architecture & Creative Structure Practitioner v0.4 — QUALIFIED / RELEASED
 channel: Instagram
 role: CATEGORY ESTABLISHMENT / BREADTH WITH PROOF
+
+## Upstream invalidation — 2026-09-13
+
+Do not continue this asset into creative, narration, capture or post.
+
+The architecture was structurally valid for its supplied brief, but the brief itself came from a commercially incorrect upstream strategy. This is not a Content Architecture defect.
+
+Retain only as historical evidence of the invalidated branch.
 
 ## VERDICT
 
