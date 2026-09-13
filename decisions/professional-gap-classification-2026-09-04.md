@@ -61,7 +61,7 @@ Relevant current candidates/research tracks:
 | Professional capture / photography / cinematography | **CAPABILITY**; existing automotive precedent = **EXTEND** | Social Content Creative owns visual storytelling/light shoot direction but not deep principal-photography craft; Video Post-Production is downstream. Automotive Capture Direction already uses EXTEND rather than a new top-level agent. | For Personal Brand, do not create a Capture Agent. Route capture as a modular capability attached to the creative/production layer. The automotive candidate is precedent, not transferable qualification for personal-brand capture. | **NO NEW SEND yet for Personal Brand capture.** Only a demonstrated reusable EXTEND delta may be sent upstream. Existing automotive EXTEND already exists upstream. |
 | Organic publishing / distribution execution | **DETERMINISTIC TOOL + REUSE**; standalone Publisher agent = **REJECT** | Strategy owns channel role/decision; Social Content Creative owns platform-native creative; human/authorized publisher owns release authority; tooling owns upload/schedule/publish/verify mechanics | Model publishing as an authorized deterministic workflow/integration with idempotency, permissions, verification and audit state. Do not create an Organic Publisher professional core without evidence of irreducible professional judgment beyond existing owners. | **NO SEND**. Tool/integration work belongs in the applied system. |
 | Content architecture / creative structure | **REUSE** | Content Architecture & Creative Structure v0.4 released contract | Use exact released contract inside its boundary. Track upstream catalog inconsistency separately; it is not a competence GAP. | **NO SEND as GAP**. Registry maintenance is separate from profession design. |
-| Social content creation | **REUSE** | Social Content Creative 0.1.0 qualified | Use for exact social copy/creative execution from approved brief and verified facts. Do not transfer strategy, publishing or community authority into it. | **NO SEND**. |
+| Social content creation | **REUSE** for current qualified invariants | Social Content Creative 0.1.0 qualified | Use for exact social copy/creative execution from approved brief and verified facts. Do not transfer strategy, publishing or community authority into it. | **NO SEND** for unchanged qualified behavior. |\n| Authorial voice / spoken persona / humor mechanics | **EXTEND** | Social Content Creative 0.1.0 owns the correct output layer, but its qualified contract does not separately establish persistent authorial persona, spoken-language craft, humor mechanism judgment, callback/register control or anti-template distinctiveness. Content Architecture owns macro structure; Post owns finishing. | Add a reusable authorial-voice/comedic-writing extension while preserving 0.1.0 truth/brief/authority invariants. Keep actual vocal-performance/prosody coaching as a separate unresolved GAP. | **SEND UPSTREAM**. Evidence-backed EXTEND decision: `decisions/social-content-authorial-voice-gap-2026-09-13.md`. |
 | Market / competitor / buyer / platform evidence | **REUSE** | Market & Competitive Intelligence 1.0.0 qualified | Use for current evidence and bounded implications; final positioning/strategy remains downstream. | **NO SEND**. |
 | Measurement / growth learning | **REUSE** | Growth Experimentation & Measurement 1.2.0 qualified | Use for measurement integrity, experiment interpretation and bounded action evidence. | **NO SEND**. |
 | Video editing / finishing / delivery QC | **REUSE** | Video Editing & Post-Production 0.1.0 qualified | Use downstream of approved/captured source media. Principal photography remains out of scope. | **NO SEND**. |
@@ -99,7 +99,7 @@ Publishing boundary:
 Applied repository:
 - `personal-brand-growth-system/AGENTS.md`
 - `personal-brand-growth-system/professional-cores/registry.md`
-- `personal-brand-growth-system/channels/inventory.md`
+- `personal-brand-growth-system/channels/inventory.md`\n- `personal-brand-growth-system/decisions/social-content-authorial-voice-gap-2026-09-13.md`
 
 ## Alternatives considered and rejected
 
@@ -146,6 +146,6 @@ Reopen this decision only when one of the following occurs:
 - organic distribution requires irreducible professional judgment not reducible to strategy + creative + deterministic publishing;
 - community/listening/reputation receives a new upstream candidate/release state;
 - platform/tool constraints materially change the execution boundary.
-- naming/verbal-identity work recurs across materially different projects and demonstrates a stable competency boundary or repeated failure not covered by the current capability composition.
+- naming/verbal-identity work recurs across materially different projects and demonstrates a stable competency boundary or repeated failure not covered by the current capability composition.\n- repeated content work shows that qualified Social Content Creative structure/copy remains truthful and usable but fails to produce distinctive authorial spoken voice; see PBGS-PROF-GAP-002.
 
 Do not reopen merely because a new role title sounds useful.
