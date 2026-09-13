@@ -138,6 +138,25 @@ Fail closed:
 - no approved offer/service direction -> no invented service package;
 - project/technology evidence cannot substitute for business objective.
 
+### Service-independence / composition gate
+
+Service adjacency is not service dependency.
+
+When the commercial offer contains multiple capabilities:
+- treat each service as standalone unless authoritative business truth defines a dependency;
+- combine services only when the actual buyer problem, approved package, or real case requires the combination;
+- do not add CRM/automation/custom-system depth to a landing asset merely to prove broader capability;
+- do not make one artifact carry the whole service portfolio;
+- establish breadth across the portfolio when separate assets are clearer.
+
+Fail closed:
+- "can integrate" does not mean "must integrate";
+- a content sequence is not a buyer purchase sequence;
+- an integrated project case cannot redefine the general service boundary.
+
+Current authoritative offer model:
+`decisions/commercial-offer-service-positioning-v2-2026-09-13.md`.
+
 ## Creative-reference benchmark gate
 
 When current creator practice materially affects a commercial content decision, do not rely on generic model familiarity or a broad inspiration corpus.
