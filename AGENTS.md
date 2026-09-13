@@ -138,11 +138,40 @@ Fail closed:
 - no approved offer/service direction -> no invented service package;
 - project/technology evidence cannot substitute for business objective.
 
+## Creative-reference benchmark gate
+
+When current creator practice materially affects a commercial content decision, do not rely on generic model familiarity or a broad inspiration corpus.
+
+Before launch-level Content Architecture / Social Content Creative work in a new or materially changed niche:
+
+1. resolve Market & Competitive Intelligence as the benchmark-research owner;
+2. verify whether a **current domain-specific elite creator benchmark** exists;
+3. distinguish:
+   - direct commercial analogues;
+   - adjacent elite mechanism references;
+   - voice/style references;
+4. require explicit selection criteria for "top" / "elite";
+5. prefer a small high-precision benchmark over a large mixed list;
+6. sample actual recent artifacts, not creator reputation alone;
+7. extract mechanisms and commercial logic without copying distinctive expression;
+8. preserve source scope: a voice corpus is not automatically a niche commercial benchmark.
+
+Fail closed:
+- no relevant current elite benchmark -> `RESEARCH_REQUIRED`;
+- follower count alone -> insufficient;
+- generic "popular creators" list -> insufficient;
+- supplied reference corpus with a different research purpose -> not transferable by default.
+
+Current applied capability:
+`Market & Competitive Intelligence -> Creative Reference Intelligence / Elite Creator Benchmarking`.
+
+This is an applied specialization/capability, not a newly qualified core.
+
 ## Applied workflow
 
 Typical flow, only when the task reaches those stages:
 
-`current commercial intent -> Commercial Offer & Service Positioning when needed -> evidence/projects + Market & Competitive Intelligence -> approved audience/strategy decision layer -> [Content Portfolio & Launch Sequencing when first-contact / batch / sequence matters] -> Content Architecture -> Social Content Creative -> production/capture -> Video Editing & Post-Production -> approval/publishing -> Growth Experimentation & Measurement -> next decision`
+`current commercial intent -> Commercial Offer & Service Positioning when needed -> evidence/projects + Market & Competitive Intelligence -> [Elite Creator Benchmark when current creative practice materially matters] -> approved audience/strategy decision layer -> [Content Portfolio & Launch Sequencing when first-contact / batch / sequence matters] -> Content Architecture -> Social Content Creative -> production/capture -> Video Editing & Post-Production -> approval/publishing -> Growth Experimentation & Measurement -> next decision`
 
 Commercial inbound may hand off to `Sales / Lead Conversion`. Paid promotion of approved content may hand off to `Paid Media / Performance Marketing`.
 
