@@ -1,7 +1,7 @@
 # PBGS-IG-001 — General Systems Authorial Script v0.2 Candidate
 
 date: 2026-09-13
-status: CANDIDATE CREATIVE / HUMAN REVIEW REQUIRED / NOT APPROVED FOR PUBLISHING
+status: PAUSED AS LAUNCH ASSET / RETAINED AS CASE ASSET / CANDIDATE CREATIVE / HUMAN REVIEW REQUIRED / NOT APPROVED FOR PUBLISHING
 brief: PBGS-IG-001 — From business operation to working system
 creator:
 - Social Content Creative 0.1.0 — QUALIFIED parent
@@ -10,6 +10,14 @@ architecture:
 - PBGS-CA-01
 - CA-03 proof layer
 release_authority: human only
+
+## Portfolio-role hold — 2026-09-13
+
+This script is **not rejected as a FleetDesk proof/case asset**.
+
+It is paused only in the role of first/intro/launch brand-defining Reel because that role was assigned without an upstream Content Portfolio & Launch Sequencing decision.
+
+Do not rewrite this script to manufacture breadth. First resolve the portfolio-level job upstream. If the strategy layer later assigns this asset a depth/proof role, the existing FleetDesk-specific proof can remain an advantage rather than a defect.
 
 ## Locks
 
