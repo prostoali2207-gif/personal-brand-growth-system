@@ -2,7 +2,7 @@
 
 decision_id: PBGS-PROF-GAP-003
 date: 2026-09-13
-status: OPEN GAP / AGENT ARCHITECT CLASSIFICATION PENDING
+status: ACTIVE / BUILD NEW APPROVED FOR UPSTREAM RESEARCH / NOT QUALIFIED
 applied_project: Personal Brand Growth System
 upstream_issue: professional-ai-agents#304
 
@@ -39,15 +39,31 @@ Potential orphaned work:
 
 ## Current classification
 
-**PENDING.**
+**BUILD NEW** — Agent Architect disposition recorded in upstream issue #304.
 
-Do not call this REUSE, EXTEND, CAPABILITY or BUILD NEW until Agent Architect completes the compatibility/profession pass in upstream issue #304.
+Working profession:
+`Narration & Voice Performance Direction`
+
+Reason:
+- recurrent responsibility across faceless Personal Brand videos;
+- distinct professional evidence/craft from writing, camera operation and post-production;
+- actual human vocal takes are the evidence object;
+- adjacent cores cannot reliably repair missing source performance.
+
+This classification authorizes upstream profession research/evaluation. It does not create a qualified core.
 
 ## Project constraint
 
 Goal is to preserve and improve the user's real voice, not default to synthetic voice replacement.
 
 AI cleanup / post-processing may be used downstream, but it must not be confused with professional vocal-performance direction.
+
+## Upstream action
+
+Upstream branch:
+`research/narration-voice-performance-direction-304`
+
+Research must precede candidate implementation.
 
 ## Practical proof requirement
 
