@@ -2,9 +2,28 @@
 
 architecture_id: PBGS-CA-001
 date: 2026-09-11
-status: ACTIVE / CREATOR-READY WITH BOUNDS
+status: ACTIVE / CREATOR-READY WITH BOUNDS / NOT A LAUNCH-SEQUENCE
 owning_core: Content Architecture & Creative Structure Practitioner v0.4 — QUALIFIED / RELEASED
 qualified_artifact_blob: 5d440e1bf3e20fbd35c6ab276310a904e36cc06d
+
+## Scope clarification — 2026-09-13
+
+This architecture defines reusable **single-artifact structure families and evidence-backed content opportunities**. It does **not** decide launch order, first-post selection, initial portfolio mix, or which project should define the brand at first contact.
+
+The ordering under `FIRST EVIDENCE-BACKED CONTENT OPPORTUNITIES` and `INITIAL STRUCTURAL EMPHASIS` must never be interpreted as a publishing sequence.
+
+Production incident:
+- PBGS-IG-001 was advanced as the likely first Reel because FleetDesk had strong available proof;
+- the artifact itself remained broadly framed, but its proof and visual mass were still FleetDesk-heavy;
+- this created a material risk that first-contact viewers would classify the professional brand as rental-software/FleetDesk-specific rather than the broader evidenced systems-building category.
+
+Root-cause owner:
+- upstream strategy lacked an explicit Content Portfolio & Launch Sequencing handoff;
+- Content Architecture must not repair that by choosing a different first asset itself.
+
+Current gate:
+- individual case assets may continue;
+- no asset may be designated the launch/intro/first brand-defining piece until `decisions/content-portfolio-launch-sequencing-gap-2026-09-13.md` is resolved into an applied portfolio-role decision.
 
 ## Upstream locks
 
