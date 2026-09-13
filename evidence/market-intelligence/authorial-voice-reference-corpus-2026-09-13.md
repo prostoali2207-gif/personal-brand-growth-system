@@ -6,6 +6,22 @@ applied_project: Personal Brand Growth System
 status: ACTIVE RESEARCH INPUT / NOT A STYLE GUIDE
 upstream_related: professional-ai-agents#302
 
+## Scope firewall — added 2026-09-13
+
+**THIS FILE IS NOT AN ELITE NICHE-CREATOR BENCHMARK.**
+
+It was built to study authorial voice / delivery mechanisms across diverse creators.
+
+It must not be used by itself to answer:
+- who the best/current creators are in websites/landing pages/CRM/automation services;
+- how top service creators currently sell through content;
+- what commercial content format should lead Ali's personal brand.
+
+For those decisions use:
+`evidence/market-intelligence/elite-creator-benchmark-web-services-v1-2026-09-13.md`.
+
+This corpus remains valid only for its original authorial-voice mechanism purpose.
+
 ## Purpose
 
 Build a diverse reference set for the Social Content Creative authorial-voice extension without overfitting to one creator.
