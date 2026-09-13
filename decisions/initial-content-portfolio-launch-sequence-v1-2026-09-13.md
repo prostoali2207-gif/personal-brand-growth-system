@@ -2,7 +2,7 @@
 
 decision_id: PBGS-PORTFOLIO-001
 date: 2026-09-13
-status: ACTIVE / PROVISIONAL STRATEGY / HUMAN-REVERSIBLE
+status: INVALIDATED / RERUN REQUIRED AFTER COMMERCIAL-INTENT CORRECTION
 owning_composition:
 - Market & Competitive Intelligence 1.0.0 — QUALIFIED
 - Growth Strategy & Experiment Portfolio v0.1 — CANDIDATE / NOT QUALIFIED
@@ -12,6 +12,17 @@ upstream:
 - decisions/professional-identity-thesis-2026-09-11.md
 - decisions/audience-channel-role-strategy-2026-09-11.md
 - decisions/content-portfolio-launch-sequencing-gap-2026-09-13.md
+
+## Invalidated by upstream correction — 2026-09-13
+
+This portfolio decision must not be used for launch.
+
+It was derived from the superseded audience/strategy interpretation that over-weighted technical project evidence and under-specified the user's client-service objective.
+
+The specific LAUNCH-01 choice and sequence are withdrawn pending rerun through:
+`current commercial intent -> Commercial Offer & Service Positioning -> audience/strategy -> portfolio`.
+
+Project evidence remains valid. Sequence/role judgments do not.
 
 ## Decision question
 
