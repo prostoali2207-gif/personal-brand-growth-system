@@ -1,7 +1,7 @@
 # PARTS-LANDING-01 — Standalone landing creative v1
 
 date: 2026-09-13
-status: CANDIDATE CREATIVE / HUMAN REVIEW REQUIRED / NOT APPROVED FOR NARRATION OR PUBLISHING
+status: FAILED PRACTICAL / SAFE_PEDAGOGIC_COLLAPSE / HISTORICAL ONLY
 architecture: content/briefs/instagram-parts-landing-01-architecture-2026-09-13.md
 creator:
 - Social Content Creative 0.1.0 — QUALIFIED
@@ -10,6 +10,14 @@ benchmark:
 - evidence/market-intelligence/elite-creator-video-sample-web-services-v1-2026-09-13.md
 - evidence/market-intelligence/creative-reference-playbook-v1-2026-09-13.md
 service_scope: Website / Landing Page ONLY
+
+## Failure note — 2026-09-13
+
+User review correctly identified that the script did not sound like how strong professional creators actually speak. It remained a polished expert mini-lesson despite the elite benchmark.
+
+Failure class: `SAFE_PEDAGOGIC_COLLAPSE`.
+
+Do not repair this artifact line-by-line. The responsible Authorial Voice candidate was revised upstream under professional-ai-agents issue #302.
 
 ## Creative job
 
