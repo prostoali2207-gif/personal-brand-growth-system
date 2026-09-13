@@ -1,12 +1,16 @@
 # ORIENTATION-01 — Social Content Creative v2
 
 date: 2026-09-13
-status: CANDIDATE CREATIVE / HUMAN REVIEW REQUIRED / NOT APPROVED FOR NARRATION OR PUBLISHING
+status: FAILED / UPSTREAM CONSTRAINT LEAK / HISTORICAL ONLY
 architecture: content/briefs/instagram-orientation-01-architecture-2026-09-13.md
 reference_input: evidence/market-intelligence/asati-spoken-delivery-deep-sample-v1-2026-09-13.md
 creator:
 - Social Content Creative 0.1.0 — QUALIFIED
 - Authorial Voice v0.4 — CANDIDATE / NOT QUALIFIED / NOT LIBRARY-ADMITTED
+
+## Failure note — 2026-09-13
+
+This artifact inherited the invalid architecture block that surfaced an internal service-independence guard. The failure is upstream; do not line-edit this script.
 
 ## Re-run objective
 
