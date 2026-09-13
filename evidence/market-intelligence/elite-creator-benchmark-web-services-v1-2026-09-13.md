@@ -312,3 +312,43 @@ This v0.1 is a high-precision shortlist, not a complete market census.
 Some audience metrics come from creator-owned pages; some from current third-party indexing. Treat scale as supporting evidence, not exact audited truth.
 
 For each creator used in a production decision, inspect the actual recent artifact(s) again rather than relying only on this summary.
+
+## Deep-sample revision — 2026-09-13
+
+A current 3–5-video review was completed after the initial shortlist.
+
+Authoritative deep sample:
+- evidence/market-intelligence/elite-creator-video-sample-web-services-v1-2026-09-13.md
+
+Derived mechanism playbook:
+- evidence/market-intelligence/creative-reference-playbook-v1-2026-09-13.md
+
+### Revised elite core
+
+1. Wes McDowell — KEEP CORE
+2. Payton Clark Smith — KEEP CORE
+3. Chris Do / The Futur — KEEP CORE
+4. Flux Academy / Flow Ninja / Uroš Mikic — KEEP CORE as a split peer-vs-operator benchmark
+
+### Downgraded / removed
+
+- Jesse Showalter — SECONDARY craft/design reference; current sampled content is too peer/design-oriented for primary buyer-commercial modeling.
+- Hammad Yousuf — REMOVE FROM ELITE CORE; UAE adjacency did not compensate for weak sampled public reaction.
+- Ehab Fayez — REGIONAL/ARABIC ADJACENT; useful later for MENA language/context, not current core.
+
+High precision is intentional. Do not add a fifth core merely to satisfy a target count.
+
+### New decision rule
+
+Reference ranking must separate:
+- DISTRIBUTION PERFORMANCE;
+- COMMERCIAL TRANSFER FIT.
+
+A high-view tool/AI video is not automatically a better reference for Ali than a lower-view real-operator/service video.
+
+### PARTS-FLOW-01 consequence
+
+Current polite explainer remains PAUSED.
+
+Fresh Creative divergence must be rebuilt after the deep benchmark using real-demo / diagnosis / live-critique / contrast mechanism families.
+
