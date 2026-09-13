@@ -1,7 +1,7 @@
 # PBGS-LAUNCH-01 — Authorial Voice Candidate v0.2
 
 date: 2026-09-13
-status: CANDIDATE CREATIVE / HUMAN REVIEW REQUIRED / NOT APPROVED FOR PUBLISHING
+status: INVALIDATED BY UPSTREAM STRATEGY CORRECTION / HISTORICAL ONLY / NOT FOR PRODUCTION
 portfolio_decision: PBGS-PORTFOLIO-001
 architecture: content/briefs/instagram-launch-001-multi-project-category-architecture-2026-09-13.md
 creator:
@@ -11,6 +11,15 @@ candidate_assembly:
 - parent_blob: d8eee4c6f9141f362d91a340c37dcae6ad6bfa71
 - overlay_blob: e22b81417a78f85d1bb2e2526228854a54983dbe
 - assembly_digest: sha256:39099fa9b2a32b439cdb6551028ca7dcfc9c56b8f6ee9e47839c141b525e7a4f
+
+## Upstream invalidation — 2026-09-13
+
+This candidate script is withdrawn from production.
+
+Reason:
+the creator correctly executed an approved architecture, but that architecture inherited the wrong commercial objective.
+
+Do not repair this script line-by-line. Rerun strategy from the corrected commercial-intent source and generate a new brief.
 
 ## Communication job
 
