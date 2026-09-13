@@ -1,7 +1,7 @@
 # PBGS-IG-001 — General Systems Authorial Script v0.2 Candidate
 
 date: 2026-09-13
-status: RETAINED AS DEPTH/PROOF CASE ASSET / PROVISIONAL SEQUENCE #2 / CANDIDATE CREATIVE / HUMAN REVIEW REQUIRED / NOT APPROVED FOR PUBLISHING
+status: RETAINED AS CASE ASSET / SEQUENCE UNASSIGNED / CANDIDATE CREATIVE / HUMAN REVIEW REQUIRED / NOT APPROVED FOR PUBLISHING
 brief: PBGS-IG-001 — From business operation to working system
 creator:
 - Social Content Creative 0.1.0 — QUALIFIED parent
@@ -15,10 +15,9 @@ release_authority: human only
 
 This script is **retained as a FleetDesk proof/case asset**.
 
-PBGS-PORTFOLIO-001 assigns it:
-**FLEET-DEPTH-01 — DEPTH / PROOF**, provisionally second in the initial content sequence.
+PBGS-PORTFOLIO-001 has been invalidated by the commercial-intent correction.
 
-It is not the launch/category-establishing asset. Its FleetDesk specificity is now an intended strength because category breadth is established upstream by LAUNCH-01.
+This FleetDesk script remains a valid **case-asset candidate**, but its position in the content sequence is currently unassigned. Do not infer a launch/depth/order role until strategy is rerun.
 
 Do not rewrite this script merely to manufacture breadth. Preserve it as a narrow proof asset unless its own Content Architecture/Creator review finds an independent defect.
 
