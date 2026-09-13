@@ -1,7 +1,10 @@
 # PARTS-FLOW-01 — Post-benchmark Social Content Creative v3
 
+## Invalidated 2026-09-13
+Do not repair this copy. Its landing-to-CRM creative job came from the superseded service-ladder model.
+
 date: 2026-09-13
-status: CANDIDATE CREATIVE / HUMAN REVIEW REQUIRED / NOT APPROVED FOR NARRATION OR PUBLISHING
+status: INVALIDATED BY UPSTREAM OFFER CORRECTION / HISTORICAL ONLY
 architecture: content/briefs/instagram-parts-flow-01-post-benchmark-architecture-v2-2026-09-13.md
 benchmark:
 - evidence/market-intelligence/elite-creator-video-sample-web-services-v1-2026-09-13.md
