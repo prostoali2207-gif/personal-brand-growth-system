@@ -1,8 +1,11 @@
 # Audience and channel-role strategy v2 — commercial-service corrected
 
+## Superseded 2026-09-13
+Use `decisions/audience-channel-role-strategy-v3-2026-09-13.md`. The v2 assumption that content should extend from landing into CRM/automation is no longer authoritative.
+
 decision_id: PBGS-AUDIENCE-CHANNELS-002
 date: 2026-09-13
-status: ACTIVE / PROVISIONAL STRATEGY / HUMAN-REVERSIBLE
+status: SUPERSEDED / MODULAR-SERVICE RERUN COMPLETE
 owning_composition:
 - Market & Competitive Intelligence 1.0.0 — QUALIFIED
 - Growth Strategy & Experiment Portfolio v0.1 — CANDIDATE / NOT QUALIFIED
