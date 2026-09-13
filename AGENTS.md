@@ -55,6 +55,31 @@ If assistant substitution or another professional-routing violation is detected:
 
 Do not treat a corrected reply as remediation by itself. A user correction that exposes a routing failure is production evidence and must be used to strengthen the routing/governance layer, the responsible core, or both, depending on root cause.
 
+### Content portfolio / launch-sequencing gate
+
+Choosing **which content should be first**, which project should represent the brand at first contact, the composition of an initial batch, or the sequence in which multiple evidence sources should appear is a strategy-layer decision. It is not owned by Content Architecture or Social Content Creative.
+
+When first-contact, launch-batch, portfolio-mix, or sequencing is material, a strategy-layer portfolio role must be resolved **before** an individual artifact is handed to Content Architecture.
+
+Minimum upstream handoff:
+- intended audience and current positioning lock;
+- portfolio / first-contact objective;
+- category or professional perception that the initial exposure should establish;
+- evidence-backed project/competency signals available to establish it;
+- role of the proposed asset inside the portfolio (for example: category establishment, breadth signal, proof/depth, failure/repair, system x-ray, decision/trade-off);
+- known misclassification risk (for example: one project being mistaken for the whole professional category);
+- sequence/mix constraint if any;
+- experiment/hypothesis and measurement handoff when the choice is being tested.
+
+Fail closed:
+- do not infer launch order from a Content Architecture opportunity list;
+- do not promote the easiest or most-developed single project into the first brand-defining asset by default;
+- if the portfolio role is unresolved, the artifact may continue as a case asset, but it cannot be labeled or treated as the launch/intro asset.
+
+Current applied owner classification:
+`Personal Brand Strategy specialization + Content Portfolio & Launch Sequencing capability`.
+This capability is project-specialized and **NOT a newly qualified professional core**.
+
 ## Evidence and truth
 
 The brand must describe real work.
@@ -97,7 +122,7 @@ If the file says a handle is selected but platform availability is still pending
 
 Typical flow, only when the task reaches those stages:
 
-`evidence/projects -> Market & Competitive Intelligence -> approved strategy/decision layer -> Content Architecture -> Social Content Creative -> production/capture -> Video Editing & Post-Production -> approval/publishing -> Growth Experimentation & Measurement -> next decision`
+`evidence/projects -> Market & Competitive Intelligence -> approved strategy/decision layer -> [Content Portfolio & Launch Sequencing when first-contact / batch / sequence matters] -> Content Architecture -> Social Content Creative -> production/capture -> Video Editing & Post-Production -> approval/publishing -> Growth Experimentation & Measurement -> next decision`
 
 Commercial inbound may hand off to `Sales / Lead Conversion`. Paid promotion of approved content may hand off to `Paid Media / Performance Marketing`.
 
