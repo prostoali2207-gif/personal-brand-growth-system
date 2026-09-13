@@ -7,6 +7,24 @@ owning_professional_core: Personal Brand Strategy / Positioning SPECIALIZATION c
 status: active
 decision_scope: provisional strategy constraint for downstream creative routing; not itself a public factual claim
 
+## Commercial interpretation addendum — 2026-09-13
+
+This identity thesis remains a useful **work/evidence lens**, but it is **not the commercial offer**.
+
+Current authoritative commercial intent is:
+- attract ordinary business clients for websites / landing pages, CRM, automation, integrations and related business systems;
+- buyers do not need to understand AI/backend/agent-engineering terminology;
+- AI/professional-agent engineering is evidence/implementation capability unless a later offer decision explicitly promotes it.
+
+Therefore:
+- "Real business problems -> working systems" may remain as the underlying professional logic;
+- downstream commercial messaging must translate that logic into buyer-facing service/problem language;
+- technical project evidence must not redefine the offer.
+
+See:
+- `source-of-truth/current-commercial-intent.md`;
+- `decisions/commercial-intent-offer-strategy-gap-2026-09-13.md`.
+
 ## Question
 
 What evidence-backed professional identity thesis should constrain avatar, visual identity and future personal-brand creative work while naming remains reopened?
