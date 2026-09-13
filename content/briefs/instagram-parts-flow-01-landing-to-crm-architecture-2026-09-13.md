@@ -1,7 +1,7 @@
 # PARTS-FLOW-01 — Landing -> CRM buyer-facing architecture
 
 date: 2026-09-13
-status: ARCHITECTURE READY WITH BOUNDS / PUBLIC COPY LANGUAGE UNRESOLVED
+status: ARCHITECTURE READY / RUSSIAN CREATIVE UNBLOCKED / CTA UNRESOLVED
 portfolio_decision: PBGS-PORTFOLIO-002
 owning_core: Content Architecture & Creative Structure Practitioner v0.4 — QUALIFIED / RELEASED exact-version artifact
 channel: Instagram
@@ -196,19 +196,13 @@ Do not show:
 - exact CTA is not approved;
 - exact service package/pricing is not approved.
 
-### BLOCKED PORTION
-**Final public copy language.**
+### LANGUAGE — RESOLVED
+- primary narration: Russian;
+- English subtitle adaptation required after Russian copy approval;
+- do not mix technical English jargon into the Russian narration unless the buyer needs the term.
 
-Owner:
-upstream commercial/channel strategy + user decision.
-
-Need:
-choose the intended commercial language market:
-- Russian;
-- English;
-- bilingual/mixed.
-
-Architecture remains valid across those options; exact script should not be finalized until this is locked.
+Reference:
+`decisions/commercial-content-language-strategy-v1-2026-09-13.md`.
 
 ### MUST_ESCALATE
 - stronger authorship claim;
@@ -219,6 +213,6 @@ Architecture remains valid across those options; exact script should not be fina
 
 ## VERDICT
 
-**READY FOR SOURCE-ASSET CHECK AND CREATIVE ONCE PUBLIC LANGUAGE IS LOCKED.**
+**READY FOR RUSSIAN CREATIVE + SOURCE-ASSET CHECK.**
 
 The correct first asset is a buyer-facing real-work demonstration, not an AI explainer and not a generic services introduction.
