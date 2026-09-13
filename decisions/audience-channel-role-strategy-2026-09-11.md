@@ -2,11 +2,24 @@
 
 decision_id: PBGS-AUDIENCE-CHANNELS-001
 date: 2026-09-11
-status: active / provisional strategy
+status: SUPERSEDED FOR COMMERCIAL CONTENT / RERUN REQUIRED
 owning_composition:
 - Market & Competitive Intelligence 1.0.0 — QUALIFIED
 - Growth Strategy & Experiment Portfolio v0.1 — CANDIDATE / NOT QUALIFIED
 upstream_positioning: decisions/professional-identity-thesis-2026-09-11.md
+
+## Supersession note — 2026-09-13
+
+This decision was produced before an authoritative commercial-intent record existed.
+
+The audience evidence and market research remain usable inputs, but the applied strategy is **not authoritative for commercial content or launch sequencing** until rerun against:
+- `source-of-truth/current-commercial-intent.md`;
+- `decisions/commercial-intent-offer-strategy-gap-2026-09-13.md`.
+
+Root cause:
+the strategy layer was allowed to infer the business objective from project evidence. That is no longer permitted.
+
+Do not continue downstream commercial content from this file as if active.
 
 ## Decision question
 
