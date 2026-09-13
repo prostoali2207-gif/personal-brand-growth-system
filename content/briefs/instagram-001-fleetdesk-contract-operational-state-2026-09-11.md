@@ -1,8 +1,8 @@
-# Content Brief PBGS-IG-001 — FleetDesk: contract as operational state
+# Content Brief PBGS-IG-001 — From business operation to working system
 
 brief_id: PBGS-IG-001
 date: 2026-09-11
-status: DRAFT / CREATOR OUTPUT READY FOR HUMAN REVIEW
+status: REVISED / CREATOR REWORK REQUIRED
 channel: Instagram
 architecture: PBGS-CA-01 with CA-03 proof layer
 source_project: FleetDesk
@@ -22,15 +22,25 @@ Owner: Growth Strategy & Experiment Portfolio v0.1 — CANDIDATE / NOT QUALIFIED
 
 ## Communication job
 
-Use FleetDesk as concrete evidence of the broader systems-building capability: show how a real rental-operation problem was modeled into a working system, using the contract/state relationships as proof rather than presenting FleetDesk itself as the product offer.
+Start from a **cross-industry operational systems principle**, then use FleetDesk only as concrete proof that the principle was implemented in real software.
+
+The Reel must answer a transferable question:
+
+> What separates a screen that stores data from a system that actually reflects business rules and connected operational state?
+
+FleetDesk is the evidence layer, not the subject category.
+
+The viewer should not need to run a car-rental business to recognize the principle or see the capability.
 
 ## Audience relevance
 
 Primary:
-- rental / service-business owner-operators and operations managers who deal with multiple connected operational objects.
+- owner-operators, operations leaders and digitally responsible managers in small-to-mid-sized service businesses with fragmented workflows, disconnected objects or manual handoffs.
 
 Secondary:
 - builders interested in operational SaaS / automation architecture.
+
+Car-rental operators are **not** the target category for this Reel. Rental is only the current proof environment.
 
 ## Exact truth packet
 
@@ -58,53 +68,62 @@ NOT APPROVED / DO NOT CLAIM:
 ## Creative mechanism
 
 Opening family:
-specific operational correction.
+cross-industry system correction.
 
 Core idea:
-"A rental contract is not just a PDF. It is a state-changing object inside the business system."
+"A business system is not defined by how many screens it has. It is defined by whether real business rules connect the objects and change operational state."
 
 Proof mechanism:
-visual relationship map + real FleetDesk screens / repository-backed system rules.
+state one general systems principle -> show one compact FleetDesk example -> return immediately to the transferable principle.
+
+FleetDesk proof should be brief:
+- contract linked to client + car;
+- contract status follows rental term;
+- active contract changes the car to Rented;
+- completed/cancelled can return the car to Available when no other active contract exists;
+- payments/fines/Salik can link to the same contract.
+
+Do **not** explain rental operations as the main lesson.
 
 Payoff:
-viewer understands the difference between a document UI and an operational system.
+viewer understands that the demonstrated capability is modeling real operations into connected software, regardless of vertical.
 
-## Candidate hook set
+## Hook direction — CREATOR TO REWORK
 
-A — recommended:
-"В прокате договор — это не просто PDF. Это центр всей операции."
+Preferred opening job:
+correct a common systems misconception without naming car rental first.
 
-B:
-"Если договор не меняет состояние машины и не связывает платежи, штрафы и Salik — это просто документ, не система."
+Mechanism examples, not approved final copy:
+- "Интерфейс ещё не делает продукт системой."
+- "Система начинается там, где действие меняет связанные части бизнеса."
+- "Хранить данные — одно. Отражать реальные правила бизнеса — совсем другое."
 
-C:
-"Вот разница между CRM-экраном и настоящей операционной системой проката."
+Avoid:
+- "В прокате..."
+- FleetDesk feature-list openings;
+- niche-specific terminology before the transferable principle is established.
 
-Selection:
-A. It is simplest, truthful, concrete and leaves proof burden the content can satisfy.
+## Spoken script status
 
-## Draft spoken / on-screen script
+The prior rental-first script is **superseded**.
 
-HOOK
-"В прокате договор — это не просто PDF. Это центр всей операции."
+Social Content Creative must generate a new authorial script under the following locked sequence:
 
-DEVELOPMENT
-"В FleetDesk контракт связан с конкретным клиентом и машиной."
+1. **GENERAL PROBLEM / PRINCIPLE**
+   A business tool can display/store objects without actually modeling how those objects affect one another.
 
-PROOF 1
-"Статус договора меняется по сроку аренды."
+2. **REAL PROOF**
+   Use FleetDesk for one compact example:
+   contract -> client/car -> status rule -> vehicle state.
+   Payments/fines/Salik may appear only as supporting proof, not as a feature list.
 
-PROOF 2
-"Активный договор переводит машину в Rented. Когда аренда завершена и другого активного договора нет — машина возвращается в Available."
+3. **TRANSFERABLE PAYOFF**
+   The capability demonstrated is translating operational rules into a working connected system.
 
-PROOF 3
-"К этому же договору могут быть привязаны платежи, штрафы и Salik."
+4. **CLOSURE**
+   Brand/idea closure only. No sales CTA until strategy approves it.
 
-PAYOFF
-"То есть мы строим не набор экранов. Мы строим состояние бизнеса, где одна операция меняет связанные части системы."
-
-CLOSURE
-"Вот что я называю: реальная операционная проблема -> работающая система."
+The final wording belongs to Social Content Creative; authorial-voice candidate work must remain explicitly CANDIDATE / NOT QUALIFIED until its evaluation completes.
 
 ## Claim ledger
 
@@ -135,18 +154,18 @@ Status: ALLOWED as interpretation, not quantified outcome.
 ## Visual execution
 
 SHOT/VISUAL 1 — hook
-- FleetDesk contract screen or contract list.
-- On-screen text: "Договор ≠ просто PDF"
-- communication job: immediate category correction.
+- abstract-but-real business-system framing using the existing FleetDesk recording as background proof, not as a rental-specific lesson.
+- on-screen wording should express the general system principle.
+- communication job: make the idea relevant before the viewer decides "this is only about car rental".
 
-SHOT/VISUAL 2 — relationship map
-- simple real-data-derived map:
+SHOT/VISUAL 2 — compact proof map
+- show only the minimum relationship path needed to prove connected system logic:
   Contract -> Client
   Contract -> Car
-  Contract -> Payments
-  Contract -> Fines
-  Contract -> Salik
+  Contract status -> Vehicle state
+- optional supporting references: Payments / Fines / Salik.
 - do not add relationships not present in schema.
+- do not dwell on module inventory.
 
 SHOT/VISUAL 3 — state logic
 - show or animate:
@@ -184,7 +203,7 @@ Do not add "пиши мне", "закажи", "могу сделать вам", 
 Do not copy the Reel verbatim.
 
 Opening job:
-explain the modeling decision: a rental contract should be treated as an operational state object, not only a document.
+explain the broader modeling decision: operational software becomes useful when business rules connect objects and state, not merely when data is displayed in separate screens.
 
 Suggested structure:
 1. contract as system object;
