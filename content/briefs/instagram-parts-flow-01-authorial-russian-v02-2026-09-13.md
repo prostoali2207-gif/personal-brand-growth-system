@@ -1,7 +1,7 @@
 # PARTS-FLOW-01 — Social Content Creative / Authorial Voice candidate
 
 date: 2026-09-13
-status: CANDIDATE CREATIVE / HUMAN REVIEW REQUIRED / NOT APPROVED FOR PUBLISHING
+status: PAUSED FOR ELITE NICHE BENCHMARK REVIEW / CANDIDATE CREATIVE / NOT APPROVED FOR NARRATION OR PUBLISHING
 architecture: content/briefs/instagram-parts-flow-01-landing-to-crm-architecture-2026-09-13.md
 language:
 - Russian-first
@@ -13,6 +13,18 @@ candidate_assembly:
 - parent_blob: d8eee4c6f9141f362d91a340c37dcae6ad6bfa71
 - overlay_blob: e22b81417a78f85d1bb2e2526228854a54983dbe
 - assembly_digest: sha256:39099fa9b2a32b439cdb6551028ca7dcfc9c56b8f6ee9e47839c141b525e7a4f
+
+## Reference-benchmark hold — 2026-09-13
+
+This script was created before a current elite niche-specific creator benchmark was required by applied governance.
+
+Strategy, offer, audience and project evidence remain valid.
+
+Creative execution is **not** cleared for narration/capture until it is re-reviewed against:
+`evidence/market-intelligence/elite-creator-benchmark-web-services-v1-2026-09-13.md`.
+
+Do not repair line-by-line by imitation.
+Run fresh creative divergence from benchmarked mechanisms, then compare this existing candidate against the new alternatives.
 
 ## Communication job
 
