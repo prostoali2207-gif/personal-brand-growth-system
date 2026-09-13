@@ -2,8 +2,9 @@
 
 decision_id: PBGS-PORTFOLIO-003
 date: 2026-09-13
-status: ACTIVE / PROVISIONAL STRATEGY / HUMAN-REVERSIBLE
+status: SUPERSEDED BY PBGS-PORTFOLIO-004 / HISTORICAL
 supersedes: PBGS-PORTFOLIO-002
+superseded_by: PBGS-PORTFOLIO-004
 upstream:
 - source-of-truth/current-commercial-intent.md
 - decisions/commercial-offer-service-positioning-v2-2026-09-13.md
