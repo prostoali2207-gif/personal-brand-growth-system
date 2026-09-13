@@ -1,13 +1,14 @@
 # Source-media QC — PBGS-IG-001 FleetDesk
 
 date: 2026-09-12
+last_updated: 2026-09-13
 source_file: Screen_Recording_20260912_195400_Chrome.mp4
 duration: ~32.9s
 resolution: 1080x2340
 video: H.264, vertical
 audio_track: none
-status: KEEP_WITH_LIMITATION
-capture_core: Video Capture & Camera Operations v0.4 — CANDIDATE / NOT QUALIFIED / DEVELOPMENT_PASS
+status: KEEP_WITH_LIMITATION / TEST_DATA_CONFIRMED
+capture_core: Video Capture & Camera Operations v0.4 — CANDIDATE / NOT QUALIFIED / STAGE_A_PASS; development B0/B1 rerun on v0.4 still pending upstream
 
 ## Observed source
 
@@ -22,15 +23,17 @@ The screen recording visibly includes:
 
 ## Privacy / truth check
 
-The visible records appear intentionally synthetic/test-like rather than production customer data:
+The visible records appeared intentionally synthetic/test-like during source QC:
 - phone numbers use a sequential +97150000020x pattern;
 - one visible email uses example.com;
 - vehicle plates use SHOW-52xx;
 - Emirates ID fields shown are blank.
 
-No real-person identity is treated as verified from this capture.
+On 2026-09-13 the project owner explicitly confirmed that the supplied recording uses **test data**.
 
-Before public release, human must confirm these are test/synthetic records.
+Therefore the prior human-confirmation privacy blocker is resolved for this exact source file. No real-person identity is treated as evidence from the capture.
+
+This confirmation does not change claim scope: the recording demonstrates UI/product state only and must not be used to imply real customer outcomes, real balances, real contract counts or real operational performance.
 
 ## QC decision
 
@@ -41,11 +44,12 @@ Why keep:
 - UI state is stable enough for editorial crops;
 - the recording gives real product evidence for contract relationships and financial modules;
 - Fleet states clearly show Rented / Available;
-- no audio contamination because source has no audio track.
+- no audio contamination because source has no audio track;
+- test-data status is now explicitly confirmed by the project owner.
 
 Limitations:
 1. The source is one continuous navigation recording rather than clean separate clips.
-2. It shows client names/phones, even though they look synthetic. Publication should still crop/redact them unless human confirms test-data status.
+2. Visible names/phones are synthetic test records. They no longer create a privacy blocker for this exact file, but Post may still crop them when they distract from the communication job.
 3. It does not visibly demonstrate a state transition from contract status to vehicle status; it only shows the resulting states.
 4. It does not independently prove the conditional rule:
    Completed/Cancelled + no other active contract -> Available.
@@ -65,12 +69,13 @@ Use as source evidence for:
 - Fleet status examples;
 - Dashboard operational-state overview.
 
-Do not use the Clients list as a hero visual unless cropped/redacted.
+Do not use the Clients list as a hero visual unless it serves a specific communication purpose; it is visually dense and not needed for the current proof path.
 
 ## Remaining capture before Post handoff
 
 Required:
-- 2 voice-over takes;
+- approved spoken script;
+- real voice-over source takes under the responsible narration/performance owner once available;
 - separate hook backup;
 - separate payoff backup.
 
@@ -83,6 +88,11 @@ Strongly recommended:
 ## Source readiness
 
 media observed: YES
+test-data confirmation: YES
 
-This source alone is NOT SOURCE_READY_FOR_POST as a complete package.
-It is a usable component of the package: KEEP_WITH_LIMITATION.
+This source alone is NOT SOURCE_READY_FOR_POST as a complete package because spoken-source performance is still missing.
+It is a usable visual component of the package: KEEP_WITH_LIMITATION.
+
+## Upstream status correction
+
+The previous version labeled Video Capture & Camera Operations v0.4 as DEVELOPMENT_PASS. Current upstream issue #294 does not support that status: v0.4 is frozen with Stage A PASS, while the required v0.4 B0/B1 development rerun is still pending. This record now uses the verified upstream status and makes no qualification/development-pass claim.
