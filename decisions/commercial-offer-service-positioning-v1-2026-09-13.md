@@ -1,8 +1,11 @@
 # Commercial Offer & Service Positioning v1 — 2026-09-13
 
+## Superseded 2026-09-13
+PBGS-OFFER-001 incorrectly encoded adjacent services as a mandatory ladder. Use `decisions/commercial-offer-service-positioning-v2-2026-09-13.md`.
+
 decision_id: PBGS-OFFER-001
 date: 2026-09-13
-status: ACTIVE / PROVISIONAL STRATEGY / HUMAN-REVERSIBLE
+status: SUPERSEDED / SERVICE-LADDER MODEL INVALIDATED
 owning_composition:
 - Market & Competitive Intelligence 1.0.0 — QUALIFIED
 - Growth Strategy & Experiment Portfolio v0.1 — CANDIDATE / NOT QUALIFIED
