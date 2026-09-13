@@ -118,11 +118,31 @@ Treat that file as the canonical current project identity state. Do not recover 
 
 If the file says a handle is selected but platform availability is still pending, preserve that exact distinction: the selected identity is current for downstream creative direction, while account activation/availability remains unverified.
 
+## Commercial-intent gate
+
+Before any audience, positioning, channel, portfolio, content, CTA, or lead-generation decision intended to support commercial demand:
+
+1. read `source-of-truth/current-commercial-intent.md`;
+2. verify the current service direction / business objective is authoritative;
+3. distinguish:
+   - **what the user sells / wants clients for**;
+   - **what the user can technically do**;
+   - **what evidence proves capability**;
+   - **what the intended buyer needs to understand**;
+4. do not derive the commercial offer from repositories, skills, technologies, or content evidence;
+5. if exact offer packaging is unresolved, route to the Personal Brand Strategy `Commercial Offer & Service Positioning` capability and preserve the unresolved package/price/CTA fields;
+6. technical depth may support credibility but must not become the buyer-facing category by default.
+
+Fail closed:
+- no commercial-intent record -> no commercial positioning/content launch decision;
+- no approved offer/service direction -> no invented service package;
+- project/technology evidence cannot substitute for business objective.
+
 ## Applied workflow
 
 Typical flow, only when the task reaches those stages:
 
-`evidence/projects -> Market & Competitive Intelligence -> approved strategy/decision layer -> [Content Portfolio & Launch Sequencing when first-contact / batch / sequence matters] -> Content Architecture -> Social Content Creative -> production/capture -> Video Editing & Post-Production -> approval/publishing -> Growth Experimentation & Measurement -> next decision`
+`current commercial intent -> Commercial Offer & Service Positioning when needed -> evidence/projects + Market & Competitive Intelligence -> approved audience/strategy decision layer -> [Content Portfolio & Launch Sequencing when first-contact / batch / sequence matters] -> Content Architecture -> Social Content Creative -> production/capture -> Video Editing & Post-Production -> approval/publishing -> Growth Experimentation & Measurement -> next decision`
 
 Commercial inbound may hand off to `Sales / Lead Conversion`. Paid promotion of approved content may hand off to `Paid Media / Performance Marketing`.
 
