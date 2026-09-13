@@ -1,12 +1,16 @@
 # ORIENTATION-01 — Content Architecture v1
 
 date: 2026-09-13
-status: READY FOR CREATIVE WITH BOUNDS
+status: INVALIDATED / INTERNAL_CONSTRAINT_TO_PUBLIC_MESSAGE_LEAK / HISTORICAL ONLY
 owning_core: Content Architecture & Creative Structure Practitioner v0.4 — QUALIFIED / RELEASED
 portfolio_decision: PBGS-PORTFOLIO-004
 channel: Instagram
 language: Russian-first / English-accessible
 role: CATEGORY ORIENTATION / PROFILE ENTRY ASSET
+
+## Invalidated — 2026-09-13
+
+`B3 — INDEPENDENCE` incorrectly promoted an internal service-composition guard into audience-facing architecture. Do not reuse. Superseded by v2 under Content Architecture v0.5 constraint-surface candidate.
 
 ## COMMUNICATION JOB
 
