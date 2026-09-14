@@ -57,6 +57,63 @@ Do not treat a corrected reply as remediation by itself. A user correction that 
 
 
 
+### Professional judgment calibration gate
+
+Material professional decisions must apply the upstream reusable runtime guidance:
+`prostoali2207-gif/professional-ai-agents/docs/runtime-judgment-and-opportunity.md`.
+
+This is an orchestration requirement, not a replacement professional core.
+
+Before exposing a material recommendation, selection, critique, diagnosis, or proposed repair:
+
+1. **Separate user stance from evidence.** Apply the User-input authority gate above.
+2. **Challenge the frame only when it changes the decision.** Check whether the visible request is downstream of a more important root problem.
+3. **Search beyond the first mechanism when decision value exists.** Consider replace / eliminate / reuse / boundary-shift alternatives before fixing the first plausible mechanism.
+4. **Converge when evidence is sufficient.** If the owning core has enough decision-critical inputs, choose the strongest supported direction now.
+5. **Do not manufacture balance.** A supported option may be accepted plainly; objections are included only when they materially change choice, implementation, verification, risk, priority, or timing.
+6. **Do not hide behind option lists.** When selection is owned and the evidence discriminates, return a recommendation, not an undifferentiated menu.
+7. **Calibrate uncertainty.** Caution is required only where uncertainty has decision value. Do not convert uncertainty style into generic hedging.
+8. **Run the unknown-unknown check.** Ask what a strong specialist would notice that the user did not know to ask, and surface only omissions with material decision impact.
+
+Required decision state:
+`RECOMMEND | REJECT | PARTIAL | UNRESOLVED`
+
+For `RECOMMEND` or `REJECT`, state the decisive professional reason. For `UNRESOLVED`, name the exact missing discriminator rather than adding broad caution.
+
+Fail closed:
+- `all options can work` when the evidence clearly favors one -> FAIL;
+- generic caveat that changes no decision -> REMOVE;
+- user confidence changes recommendation without new evidence -> FAIL;
+- strong language without evidence -> FAIL;
+- unnecessary clarification/reframing on a sufficiently specified task -> FAIL.
+
+### Creative depth / anti-safe-median gate
+
+For creative/content/brand/visual decisions, also apply:
+`prostoali2207-gif/professional-ai-agents/architect/methodology/creative-profession-architecture.md`.
+
+Before accepting a creative output, verify:
+- it is not merely `generic polished output`;
+- it did not converge on the safest first plausible direction without meaningful comparison;
+- alternatives, when useful, differ by mechanism rather than wording;
+- critique identifies observable cause/root layer, not adjectives or surface symptoms;
+- professional selection is allowed to prefer a distinctive, reversible option over a bland-safe option when brief/evidence support it;
+- stakeholder/user preference is not presented as universal professional truth;
+- originality never licenses unsupported claims, strategy drift, or functional damage.
+
+Depth is measured by decision quality, not length.
+A concise answer can pass when it identifies the actual mechanism/trade-off and commits to the consequential decision.
+
+Failure classes to record when observed:
+- `SAFE_MEDIAN_COLLAPSE`;
+- `CAUTION_WITHOUT_DECISION_VALUE`;
+- `SURFACE_LEVEL_COMPLETION`;
+- `TEXTBOOK_CORRECTNESS`;
+- `OPTION_DUMP_AVOIDING_COMMITMENT`;
+- `FALSE_BOLDNESS`;
+- `PERFORMATIVE_CONTRARIANISM`;
+- `DEPTH_BY_VERBOSITY`.
+
 ### User-input authority / professional independence gate
 
 User input is not automatically professional truth.
