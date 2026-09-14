@@ -240,3 +240,36 @@ Send upstream to prostoali2207-gif/professional-ai-agents for:
 5. only then implementation/qualification.
 
 Do not mutate the qualified 0.1.0 artifact in place.
+
+
+## Qualification checkpoint — 2026-09-14
+
+Upstream issue: `professional-ai-agents#302`.
+
+Current exact candidate:
+- Social Content Creative 0.1.0 — QUALIFIED parent;
+- Authorial Voice v0.4 — CANDIDATE / NOT QUALIFIED / NOT LIBRARY-ADMITTED;
+- overlay blob: `abed0d6762299c82b82e603355beac9f79b4cca2`;
+- frozen protocol blob: `c9942aa64cead4f0b55c7949a6a59debbde88356`.
+
+Development evidence:
+- three-case PBGS practical stress test: PASS / generalization signal observed;
+- full targeted visible suite: **18/18 PASS**, GitHub Actions run `34808976107`.
+
+Governance:
+- provider-backed development workflow was initially auto-triggered incorrectly;
+- RCE paid-workflow guard caught it;
+- workflow repaired to `workflow_dispatch` only at `e042e77650956046a5bfc6206dd7e63978d9f12c`;
+- qualification-platform static preflight now PASS.
+
+Held-out qualification:
+- preregistered before runner implementation;
+- fresh AV-Q1..AV-Q17 hidden cases;
+- independent author + dual judges;
+- PBGS practical comparative review;
+- zero-provider held-out static gate PASS, run `34809479532`;
+- actual paid held-out **NOT EXECUTED YET**.
+
+Applied consequence:
+Authorial Voice v0.4 may continue to be used as a candidate with human review.
+Do not describe it as qualified and do not treat text-level evidence as narration/prosody competence.
