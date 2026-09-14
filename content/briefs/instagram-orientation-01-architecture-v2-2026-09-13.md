@@ -1,12 +1,16 @@
 # ORIENTATION-01 — Content Architecture v2
 
 date: 2026-09-13
-status: CANDIDATE PRACTICAL / READY FOR CREATIVE WITH BOUNDS
+status: SUPERSEDED BY EVIDENCE-FIRST ARCHITECTURE v3 / HISTORICAL
 owner:
 - Content Architecture v0.4 — QUALIFIED parent
 - Constraint Surface Overlay v0.5 — CANDIDATE / NOT QUALIFIED / NOT LIBRARY-ADMITTED
 issue: professional-ai-agents#306
 candidate_overlay_blob: 74942d09593f73d0a9a23be068d3bbf3a0b8c06d
+
+## Supersession note — 2026-09-14
+
+v2 was correct but still let the orientation behave like a service card: category declaration first, proof later. After judgment calibration + Authorial Voice v0.4 development PASS, v3 moves real project evidence into the opening while preserving the same communication job and silent constraints.
 
 ## COMMUNICATION JOB
 
