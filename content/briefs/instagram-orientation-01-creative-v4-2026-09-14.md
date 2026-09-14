@@ -1,7 +1,7 @@
 # ORIENTATION-01 — Social Content Creative v4
 
 date: 2026-09-14
-status: CANDIDATE CREATIVE / HUMAN REVIEW REQUIRED / NOT APPROVED FOR NARRATION OR PUBLISHING
+status: SUPERSEDED / TOO CLOSE TO SAFE SERVICE-CARD EXECUTION / HISTORICAL
 architecture: content/briefs/instagram-orientation-01-architecture-v2-2026-09-13.md
 judgment_runtime:
 - PBGS professional judgment calibration gate
@@ -11,6 +11,10 @@ judgment_runtime:
 creator:
 - Social Content Creative 0.1.0 — QUALIFIED
 - Authorial Voice v0.4 — CANDIDATE / NOT QUALIFIED
+
+## Supersession note — 2026-09-14
+
+v4 added evidence, but still opened with a generic service declaration. v5 starts from real projects so credibility and identity are present before abstraction.
 
 ## Decision
 
