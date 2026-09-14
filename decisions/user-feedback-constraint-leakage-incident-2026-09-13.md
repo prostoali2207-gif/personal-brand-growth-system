@@ -123,3 +123,37 @@ Rebuild from the original communication job only:
 `new viewer quickly understands the range of work Ali does`.
 
 Service-independence remains an invisible internal guard.
+
+## Qualification checkpoint — 2026-09-14
+
+Upstream issue: `professional-ai-agents#306`.
+
+Exact revision track:
+- qualified Content Architecture v0.4 baseline blob: `5d440e1bf3e20fbd35c6ab276310a904e36cc06d`;
+- v0.5 Constraint Surface overlay: CANDIDATE / NOT QUALIFIED / NOT LIBRARY-ADMITTED;
+- overlay blob: `74942d09593f73d0a9a23be068d3bbf3a0b8c06d`;
+- frozen protocol blob: `d90c9daab6256fce3388025db7a656dc06489f1a`.
+
+Lineage is valid:
+- protocol frozen before implementation;
+- candidate implemented after freeze;
+- regression suite added after candidate;
+- exact candidate then frozen.
+
+Development evidence:
+- 6 targeted constraint-surface cases;
+- 1 exact PBGS ORIENTATION practical;
+- 4 v0.4 compatibility controls;
+- **11/11 PASS**, GitHub Actions run `34809108074`.
+
+Held-out qualification:
+- fresh 12-case hidden protocol preregistered before runner implementation;
+- two contrast pairs;
+- independent author + dual judges;
+- zero-provider held-out static gate PASS, run `34809550607`;
+- qualification-platform static preflight + RCE gate PASS on current head;
+- actual paid held-out **NOT EXECUTED YET**.
+
+Applied consequence:
+Use v0.5 only as candidate overlay with status disclosure.
+The semantic firewall remains mandatory in PBGS regardless of candidate qualification state.
