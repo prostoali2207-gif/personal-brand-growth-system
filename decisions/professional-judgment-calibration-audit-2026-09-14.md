@@ -121,3 +121,24 @@ Owner-specific tracks remain required:
 - #302 Authorial Voice;
 - #306 Content Architecture constraint surface;
 - #307/#308 remain open with independent audit `NOT_EXECUTABLE`.
+
+
+## Localized-track update — 2026-09-14
+
+The two owner-specific tracks have advanced beyond the state recorded above:
+
+- **#302 Authorial Voice v0.4**
+  - targeted visible development: **18/18 PASS**;
+  - PBGS three-case practical: PASS / generalization signal;
+  - held-out qualification infrastructure frozen and static/RCE checks PASS;
+  - actual paid held-out not yet executed;
+  - status remains CANDIDATE / NOT QUALIFIED.
+
+- **#306 Content Architecture v0.5 Constraint Surface**
+  - targeted + compatibility + PBGS practical: **11/11 PASS**;
+  - held-out qualification infrastructure frozen and static/RCE checks PASS;
+  - actual paid held-out not yet executed;
+  - status remains CANDIDATE / NOT QUALIFIED.
+
+This strengthens the localization diagnosis but does not change #307/#308:
+cross-core independent reliability remains NOT ESTABLISHED.
