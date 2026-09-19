@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#f6f0e6" />
+<meta name="description" content="Индивидуальные онлайн-занятия 1-на-1 по английскому и французскому под конкретную задачу: работа, переезд, поездки и общение. Запись на пробный урок." />
+<title>ZAYNAB Languages — английский и французский онлайн</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&family=Source+Serif+4:opsz,ital,wght@8..60,0,400;8..60,0,500;8..60,1,400;8..60,1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F6F0E6; --paper:#FFFDF8;
+  --ink:#1D2320; --muted:#5A5A50;
+  --line:rgba(45,40,30,.14); --line-2:rgba(45,40,30,.26);
+  --forest:#2F4A36; --clay:#A9673F;
+  --max:1180px;
+  --serif:"Source Serif 4",Georgia,serif;
+  --sans:"Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --prism-x:64%; --prism-y:52%; --prism-h:50vh;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--forest);outline-offset:3px;border-radius:4px}
+.shell{width:min(calc(100% - 32px),var(--max));margin:0 auto}
+h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0}
+p{margin:0}
+
+.optics{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+.optics::before{content:"";position:absolute;inset:0;
+  background:radial-gradient(115% 85% at 74% 48%,#FFFCF4 0%,#F7F1E5 44%,#EFE5D4 74%,#E8DCC8 100%)}
+.optics::after{content:"";position:absolute;inset:0;
+  background:radial-gradient(64% 58% at 80% 50%,rgba(122,98,64,.15) 0%,rgba(122,98,64,0) 66%)}
+
+.beam-in{position:absolute;left:30%;top:calc(var(--prism-y) - 2vh);
+  width:calc(var(--prism-x) - 30%);height:16vh;
+  transform:translateY(-50%) rotate(3.5deg);transform-origin:left center;
+  clip-path:polygon(0 47.5%,0 52.5%,100% 8%,100% 92%);
+  background:linear-gradient(90deg,rgba(255,253,246,0) 0%,rgba(255,251,238,.42) 20%,rgba(255,250,234,.85) 62%,rgba(255,255,255,.98) 100%);
+  filter:blur(6px)}
+.flash{position:absolute;transform:translate(-50%,-50%);border-radius:50%}
+.flash.a{left:calc(var(--prism-x) - 1%);top:calc(var(--prism-y) + 1.5vh);width:16vh;height:16vh;
+  background:radial-gradient(circle,rgba(255,255,255,.88) 0%,rgba(255,246,222,.32) 38%,rgba(255,246,222,0) 70%)}
+.flash.b{left:calc(var(--prism-x) + 3%);top:calc(var(--prism-y) - 4vh);width:22vh;height:22vh;
+  background:radial-gradient(circle,rgba(255,255,255,.82) 0%,rgba(255,247,226,.28) 40%,rgba(255,247,226,0) 70%)}
+
+.prism{position:absolute;left:var(--prism-x);top:var(--prism-y);transform:translate(-50%,-50%);
+  height:var(--prism-h);filter:drop-shadow(0 26px 42px rgba(92,72,46,.22))}
+.prism svg{height:100%;width:auto;display:block}
+
+.fan{position:absolute;left:calc(var(--prism-x) + 4%);top:calc(var(--prism-y) - 4vh);width:72vw;height:0}
+.ray{position:absolute;left:0;top:0;width:100%;height:9vh;margin-top:-4.5vh;
+  transform-origin:0 50%;transform:rotate(var(--a));
+  clip-path:polygon(0 46%,0 54%,100% 0,100% 100%);
+  background:linear-gradient(90deg,var(--c) 0%,transparent 72%);
+  filter:blur(15px);opacity:.92}
+.ray.core{height:7vh;margin-top:-3.5vh;filter:blur(9px);
+  background:linear-gradient(90deg,rgba(255,255,255,.95) 0%,rgba(255,252,242,.45) 52%,rgba(255,252,242,0) 100%)}
+
+.tr{position:absolute;font-family:var(--serif);color:#4A4234;line-height:1.28;
+  text-shadow:0 1px 0 rgba(255,255,255,.72);white-space:nowrap}
+.tr em{display:block;font-style:italic;color:#3C4A3B}
+.tr.en{left:calc(var(--prism-x) + 9%);top:calc(var(--prism-y) - 21vh);transform:rotate(-9deg);font-size:clamp(15px,1.5vw,22px)}
+.tr.fr{left:calc(var(--prism-x) + 11%);top:calc(var(--prism-y) - 4vh);transform:rotate(-4deg);font-size:clamp(14px,1.35vw,20px)}
+
+header{position:relative;z-index:5;padding:20px 0}
+.hrow{display:flex;align-items:center;gap:26px}
+.brand{font-family:var(--serif);font-size:16px;letter-spacing:.14em;text-transform:uppercase}
+.brand span{color:var(--muted)}
+nav{display:flex;gap:24px;font-size:14px;color:var(--muted);margin-left:8px}
+nav a:hover{color:var(--ink)}
+.hrow .gap{flex:1}
+.pill{display:inline-flex;align-items:center;padding:10px 20px;border:1px solid var(--line-2);border-radius:999px;font-size:14px;background:rgba(255,255,255,.45)}
+
+.hero{position:relative;padding:clamp(28px,6vh,72px) 0 clamp(32px,6vh,64px)}
+.hero .shell{position:relative;z-index:3}
+.eyebrow{display:flex;align-items:center;gap:16px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:clamp(16px,3vh,26px)}
+.eyebrow::after{content:"";height:1px;width:72px;background:var(--line-2)}
+h1{font-size:clamp(40px,6.2vw,84px);line-height:1.03;letter-spacing:-.015em;max-width:12ch}
+h1 i{font-style:italic;color:var(--forest)}
+.lede{margin-top:clamp(20px,3.2vh,32px);font-size:clamp(15px,1.2vw,18px);line-height:1.62;color:var(--muted);font-weight:300;max-width:36ch}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(22px,3.6vh,36px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:17px 32px;border-radius:999px;font-size:16px;border:1px solid transparent;cursor:pointer}
+.btn-p{background:var(--forest);color:#F6F0E6}
+.btn-s{border-color:var(--line-2);background:rgba(255,255,255,.4)}
+.note{margin-top:12px;font-size:13px;color:var(--muted)}
+.facts{display:flex;flex-wrap:wrap;gap:clamp(18px,4vw,44px);margin-top:clamp(30px,5vh,58px);padding:0;list-style:none;max-width:720px}
+.facts li{font-size:14px;line-height:1.5;color:var(--muted);padding-left:16px;border-left:1px solid var(--line-2);flex:1 1 180px}
+.facts b{display:block;font-weight:500;color:var(--ink);margin-bottom:2px}
+.cue{display:inline-flex;align-items:center;gap:11px;margin-top:clamp(26px,4.5vh,50px);background:none;border:0;padding:0;cursor:pointer;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.cue i{display:block;width:1px;height:28px;background:var(--line-2)}
+.cue svg{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+
+section{position:relative;z-index:2;padding:clamp(56px,10vh,110px) 0;border-top:1px solid var(--line)}
+.kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--clay);margin-bottom:18px}
+h2{font-size:clamp(26px,3.4vw,44px);line-height:1.15;max-width:20ch}
+.sub{margin-top:16px;color:var(--muted);max-width:52ch;line-height:1.6;font-weight:300}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:clamp(34px,5vh,58px)}
+.step{padding-top:18px;border-top:1px solid var(--line-2)}
+.step .n{font-family:var(--serif);font-size:13px;color:var(--clay);letter-spacing:.1em}
+.step h3{font-size:19px;margin:8px 0 8px}
+.step p{font-size:14px;line-height:1.55;color:var(--muted);font-weight:300}
+
+.langs{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:clamp(30px,5vh,52px)}
+.lang{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:30px}
+.lang .code{font-family:var(--serif);font-size:13px;letter-spacing:.14em;color:var(--clay)}
+.lang h3{font-size:28px;margin:10px 0 6px}
+.lang p{font-size:14px;color:var(--muted);font-weight:300}
+
+.tabs{display:flex;flex-wrap:wrap;gap:10px;margin-top:clamp(28px,4vh,44px)}
+.tab{padding:11px 22px;border-radius:999px;border:1px solid var(--line-2);background:transparent;cursor:pointer;font-size:15px}
+.tab[aria-selected="true"]{background:var(--forest);border-color:var(--forest);color:#F6F0E6}
+.panel{margin-top:26px;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:clamp(22px,3vw,34px);max-width:640px}
+.panel h3{font-size:22px;margin-bottom:10px}
+.panel p{color:var(--muted);line-height:1.6;font-weight:300}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.chips span{font-size:12px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+
+.trial{display:grid;grid-template-columns:1fr 1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.checks{list-style:none;padding:0;margin:26px 0 0}
+.checks li{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);font-size:15px;color:var(--muted);font-weight:300}
+.checks b{font-family:var(--serif);color:var(--clay);font-weight:400;font-size:13px}
+form{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(22px,3vw,32px)}
+form h3{font-size:22px;margin-bottom:20px}
+label{display:block;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:16px 0 8px}
+select{width:100%;padding:13px 14px;border:1px solid var(--line-2);border-radius:10px;background:transparent}
+.goals{display:flex;flex-wrap:wrap;gap:8px}
+.goal{padding:9px 16px;border-radius:999px;border:1px solid var(--line-2);background:transparent;cursor:pointer;font-size:14px}
+.goal[aria-pressed="true"]{background:var(--forest);border-color:var(--forest);color:#F6F0E6}
+form .btn-p{width:100%;margin-top:24px}
+.hint{margin-top:12px;font-size:12.5px;color:var(--muted);line-height:1.5}
+
+.faq{margin-top:clamp(28px,4vh,46px);max-width:760px}
+.q{border-top:1px solid var(--line)}
+.q:last-child{border-bottom:1px solid var(--line)}
+.q button{width:100%;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:20px 0;background:none;border:0;cursor:pointer;text-align:left;font-size:16px}
+.q .mark{color:var(--clay);flex:none}
+.q .a{display:none;padding:0 0 20px;color:var(--muted);line-height:1.6;font-weight:300;max-width:60ch}
+.q.open .a{display:block}
+
+footer{padding:40px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+footer .f{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto}}
+
+@media (max-width:900px){
+  :root{--prism-x:74%;--prism-y:40%;--prism-h:32vh}
+  nav,.hrow .pill{display:none}
+  h1{max-width:9ch;font-size:clamp(36px,10.5vw,54px)}
+  .lede{max-width:27ch}
+  .beam-in{left:6%;width:calc(var(--prism-x) - 6%);height:11vh}
+  .fan{left:calc(var(--prism-x) + 5%);width:62vw}
+  .tr.en{left:auto;right:3%;top:calc(var(--prism-y) - 16vh);font-size:12.5px}
+  .tr.fr{left:auto;right:5%;top:calc(var(--prism-y) - 4vh);font-size:11.5px}
+  .cta{flex-direction:column;align-items:stretch}
+  .btn{width:100%}
+  .cue{display:none}
+  .steps,.langs,.trial{grid-template-columns:1fr}
+  .facts{flex-direction:column;gap:14px}
+}
+
+/* Production hero: semantic HTML over the generated prism artwork */
+.hero{min-height:min(900px,100svh);isolation:isolate;overflow:hidden;background:#efe4d6}
+.hero-media{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.hero-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 50%;filter:saturate(.82) contrast(.98) brightness(1.015)}
+.hero-media::after{content:"";position:absolute;inset:0;background:
+  linear-gradient(90deg,rgba(246,240,230,.82) 0%,rgba(246,240,230,.58) 28%,rgba(246,240,230,.10) 51%,rgba(246,240,230,0) 68%),
+  linear-gradient(180deg,rgba(246,240,230,.14) 0%,rgba(246,240,230,0) 48%,rgba(246,240,230,.12) 100%)}
+.hero > header,.hero > .shell{position:relative;z-index:3}
+.hero-projection{position:absolute;z-index:2;right:2.2vw;width:min(30vw,430px);font-family:var(--serif);line-height:1.18;color:#51483b;opacity:.20;text-shadow:0 0 18px rgba(255,248,231,.72);mix-blend-mode:multiply}
+.hero-projection span,.hero-projection em{display:block}
+.hero-projection em{font-style:italic;color:#39473a;margin-top:.16em}
+.hero-projection-en{top:32%;font-size:clamp(16px,1.55vw,23px);transform:rotate(-7deg)}
+.hero-projection-fr{top:50%;right:1.1vw;font-size:clamp(14px,1.35vw,20px);transform:rotate(-3deg);opacity:.17}
+.hero h1{position:relative;text-shadow:0 1px 0 rgba(255,252,244,.34)}
+@media (max-width:900px){
+  .hero{min-height:auto}
+  .hero-media img{object-position:69% center;filter:saturate(.78) contrast(.98) brightness(1.02)}
+  .hero-media::after{background:
+    linear-gradient(90deg,rgba(246,240,230,.88) 0%,rgba(246,240,230,.63) 46%,rgba(246,240,230,.05) 78%),
+    linear-gradient(180deg,rgba(246,240,230,.08) 0%,rgba(246,240,230,0) 55%,rgba(246,240,230,.12) 100%)}
+  .hero-projection{display:none}
+}
+
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-media" aria-hidden="true">
+    <img src="https://raw.githubusercontent.com/prostoali2207-gif/personal-brand-growth-system/7ffd5f465ece3407bb3e0752999e32c3795d700b/preview/language-hero/prism-hero.webp" alt="">
+    <div class="hero-projection hero-projection-en">
+      <span>Don't just learn the language.</span>
+      <em>Start speaking it.</em>
+    </div>
+    <div class="hero-projection hero-projection-fr">
+      <span>Ne vous contentez pas d'apprendre la langue.</span>
+      <em>Commencez à la parler.</em>
+    </div>
+  </div>
+
+  <header>
+    <div class="shell hrow">
+      <a class="brand" href="#top">Zaynab <span>/ Languages</span></a>
+      <nav>
+        <a href="#method">Как учимся</a>
+        <a href="#languages">Языки</a>
+        <a href="#trial">Пробный урок</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="gap"></div>
+      <a class="pill" href="#trial">Записаться на пробный урок</a>
+    </div>
+  </header>
+
+  <div class="shell" id="top">
+    <p class="eyebrow">Английский и французский, онлайн 1-на-1</p>
+    <h1>Не учить язык.<br><i>А начать говорить.</i></h1>
+    <p class="lede">Индивидуальные занятия под конкретную задачу: работа, переезд, поездки или общение. На пробном уроке определим текущий уровень и цель.</p>
+    <div class="cta">
+      <a class="btn btn-p" href="#trial">Бесплатный пробный урок</a>
+      <a class="btn btn-s" href="#method">Как устроено обучение</a>
+    </div>
+    <p class="note">30 минут, без оплаты и без обязательств.</p>
+    <ul class="facts">
+      <li><b>План под вашу цель</b>Не общий курс, а то, что нужно именно вам</li>
+      <li><b>Прогресс за 2–3 месяца</b>Первые разговоры — уже на старте</li>
+      <li><b>Спокойный темп</b>Без давления и оценок</li>
+    </ul>
+    <button class="cue" data-to="#method">
+      <i></i>Листайте вниз
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+</div>
+
+<section id="method">
+  <div class="shell">
+    <p class="kicker">Как учимся</p>
+    <h2>От вашей задачи — к тому, что нужно уметь делать на языке.</h2>
+    <p class="sub">Важно не сколько тем вы прошли, а что уже можете понять, сказать или сделать на языке.</p>
+    <div class="steps">
+      <div class="step"><p class="n">01</p><h3>Пробный урок</h3><p>Определяем текущий уровень, цель и ситуации, в которых вам нужен язык.</p></div>
+      <div class="step"><p class="n">02</p><h3>Приоритеты</h3><p>Выбираем темы и навыки, которые важнее всего для вашей задачи.</p></div>
+      <div class="step"><p class="n">03</p><h3>Практика</h3><p>Новое сразу используем в ситуациях, ради которых вы учите язык.</p></div>
+      <div class="step"><p class="n">04</p><h3>Коррекция</h3><p>Смотрим, что получается, где остаются трудности, и определяем следующий шаг.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="languages">
+  <div class="shell">
+    <p class="kicker">Языки</p>
+    <h2>Английский или французский — под вашу задачу.</h2>
+    <p class="sub">Выберите язык, с которым хотите работать.</p>
+    <div class="langs">
+      <div class="lang"><p class="code">EN</p><h3>English</h3><p>Работа, переезд, поездки, свободное общение.</p></div>
+      <div class="lang"><p class="code">FR</p><h3>Français</h3><p>С нуля или продолжение — до уверенной речи.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="goals">
+  <div class="shell">
+    <p class="kicker">Под вашу цель</p>
+    <h2>Для чего вам нужен язык?</h2>
+    <p class="sub">Выберите ближайшую задачу — она определяет, на чём будет фокус обучения.</p>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" aria-selected="true" data-g="work">Работа</button>
+      <button class="tab" role="tab" aria-selected="false" data-g="move">Переезд</button>
+      <button class="tab" role="tab" aria-selected="false" data-g="trip">Поездки</button>
+      <button class="tab" role="tab" aria-selected="false" data-g="talk">Общение</button>
+    </div>
+    <div class="panel">
+      <h3 id="gt">Говорить и понимать в рабочих ситуациях.</h3>
+      <p id="gp">Фокус на встречах, переписке, звонках, презентациях или общении с клиентами — в зависимости от вашей задачи.</p>
+      <div class="chips"><span>лексика в контексте</span><span>сценарии</span><span>обратная связь</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="trial">
+  <div class="shell trial">
+    <div>
+      <p class="kicker">Пробный урок</p>
+      <h2>Начнём с вашей реальной задачи.</h2>
+      <p class="sub">На пробном уроке определим текущий уровень, разберём цель и поймём, какие навыки сейчас важнее всего.</p>
+      <ul class="checks">
+        <li><b>01</b>что уже получается</li>
+        <li><b>02</b>где язык нужен в первую очередь</li>
+        <li><b>03</b>что поставить в приоритет</li>
+      </ul>
+    </div>
+    <form id="f">
+      <h3>Записаться на пробный урок</h3>
+      <label for="lang">Выберите язык</label>
+      <select id="lang"><option>Английский</option><option>Французский</option></select>
+      <label for="lvl">Ваш уровень</label>
+      <select id="lvl"><option>Не знаю</option><option>С нуля</option><option>Начальный (A1–A2)</option><option>Средний (B1–B2)</option><option>Продвинутый (C1–C2)</option></select>
+      <label>Задача</label>
+      <div class="goals">
+        <button type="button" class="goal" aria-pressed="true">Работа</button>
+        <button type="button" class="goal" aria-pressed="false">Переезд</button>
+        <button type="button" class="goal" aria-pressed="false">Поездки</button>
+        <button type="button" class="goal" aria-pressed="false">Общение</button>
+      </div>
+      <button type="button" class="btn btn-p" id="send">Продолжить в Telegram</button>
+      <p class="hint">Откроется Telegram с готовой заявкой для @inspo25. Останется нажать «Отправить».</p>
+    </form>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="shell">
+    <p class="kicker">FAQ</p>
+    <h2>Перед пробным уроком</h2>
+    <div class="faq">
+      <div class="q"><button>Что будет на пробном уроке?<span class="mark">+</span></button><div class="a">Определим текущий уровень, разберём вашу цель и поймём, на чём стоит сосредоточиться в первую очередь.</div></div>
+      <div class="q"><button>Нужно ли заранее знать свой уровень?<span class="mark">+</span></button><div class="a">Нет. Текущий уровень определим на пробном уроке.</div></div>
+      <div class="q"><button>Как строятся занятия после пробного урока?<span class="mark">+</span></button><div class="a">От вашей цели: определяем приоритеты, практикуем нужные навыки и корректируем следующий шаг по ходу обучения.</div></div>
+      <div class="q"><button>Какие языки можно изучать?<span class="mark">+</span></button><div class="a">Английский и французский.</div></div>
+      <div class="q"><button>Где проходят занятия?<span class="mark">+</span></button><div class="a">Онлайн, 1-на-1 с преподавателем.</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="shell f">
+    <span class="brand">Zaynab <span>/ Languages</span></span>
+    <span>English · Français · индивидуальные занятия онлайн 1-на-1</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var G={
+    work:["Говорить и понимать в рабочих ситуациях.","Фокус на встречах, переписке, звонках, презентациях или общении с клиентами — в зависимости от вашей задачи."],
+    move:["Справляться с бытом и документами на новом месте.","Банк, аренда, поликлиника, школа, госуслуги — разбираем ситуации, которые ждут вас сразу после переезда."],
+    trip:["Чувствовать себя свободно в поездке.","Аэропорт, отель, кафе, дорога и внезапные ситуации — короткие диалоги, которые нужны чаще всего."],
+    talk:["Поддерживать живой разговор.","Учимся говорить о себе, слушать собеседника и продолжать беседу, не подбирая слова по полминуты."]
+  };
+  var tabs=document.querySelectorAll('.tab');
+  tabs.forEach(function(t){t.addEventListener('click',function(){
+    tabs.forEach(function(x){x.setAttribute('aria-selected','false')});
+    t.setAttribute('aria-selected','true');
+    var d=G[t.dataset.g];
+    document.getElementById('gt').textContent=d[0];
+    document.getElementById('gp').textContent=d[1];
+  })});
+
+  var goals=document.querySelectorAll('.goal');
+  goals.forEach(function(g){g.addEventListener('click',function(){
+    goals.forEach(function(x){x.setAttribute('aria-pressed','false')});
+    g.setAttribute('aria-pressed','true');
+  })});
+
+  document.getElementById('send').addEventListener('click',function(){
+    var lang=document.getElementById('lang').value,
+        lvl=document.getElementById('lvl').value,
+        goal=document.querySelector('.goal[aria-pressed="true"]').textContent,
+        msg='Здравствуйте! Хочу записаться на пробный урок.\nЯзык: '+lang+'\nУровень: '+lvl+'\nЗадача: '+goal;
+    window.open('https://t.me/inspo25?text='+encodeURIComponent(msg),'_blank','noopener');
+  });
+
+  document.querySelectorAll('.q button').forEach(function(b){
+    b.addEventListener('click',function(){
+      var q=b.parentElement, open=q.classList.toggle('open');
+      b.querySelector('.mark').textContent=open?'−':'+';
+    });
+  });
+
+  var cue=document.querySelector('.cue');
+  if(cue){
+    cue.addEventListener('click',function(){
+      document.querySelector(cue.dataset.to).scrollIntoView({behavior:'smooth'});
+    });
+    window.addEventListener('scroll',function(){
+      cue.style.opacity = window.scrollY>80 ? '0' : '1';
+      cue.style.transition='opacity .3s';
+    },{passive:true});
+  }
+})();
+</script>
+</body>
+</html>
