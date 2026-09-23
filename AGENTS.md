@@ -271,34 +271,40 @@ Fail closed:
 Current authoritative offer model:
 `decisions/commercial-offer-service-positioning-v2-2026-09-13.md`.
 
-## Creative-reference benchmark gate
+## Creative-reference / nasмотренность gate
 
-When current creator practice materially affects a commercial content decision, do not rely on generic model familiarity or a broad inspiration corpus.
+When a professional decision materially depends on current creative practice, tacit taste, references or inspiration, **reference research is mandatory before professional output**. This applies beyond commercial content: brand, social content, visual identity, naming, capture, design, UX/product presentation and other creative directions when the benchmark can plausibly change the decision.
 
-Before launch-level Content Architecture / Social Content Creative work in a new or materially changed niche:
+Explicit user phrases such as "top", "best-in-class", "сливки", "насмотренность", "референсы", "вдохновение", "как делают лучшие" or equivalent are a direct trigger unless the task is purely deterministic.
 
-1. resolve Market & Competitive Intelligence as the benchmark-research owner;
-2. verify whether a **current domain-specific elite creator benchmark** exists;
-3. distinguish:
-   - direct commercial analogues;
-   - adjacent elite mechanism references;
-   - voice/style references;
-4. require explicit selection criteria for "top" / "elite";
-5. prefer a small high-precision benchmark over a large mixed list;
-6. sample actual recent artifacts, not creator reputation alone;
-7. extract mechanisms and commercial logic without copying distinctive expression;
-8. preserve source scope: a voice corpus is not automatically a niche commercial benchmark.
+Mandatory composition:
+1. resolve qualified **Market & Competitive Intelligence 1.0.0** as benchmark-research owner;
+2. load the current upstream candidate capability:
+   `professional-ai-agents/architect/research/creative-reference-intelligence/candidate/SKILL.md`;
+3. separate reference classes:
+   - **DIRECT** — strongest current exact/nearest domain or commercial analogues;
+   - **ADJACENT_ELITE** — exceptional adjacent work used for transferable mechanism/craft inspiration;
+   - **VOICE_STYLE_CRAFT** — only when that exact expression layer matters;
+4. discover broadly but **admit narrowly**: the accepted benchmark must be small and high precision;
+5. do not define "top" by follower count, fame, one viral artifact, SEO listicles or generic popularity;
+6. inspect actual recent artifacts and require evidence of repeated strong task-relevant work;
+7. extract underlying mechanisms, decisions, constraints and commercial/communication logic — not surface imitation;
+8. hand mechanism-level findings to the accountable strategy/creative core, which must explicitly decide what to adopt / adapt / reject / test;
+9. stop expanding the corpus when additional references no longer add a new mechanism, counterexample or decision-changing evidence.
 
 Fail closed:
-- no relevant current elite benchmark -> `RESEARCH_REQUIRED`;
+- no relevant current elite benchmark when one is materially required -> `RESEARCH_REQUIRED`;
+- only reputation/metadata/listicles are available, not actual work -> `PARTIAL` or `RESEARCH_REQUIRED`;
 - follower count alone -> insufficient;
-- generic "popular creators" list -> insufficient;
-- supplied reference corpus with a different research purpose -> not transferable by default.
+- broad mixed inspiration dump -> FAIL;
+- generic assistant advice used to fill a failed benchmark -> FAIL;
+- direct analogues and adjacent inspiration merged without labels -> FAIL;
+- distinctive expression copied rather than abstracted -> FAIL.
 
 Current applied capability:
-`Market & Competitive Intelligence -> Creative Reference Intelligence / Elite Creator Benchmarking`.
+`Market & Competitive Intelligence 1.0.0 -> Creative Reference Intelligence / Elite Benchmarking candidate v0.1 -> accountable strategy/creative owner`.
 
-This is an applied specialization/capability, not a newly qualified core.
+The capability is **CANDIDATE / NOT QUALIFIED**. It may be used in applied work under the project candidate-use rule, but must not be represented as qualified.
 
 ## Applied workflow
 
