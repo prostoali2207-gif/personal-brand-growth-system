@@ -83,3 +83,13 @@ if __name__ == "__main__":
     only = sys.argv[1:] or list(C)
     for k in only:
         print(render(k, C[k]))
+
+C["07-double-payment-short"] = [
+    {"html": '<h1>Одна оплата записалась в учёт <span class="acc">дважды</span></h1><div class="sub">Нажал «Отправить», интернет подвис — нажал ещё раз.</div>' + table_dup},
+    {"html": '<span class="tag">что я сделал</span><h2>Повтор больше <span class="acc">не пишется</span></h2>'
+             '<div class="card"><div class="r"><span>Оплата клиента · 3 000</span><span class="pill">записано</span></div><div class="mono">операция №A7F3</div></div>'
+             '<div class="card" style="margin-top:24px"><div class="r"><span>Повторная отправка</span><span class="pill">без дубля</span></div><div class="mono">операция №A7F3</div></div>'
+             '<div class="card" style="margin-top:24px"><div class="r"><span>Такая же сумма и дата</span><span class="pill w">предупреждение</span></div><div>Уже есть в строке 52. Это отдельный платёж?</div></div>'},
+    {"html": statement('Ошибки в учёте почти всегда не про людей.', 'А про систему, которая позволяет ошибиться.'), "dark": True},
+    {"html": '<h2>Где у вас всё держится на «не забыть»?</h2><div class="sub">Автоматизирую учёт и рутину в программах, которыми вы уже пользуетесь.</div><div class="cta">Написать в директ →</div>', "center": True},
+]
