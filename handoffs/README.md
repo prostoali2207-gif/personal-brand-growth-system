@@ -1,3 +1,5 @@
+> **АРХИВ (2026-10-17).** Не используется: квалифицированные ядра и маршрутизация отменены решением Али. Актуальные правила — `AGENTS.md`, рабочие скиллы — `skills/`.
+
 # Professional-core handoffs
 
 Use one handoff record for each material transfer of responsibility between professional cores.
