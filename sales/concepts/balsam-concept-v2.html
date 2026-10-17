@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#F8F8F3" />
+  <title>Balsam Dental Center | Mobile hero concept</title>
+  <style>
+    :root {
+      --ink: #163D35;
+      --ink-2: #264E44;
+      --muted: #66796E;
+      --paper: #F8F8F3;
+      --mint: #DBE8DE;
+      --line: #E0E6DD;
+      --amber: #D89E4B;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; color: var(--ink); background: #DEE4DC; }
+    button { font: inherit; cursor: pointer; }
+    .presentation { min-height: 100vh; display: grid; place-items: center; padding: 42px 20px; position: relative; isolation: isolate; overflow: hidden; }
+    .presentation::before { content: ""; position: fixed; background: #D5DED2; width: 32vw; inset: 0 auto 0 0; z-index: -1; }
+    .presentation::after { content: "B / 01"; position: fixed; left: 42px; bottom: 32px; font-size: 11px; font-weight: 650; letter-spacing: .22em; color: #406055; opacity: .7; }
+    .device { width: 413px; height: 895px; padding: 10px; background: #17241F; border-radius: 57px; border: 2px solid #6B776F; box-shadow: 0 35px 90px rgba(9,40,30,.20), 0 5px 15px rgba(9,40,30,.12), inset 0 0 0 2px #293831; position: relative; flex: none; }
+    .device::before { content: ""; position: absolute; width: 4px; height: 74px; left: -5px; top: 182px; border-radius: 3px 0 0 3px; background: #68736B; }
+    .device::after { content: ""; position: absolute; width: 4px; height: 80px; right: -5px; top: 232px; border-radius: 0 3px 3px 0; background: #68736B; }
+    .screen { height: 100%; width: 100%; background: var(--paper); border-radius: 46px; overflow: hidden; display: flex; flex-direction: column; position: relative; }
+    .status { height: 38px; display: flex; align-items: center; justify-content: space-between; padding: 12px 25px 0; position: relative; flex: 0 0 auto; color: #193E35; font-weight: 650; font-size: 12px; letter-spacing: -.02em; }
+    .dynamic-island { width: 111px; height: 28px; position: absolute; top: 8px; left: 50%; transform: translateX(-50%); border-radius: 22px; background: #121B18; }
+    .status-icons { display: flex; gap: 4px; align-items: center; }
+    .status-icons svg { display: block; }
+    .content { padding: 0 23px 23px; flex: 1; display: flex; flex-direction: column; min-height: 0; }
+    .nav { height: 70px; display: flex; justify-content: space-between; align-items: center; flex: 0 0 auto; }
+    .brand { display: flex; align-items: center; gap: 9px; }
+    .brandmark { width: 40px; height: 40px; border-radius: 50%; background: var(--ink); color: #E9F0E7; display: grid; place-items: center; font: italic 31px/1 Georgia, "Times New Roman", serif; padding-right: 2px; padding-bottom: 3px; }
+    .brandtype { display: flex; flex-direction: column; gap: 3px; }
+    .brandtype b { font-size: 16px; font-weight: 660; letter-spacing: .18em; line-height: 1; }
+    .brandtype span { letter-spacing: .18em; font-size: 8px; font-weight: 700; color: var(--muted); }
+    .menu { border: 1px solid var(--line); width: 39px; height: 39px; border-radius: 50%; background: transparent; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px; }
+    .menu i { height: 1.5px; width: 16px; display: block; background: var(--ink); border-radius: 5px; }
+    .menu i:last-child { width: 11px; margin-left: 5px; }
+    .rating { display: flex; align-items: center; gap: 8px; align-self: flex-start; padding: 8px 11px; border: 1px solid #DFE5DC; border-radius: 999px; background: white; font-size: 11px; color: #607268; height: 32px; flex: 0 0 auto; }
+    .rating strong { font-size: 12px; font-weight: 750; color: var(--ink); letter-spacing: -.025em; }
+    .rating .star { font-size: 14px; line-height: 1; color: #E3A24A; margin-left: -2px; }
+    .rating .sep { height: 13px; width: 1px; background: #DBE2D9; margin: 0 1px; }
+    .google-g { width: 14px; height: 14px; display: block; }
+    .hero-copy { margin-top: 23px; }
+    .eyebrow { display: flex; align-items: center; gap: 7px; font-size: 9px; letter-spacing: .195em; text-transform: uppercase; font-weight: 700; color: #647F6F; }
+    .eyebrow::before { content: ""; display: block; width: 15px; height: 1px; background: #799B86; }
+    h1 { margin: 11px 0 9px; max-width: 325px; font-size: 42px; line-height: 1.035; letter-spacing: -.053em; font-weight: 560; }
+    h1 em { font: italic 47px/.86 Georgia, "Times New Roman", serif; font-weight: 400; letter-spacing: -.045em; color: #54806D; }
+    .dek { margin: 0; color: #607267; font-size: 12px; line-height: 1.55; max-width: 295px; font-weight: 450; }
+    .cta-row { display: grid; grid-template-columns: minmax(0,1fr) 106px; gap: 9px; margin-top: 18px; }
+    .cta { height: 49px; border-radius: 12px; padding: 0 15px; display: flex; align-items: center; justify-content: center; gap: 9px; font-size: 12px; font-weight: 675; white-space: nowrap; letter-spacing: -.02em; }
+    .cta.primary { border: 1px solid var(--ink); background: var(--ink); color: #fff; box-shadow: 0 5px 9px rgba(23,59,48,.11); }
+    .cta.primary:hover { background: #265348; }
+    .cta.secondary { border: 1px solid #BCCDC0; color: var(--ink); background: transparent; }
+    .cta.secondary:hover { background: #EAF0E9; }
+    .cta svg { display: block; flex: 0 0 auto; }
+    .visit-note { font-size: 10px; color: #446E5A; margin-top: 10px; display: flex; align-items: center; gap: 7px; font-weight: 560; }
+    .visit-note::before { content: ""; height: 6px; width: 6px; background: #7AA887; border-radius: 50%; }
+    .art { height: 218px; margin: 18px 0 13px; position: relative; border-radius: 125px 125px 13px 13px; background: #DCE9DE; overflow: hidden; flex: 0 0 auto; isolation: isolate; }
+    .art::before { content:""; position: absolute; width: 165px; height: 165px; border: 1px solid rgba(44,101,75,.25); border-radius: 50%; right: 12px; top: 11px; }
+    .art::after { content:""; position: absolute; height: 170px; border-left: 1px solid rgba(45,94,70,.13); left: 75px; top: 13px; transform: rotate(38deg); }
+    .art-copy { position: absolute; top: 57px; left: 21px; z-index: 2; display: flex; flex-direction: column; }
+    .art-copy span { font-size: 9px; text-transform: uppercase; letter-spacing: .17em; font-weight: 800; color: #526F5D; }
+    .art-copy strong { font: italic 27px/1.07 Georgia, serif; font-weight: 400; margin-top: 8px; color: #285844; letter-spacing: -.045em; }
+    .art svg.dental-mirror { width: 284px; height: 235px; right: -10px; top: -5px; position: absolute; transform: rotate(-5deg); z-index: 1; filter: drop-shadow(0 12px 11px rgba(17,65,52,.13)); }
+    .art-index { position: absolute; right: 15px; bottom: 12px; display: flex; gap: 5px; align-items: center; z-index: 2; font-size: 9px; color: #557666; font-weight: 650; }
+    .art-index i { height: 1px; width: 26px; background: #84A693; }
+    .details { display: grid; grid-template-columns: .92fr 1.08fr; gap: 0; background: #EDF1E9; border: 1px solid #E2E9DF; border-radius: 13px; padding: 14px 12px; flex: 0 0 auto; }
+    .detail { display: flex; flex-direction: column; gap: 5px; }
+    .detail + .detail { border-left: 1px solid #D4DFD2; padding-left: 13px; }
+    .detail-label { font-size: 8px; font-weight: 750; text-transform: uppercase; letter-spacing: .15em; color: #728576; }
+    .detail-main { display: flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 730; letter-spacing: -.02em; white-space: nowrap; }
+    .detail-mini { font-size: 9px; color: #667969; line-height: 1.35; white-space: nowrap; }
+    .feedback { padding: 13px 1px 2px; display: flex; align-items: flex-start; gap: 10px; flex: 0 0 auto; }
+    .feedback-symbol { color: #789A86; font: 30px/.9 Georgia, serif; }
+    .feedback-copy { display: flex; flex-direction: column; gap: 6px; }
+    .feedback-copy span { font-size: 8px; color: #708375; letter-spacing: .145em; text-transform: uppercase; font-weight: 750; }
+    .feedback-copy p { margin: 0; color: #2D4D41; font: italic 14px/1.35 Georgia, serif; letter-spacing: -.025em; }
+    .home-indicator { flex: 0 0 auto; width: 126px; height: 4px; margin: auto auto 9px; border-radius: 4px; background: #1B2E26; opacity: .87; }
+    .toast { pointer-events:none; opacity:0; transform:translate(-50%, 12px); transition:opacity .2s, transform .2s; position: absolute; bottom: 35px; left: 50%; z-index:10; border-radius: 12px; padding: 12px 16px; background:#163D35; color:#fff; box-shadow:0 7px 24px rgba(0,0,0,.2); width:max-content; max-width:calc(100% - 28px); font-size:12px; text-align:center; line-height:1.4; }
+    .toast.show { opacity:1; transform: translate(-50%, 0); }
+    @media (max-width: 540px) {
+      body { background: var(--paper); }
+      .presentation { padding: 0; display: block; min-height: 100dvh; }
+      .presentation::before, .presentation::after { display:none; }
+      .device { height: auto; min-height: 100dvh; width: 100%; border:0; border-radius:0; padding:0; box-shadow:none; background:var(--paper); }
+      .device::before,.device::after { display:none; }
+      .screen { border-radius:0; overflow:visible; min-height:100dvh; height:auto; }
+      .status, .home-indicator { display:none; }
+      .content { padding-top: max(8px, env(safe-area-inset-top)); padding-bottom: max(24px, env(safe-area-inset-bottom)); }
+      .art { flex-shrink: 0; }
+      .toast { bottom:20px; }
+    }
+    @media (max-width: 365px) {
+      .content { padding-left:18px; padding-right:18px; }
+      h1 { font-size:38px; }
+      h1 em { font-size:43px; }
+      .cta-row { grid-template-columns: minmax(0,1fr) 94px; gap:7px; }
+      .cta { font-size:11px; padding:0 9px; }
+      .art svg.dental-mirror { right: -25px; width: 266px; }
+      .details { padding:11px 9px; }
+      .detail-main { font-size:11px; }
+      .detail-mini { font-size:8.5px; }
+    }
+    @media (prefers-reduced-motion: reduce) { .toast { transition:none; } }
+  </style>
+</head>
+<body>
+  <main class="presentation">
+    <section class="device" aria-label="Mobile homepage concept for Balsam Dental Center">
+      <div class="screen">
+        <div class="status" aria-hidden="true">
+          <span>9:41</span><span class="dynamic-island"></span>
+          <span class="status-icons">
+            <svg width="16" height="12" viewBox="0 0 16 12"><path d="M1 11V8h2v3zm4 0V6h2v5zm4 0V4h2v7zm4 0V1h2v10z" fill="currentColor"/></svg>
+            <svg width="15" height="12" viewBox="0 0 15 12"><path d="M1 4C4.7.3 10.3.3 14 4M3.7 6.7c2.2-2.2 5.4-2.2 7.6 0M6.2 9.2a2.1 2.1 0 0 1 2.6 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/><circle cx="7.5" cy="11" r="1" fill="currentColor"/></svg>
+            <svg width="23" height="12" viewBox="0 0 23 12"><rect x="1" y="1" width="19" height="10" rx="2.5" stroke="currentColor" fill="none"/><rect x="3" y="3" width="15" height="6" rx="1" fill="currentColor"/><path d="M21 4v4c2 0 2-4 0-4" fill="currentColor"/></svg>
+          </span>
+        </div>
+        <div class="content">
+          <header class="nav">
+            <div class="brand" aria-label="Balsam Dental Center">
+              <div class="brandmark" aria-hidden="true">B</div>
+              <div class="brandtype"><b>BALSAM</b><span>DENTAL CENTER</span></div>
+            </div>
+            <button class="menu" type="button" aria-label="Menu preview" data-demo="Menu is not connected in this design preview"><i></i><i></i></button>
+          </header>
+          <div class="rating" aria-label="Google rating 4.9 stars from 854 reviews">
+            <svg class="google-g" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.3 12.25c0-.76-.07-1.5-.2-2.22H12v4.2h5.77a4.94 4.94 0 0 1-2.14 3.24v2.7h3.47c2.03-1.87 3.2-4.63 3.2-7.92z"/><path fill="#34A853" d="M12 22.5c2.9 0 5.33-.96 7.1-2.6l-3.47-2.69c-.96.64-2.18 1.02-3.63 1.02-2.79 0-5.15-1.89-6-4.44H2.43v2.77A10.5 10.5 0 0 0 12 22.5z"/><path fill="#FBBC05" d="M6 13.79a6.31 6.31 0 0 1 0-3.58V7.44H2.43a10.5 10.5 0 0 0 0 9.12L6 13.79z"/><path fill="#EA4335" d="M12 5.77c1.58 0 3 .54 4.1 1.62l3.08-3.08A10 10 0 0 0 12 1.5a10.5 10.5 0 0 0-9.57 5.94L6 10.21c.85-2.55 3.21-4.44 6-4.44z"/></svg>
+            <strong>4.9</strong><span class="star" aria-hidden="true">★</span><span class="sep"></span><span>854 Google reviews</span>
+          </div>
+          <section class="hero-copy" aria-labelledby="hero-title">
+            <div class="eyebrow">A calmer dental visit</div>
+            <h1 id="hero-title">Feel cared for.<br><em>Feel at ease.</em></h1>
+            <p class="dek">Gentle dental care in Ajman, with clear explanations and a reassuring approach.</p>
+            <div class="cta-row">
+              <button class="cta primary" type="button" data-demo="Connect the clinic WhatsApp number to activate booking">
+                <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.5 3.5A11.9 11.9 0 0 0 12.03 0C5.44 0 .07 5.35.06 11.93a11.9 11.9 0 0 0 1.6 5.98L0 24l6.27-1.65a11.9 11.9 0 0 0 5.75 1.47h.01C18.62 23.82 24 18.47 24 11.9a11.83 11.83 0 0 0-3.5-8.4ZM12.03 21.8a9.9 9.9 0 0 1-5.04-1.38l-.36-.22-3.73.98 1-3.64-.24-.38a9.83 9.83 0 0 1-1.52-5.23c0-5.49 4.46-9.95 9.95-9.95 2.65 0 5.14 1.03 7.02 2.91a9.87 9.87 0 0 1 2.91 7.03c0 5.49-4.47 9.95-9.99 9.95Zm5.45-7.45c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.69.15-.2.3-.79.96-.97 1.16-.18.2-.36.23-.66.08-.3-.15-1.26-.46-2.4-1.48-.9-.79-1.5-1.76-1.68-2.06-.18-.3-.02-.46.13-.61.14-.14.3-.36.45-.54.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.54-.07-.15-.69-1.66-.94-2.27-.25-.6-.51-.51-.69-.52h-.59c-.2 0-.53.07-.81.38s-1.06 1.03-1.06 2.51 1.08 2.91 1.23 3.11c.15.2 2.12 3.24 5.14 4.55.72.31 1.28.49 1.72.62.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.43-.08-.13-.28-.2-.58-.35Z"/></svg>
+                Book on WhatsApp
+                <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <button class="cta secondary" type="button" data-demo="Connect the clinic phone number to activate calling">
+                <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 16.6v2.5c0 1-.8 1.8-1.8 1.9A16.3 16.3 0 0 1 3 5.8C3.1 4.8 4 4 5 4h2.5c.8 0 1.5.6 1.7 1.4l.6 2.5c.2.8-.1 1.5-.7 1.9L7.5 11a13 13 0 0 0 5.5 5.5l1.2-1.6c.4-.6 1.2-.9 1.9-.7l2.5.6c.8.2 1.4.9 1.4 1.7Z" stroke="currentColor" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Call
+              </button>
+            </div>
+            <div class="visit-note">Walk-ins welcome</div>
+          </section>
+          <div class="art" role="img" aria-label="Decorative illustration of a polished dental mirror. Concept art, not a photograph of the clinic.">
+            <div class="art-copy"><span>A little more calm</span><strong>In good<br>hands.</strong></div>
+            <svg class="dental-mirror" viewBox="0 0 310 260" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#718F83"/><stop offset=".15" stop-color="#D9E5D9"/><stop offset=".33" stop-color="#FDFDF2"/><stop offset=".53" stop-color="#78958B"/><stop offset=".76" stop-color="#EFF4E6"/><stop offset="1" stop-color="#648176"/></linearGradient>
+                <linearGradient id="mirrorRim" x1="0" y1="0" x2=".93" y2=".9"><stop offset="0" stop-color="#637E75"/><stop offset=".24" stop-color="#FFFFFF"/><stop offset=".46" stop-color="#92AAA0"/><stop offset=".65" stop-color="#FAFCF4"/><stop offset=".83" stop-color="#6D8F81"/><stop offset="1" stop-color="#E9F0E7"/></linearGradient>
+                <linearGradient id="reflect" x1=".1" y1=".1" x2=".9" y2="1"><stop offset="0" stop-color="#A1BDAE"/><stop offset=".47" stop-color="#D9E8DE"/><stop offset=".75" stop-color="#8CAD9E"/><stop offset="1" stop-color="#CFE3D6"/></linearGradient>
+              </defs>
+              <g transform="translate(160 117) rotate(29)">
+                <path d="M-9 49 L-9 180 Q-9 188 -3 190 L3 190 Q9 188 9 180 L9 49Z" fill="url(#steel)" stroke="#648B79" stroke-width=".8" />
+                <path d="M-1 68V180" stroke="#FFFFFF" opacity=".65" stroke-width="2"/>
+                <path d="M-8 161H8" stroke="#739789" stroke-width="1" opacity=".55"/>
+                <circle cy="-8" r="79" fill="url(#mirrorRim)" stroke="#799A8D" stroke-width="1.3"/>
+                <circle cy="-8" r="67.5" fill="#D5E5DA" stroke="#598172" stroke-width="1.5"/>
+                <circle cy="-8" r="64" fill="url(#reflect)"/>
+                <path d="M-52 -27 Q-21 -77 35 -62 Q5 -63 -14 -37 Q-38 -8 -55 8Z" fill="#F8FFF6" opacity=".41" />
+                <path d="M-47 30 Q-4 52 38 19" stroke="#F9FFF8" stroke-width="2" fill="none" opacity=".55" />
+                <circle cy="-8" r="73.5" fill="none" stroke="white" stroke-width="1.3" opacity=".82"/>
+              </g>
+            </svg>
+            <span class="art-index"><i></i> BALSAM / CARE</span>
+          </div>
+          <section class="details" aria-label="Clinic location and hours">
+            <div class="detail">
+              <span class="detail-label">Find us</span>
+              <span class="detail-main"><svg width="12" height="14" viewBox="0 0 12 16" aria-hidden="true"><path d="M6 15S1 9.8 1 6a5 5 0 1 1 10 0c0 3.8-5 9-5 9Z" stroke="currentColor" stroke-width="1.4" fill="none"/><circle cx="6" cy="6" r="1.7" stroke="currentColor" stroke-width="1.3" fill="none"/></svg>Al Nuaimiya 1</span>
+              <span class="detail-mini">Ajman, UAE</span>
+            </div>
+            <div class="detail">
+              <span class="detail-label">Opening hours</span>
+              <span class="detail-main">11:00 AM - 10:00 PM</span>
+              <span class="detail-mini">Sat-Thu · Fri from 2:00 PM</span>
+            </div>
+          </section>
+          <section class="feedback" aria-label="Summary of patient reviews">
+            <span class="feedback-symbol" aria-hidden="true">“</span>
+            <div class="feedback-copy"><span>What patients mention in reviews</span><p>Clean clinic. Clear explanations.<br>Pain-free treatment.</p></div>
+          </section>
+        </div>
+        <div class="home-indicator" aria-hidden="true"></div>
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+  <script>
+    // Preview only. Real contact information was not supplied.
+    const toast = document.querySelector('#toast');
+    let toastTimeout;
+    document.querySelectorAll('[data-demo]').forEach(button => {
+      button.addEventListener('click', () => {
+        toast.textContent = button.dataset.demo;
+        toast.classList.add('show');
+        clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(() => toast.classList.remove('show'), 3200);
+      });
+    });
+  </script>
+</body>
+</html>
