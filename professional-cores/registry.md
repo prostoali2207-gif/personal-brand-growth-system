@@ -1,3 +1,5 @@
+> **АРХИВ (2026-10-17).** Не используется: квалифицированные ядра и маршрутизация отменены решением Али. Актуальные правила — `AGENTS.md`, рабочие скиллы — `skills/`.
+
 # Professional-core routing registry
 
 Upstream source of truth: `prostoali2207-gif/professional-ai-agents`.
