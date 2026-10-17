@@ -20,6 +20,8 @@
 | `decisions/brand-personality-2026-09-11.md` | Характер бренда | 2026-09-11 | медленно | voice.md | при смене позиционирования |
 | `source-of-truth/current-commercial-intent.md`, `decisions/commercial-offer-service-positioning-v2-2026-09-13.md` | 4 модуля услуг, ИИ не главная тема | 2026-09-13 | медленно | SKILL.md | при смене услуг |
 | Репозитории `uae-drive-suite`, `bayercrm`, `auto-parts-landing`, `am-motors-storefront`, `language-studio-landing`, `tidy-login-zone`, `doclens` | Факты о проектах | 2026-10-17 | быстро (проекты меняются) | ali-projects.md | перед каждым постом про проект |
+| [Postiz — Hormozi 2026 playbook](https://postiz.com/blog/hormozi-2026-audience-growth-playbook) | Механизмы Hormozi: proof-promise-plan, тест обучения, объём, повтор лучшего | 2026-04-19 | медленно | service-creators.md | 2027-04 |
+| [CreatorDB — Codie Sanchez](https://creatordb.app/creatorstats/codiesanchez/) | Подписчики, вовлечённость, выбросы за 60 дней | 2026-09-22 | быстро | service-creators.md | 2027-01 |
 | Али, чат 17.10.2026 | Какие проекты платные / свои / бесплатные | 2026-10-17 | медленно | ali-projects.md | — |
 
 ## Известные пробелы
