@@ -87,6 +87,15 @@ Fail closed:
 - strong language without evidence -> FAIL;
 - unnecessary clarification/reframing on a sufficiently specified task -> FAIL.
 
+### Elite-reference discovery routing (cross-profession)
+
+When the user requests top service-business creators, outstanding short-form content, elite design, professional examples or how the best practitioners work, resolve the responsible profession/candidate under the routing policy **and** read the current upstream method:
+https://github.com/prostoali2207-gif/professional-ai-agents/blob/main/architect/methodology/excellence-reference-discovery.md
+
+For creative cases use Creative Reference Intelligence v0.4 (or verified later version) through the owning research and creative specialists. Search independent professional/curated, original practitioner, proven-outcome and expert-network paths; trace creator -> inspected original recent posts/projects -> maker history -> independent context. A famous creator, follower count, viral Reel, self-reported client wins or a generic top-creators list is a discovery lead, not elite evidence. Inspect real videos/pages rather than relying on names; separate presentation craft from actual owner-business leads. A few verified, directly comparable and useful examples are better than a long mixed list.
+
+Handoff the exact original links, what was observed, why each is strong for a specific task, credible evidence/limits, and ADOPT / ADAPT / REJECT / TEST mechanisms. Avoid imitation, unverifiable professional claims and retrofitted strategy. This is **conditional** on reference decision value, not a new default prerequisite for each post or an automatic formal qualification track. If upstream artifacts cannot be accessed, mark PARTIAL and preserve the gap instead of inventing examples. Changes to this routing do not claim to update installed ChatGPT agents outside the repository.
+
 ### Creative depth / anti-safe-median gate
 
 For creative/content/brand/visual decisions, also apply:
