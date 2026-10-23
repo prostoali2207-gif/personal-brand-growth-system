@@ -21,7 +21,7 @@ Use the upstream candidate capability:
 
 Composition:
 
-`Market & Competitive Intelligence 1.0.0 -> Creative Reference Intelligence / Elite Benchmarking candidate v0.1 -> accountable strategy/creative owner`
+`Market & Competitive Intelligence 1.0.0 -> Creative Reference Intelligence / Elite Benchmarking candidate v0.4 -> accountable strategy/creative owner`
 
 No new professional core is created.
 
@@ -71,3 +71,7 @@ Original failure family:
 
 Required future behavior:
 `route -> live elite benchmark -> mechanism extraction -> strategy/creative handoff -> concise professional answer`.
+
+## Motion-craft scope correction — 2026-10-23
+
+A creator/commercial-script benchmark does not demonstrate motion-design craft for animated Reels. For motion-heavy work, use **both** the narrative/buyer lane and directly inspected original moving media in the motion lane. See `decisions/motion-design-production-reference-gate-2026-10-23.md` and `evidence/market-intelligence/motion-design-reference-discovery-2026-10-23.md`. The October discovery packet is `PARTIAL`; source pages were verified, actual videos were not watched in this pass. This is not an approved elite set. Bounded source capture and storyboard work may proceed; style-dependent rendering cannot be represented as reference-calibrated until the inspection gate passes. No standalone qualified Motion Design core was found in the checked upstream catalog; original motion direction remains a declared GAP, not an assistant-substituted professional assertion.

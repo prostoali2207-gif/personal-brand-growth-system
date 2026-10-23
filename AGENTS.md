@@ -96,6 +96,12 @@ For creative cases use Creative Reference Intelligence v0.4 (or verified later v
 
 Handoff the exact original links, what was observed, why each is strong for a specific task, credible evidence/limits, and ADOPT / ADAPT / REJECT / TEST mechanisms. Avoid imitation, unverifiable professional claims and retrofitted strategy. This is **conditional** on reference decision value, not a new default prerequisite for each post or an automatic formal qualification track. If upstream artifacts cannot be accessed, mark PARTIAL and preserve the gap instead of inventing examples. Changes to this routing do not claim to update installed ChatGPT agents outside the repository.
 
+### Animated Reels / motion-craft reference gate (2026-10-23)
+
+For a motion-heavy social video, a qualified creator/script benchmark is **not** interchangeable with inspected motion-design work. Before committing to bespoke animation, read `decisions/motion-design-production-reference-gate-2026-10-23.md` and its evidence packet. Research must cover separately: (A) relevant buyer-facing commercial content and (B) actual original motion/UI-video craft. Only directly inspected moving artifacts can clear an elite motion admission; portfolios, case-study claims and still images stay `PARTIAL`. If the motion lane is insufficient, `NO STYLE-DEPENDENT GENERATION`; storyboard and verified project-screen capture may continue.
+
+Keep Social Content Creative responsible for message/factual claims and Video Editing & Post-Production responsible for authorized edit/finishing/QC. No separate qualified Motion Design core is present in the last-checked library; don't silently outsource its original art-direction judgment to an unrelated candidate. Route that GAP via Agent Architect. Require real-screen proof, explicit Ali no-music/no-women constraints, mute/mobile legibility, and final artifact-first QC. This rule cannot certify external rendering, publication, or a connected Claude workspace.
+
 ### Creative depth / anti-safe-median gate
 
 For creative/content/brand/visual decisions, also apply:
