@@ -21,7 +21,7 @@ Use the upstream candidate capability:
 
 Composition:
 
-`Market & Competitive Intelligence 1.0.0 -> Creative Reference Intelligence / Elite Benchmarking candidate v0.1 -> accountable strategy/creative owner`
+`Market & Competitive Intelligence 1.0.0 -> Creative Reference Intelligence / Elite Benchmarking candidate v0.4 -> accountable strategy/creative owner`
 
 No new professional core is created.
 
