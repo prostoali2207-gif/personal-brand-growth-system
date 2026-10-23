@@ -2,7 +2,7 @@
 
 record_id: PBGS-SOT-IDENTITY-001
 scope: personal professional brand / social identity
-status: provisional / naming reopened
+status: provisional / user decision 2026-10-23: @nosignoutside in use for now
 verified_at: 2026-09-05
 verified_by: explicit user decision
 source_type: user decision + repository decision record
@@ -10,12 +10,16 @@ source_ref: decisions/instagram-handle-shortlist-v5-2026-09-05.md
 
 ## Current identity state
 
-**NO FINAL CURRENT HANDLE. NAMING REOPENED.**
+**USER DECISION 2026-10-23 (explicit, stated in chat): the handle in use for now is `@nosignoutside`. The user asked to stop the naming discussion.** This overrides the "naming reopened" state and the shortlist below for current downstream work (avatar, bio, profile design, CTA and handle in content). Instagram account availability or activation status is not re-verified by this edit. Reversible by a later explicit user decision.
+
+The text below is the earlier state (2026-09-05), kept as history. Where it conflicts with the paragraph above, the paragraph above wins.
+
+**(Earlier state) NO FINAL CURRENT HANDLE. NAMING REOPENED.**
 
 Previous user selection:
 - `@nosignoutside`
 
-Current status:
+Earlier status:
 - `@nosignoutside` is historical / superseded for active naming direction;
 - it must **not** drive avatar, bio, profile-design or visual-identity work as if final;
 - current active shortlist is PBGS-INSTAGRAM-HANDLE-009;
