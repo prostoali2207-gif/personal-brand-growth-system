@@ -76,7 +76,7 @@ These stay `DISCOVERED / NOT INSPECTED`. The moving files were found but could n
 2. The only DIRECT native vertical analog with real software (R1) uses music and a talking head, which Ali's rules exclude.
 3. The curated/juried motion path has no inspected film.
 4. All observation is automated analysis, not a person watching.
-5. No real or approved Ali project screen has been supplied for proof (see open conflicts).
+5. No proof asset has been chosen yet. Ali's decision allows a neutral demonstration as default, but none has been specified or captured.
 
 ## Motion design vocabulary (from R1 and R2 only, R3 and R4 as limits)
 
@@ -96,11 +96,11 @@ Mechanism: `one incoming request -> status changes on a real panel -> visible re
 
 Hypothesis to test, not a claim: a Reel that shows a visible state change on one cropped real panel holds attention better than a static screen recording of the same system (R4-style). Measure on Ali's first two or three posts: average watch time or completion, saves, and count and quality of direct inquiries. A sample this small can only show direction, so decide next steps from it with that limit in mind.
 
-## Open conflicts that need Ali's decision
+## Decisions by Ali (stated 2026-10-23, supersede the open conflicts raised earlier)
 
-1. Real proof versus fictional example. The handoff requires real Ali project screens and forbids fictitious interfaces. Ali's saved preference for product Reels is a fictional, general-purpose example that every business owner understands, instead of his real CRM (too niche). Resolution options for Ali: (a) a real screen cropped to a generic-readable moment (for example a status change on the DasMotors landing request path or a FleetDesk contract status), (b) a clearly labeled demonstration on neutral data. Until Ali chooses, no proof asset is selected.
-2. Audience. The handoff says "nontechnical UAE business owner". Ali stated that the audience is not tied to the UAE and the Instagram is in Russian. This record follows Ali's statement.
-3. Handle. The handoff calls @nosignoutside not approved by default. Ali stated the handle was chosen long ago. This record does not put any handle in storyboard content; CTA and handle come from `source-of-truth/current-brand-identity.md` at production time.
+1. Proof asset. Default is a general, neutral demonstration that any business owner understands, because Ali's real projects are few and narrow. His own real projects may appear occasionally. This relaxes the handoff stop condition "no real Ali project screen -> concept outline only" for the default case. Still binding from the handoff: no invented client, no fake testimonial, no fabricated outcome numbers, and a neutral demonstration must not be presented as a real client's system.
+2. Audience. Not tied to the UAE. Clients can be anywhere; UAE clients are welcome but are not the target definition. The handoff wording "UAE business owner" is outdated and is overridden by this decision.
+3. Handle. Use `@nosignoutside` for now. Ali asked to drop the naming discussion. Note: `source-of-truth/current-brand-identity.md` still says "no final current handle, naming reopened" and lists this handle as superseded. That record is stale against Ali's statement and needs a separate update (done on this branch in a separate commit, see git log).
 
 ## GAP
 
@@ -108,7 +108,7 @@ Original motion art direction as a stand-alone professional competence is still 
 
 ## Handoff
 
-1. Ali: choose the proof asset and the real-versus-neutral question above.
+1. Define the proof asset: by Ali's decision a neutral, general demonstration is the default; an occasional real project moment is allowed. The specific scenario still has to be written and approved.
 2. Social Content Creative 0.1.0: approved buyer story, exact on-screen text and verified claims for one request-to-resolved sequence.
 3. Video Editing & Post-Production 0.1.0: timecoded vertical storyboard and edit using the vocabulary above, then artifact-first QC (decode the file, check every critical word at phone size, run a muted playback).
 4. Before any style-dependent final render: re-open this benchmark and either inspect a vertical music-free UI film or accept `BOUNDED` explicitly.
