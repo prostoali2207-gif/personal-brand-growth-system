@@ -63,6 +63,16 @@ For package definition, scope, price structure and price-level reasoning of the 
 
 Verify that the upstream branch has been merged and re-check the skill status before relying on this entry after the merge.
 
+### Motion & Visual Art Direction Practitioner
+For visual concept, visual system, motion spec and critique of rendered frames for the personal-brand Reels. Closes the "standalone Motion Design core" GAP recorded in `evidence/market-intelligence/motion-reference-benchmark-2026-10-23.md` at the level of a practical candidate only:
+- upstream version: **0.1.0-candidate**;
+- lifecycle: **CANDIDATE / NOT QUALIFIED**; checked on one real artifact (the rejected 2026-10-23 request-status demo) by its author, so it shows defect finding, not distinctive output;
+- skill: `agents/motion-visual-art-direction/0.1.0/SKILL.md` (upstream branch `agent/motion-visual-art-direction-v0.1`, not merged to `main` at the time of this entry);
+- check record: `architect/research/motion-visual-art-direction/practical-check-v0.1.md`;
+- routing: runs after Social Content Creative (message and claims) and before Video Editing & Post-Production (assembly and QC); the reference gate in the skill applies before any build;
+- every output stays `DRAFT FOR TASTE REVIEW` until the user compares it to a reference or alternative;
+- known gaps: no official Meta safe-zone source, no primary studio process write-ups read, no user taste file, no frame-sheet script.
+
 ## GAP rule
 
 If no current qualified/released/candidate core is professionally compatible, record the missing competence as a GAP and route the classification to Agent Architect. Do not create a new professional core from this applied repository.
