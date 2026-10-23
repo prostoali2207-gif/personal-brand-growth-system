@@ -52,6 +52,17 @@ For current personal-brand naming work:
 
 This explicit binding exists because naming is an active applied workflow and stale candidate routing already caused repeated cross-chat errors.
 
+### Service Offer Packaging & Pricing Practitioner
+For package definition, scope, price structure and price-level reasoning of the personal-brand services (modules A-D in `decisions/commercial-offer-service-positioning-v2-2026-09-13.md`):
+- upstream version: **0.1.0-candidate**;
+- lifecycle: **CANDIDATE / NOT QUALIFIED**, practically checked only for drafting package-and-price structure under the provider's supervision (self-review, see check record);
+- skill: `agents/service-pricing-offer-packaging/0.1.0/SKILL.md` (upstream branch `agent/service-pricing-offer-packaging-v0.1`, not yet merged to `main` at the time of this entry);
+- check record: `architect/research/service-pricing-offer-packaging/practical-check-v0.1.md`;
+- replaces the earlier "Commercial Offer & Service Positioning: applied capability" placeholder for price/package decisions; positioning and audience stay with the strategy layer;
+- known blocker for a `RECOMMEND` state: the price actually paid for BayerCRM and the DasMotors landing, their included scope, real delivery time per module and the buyer market per package are not recorded anywhere in this repository. Fields stay unresolved until the user supplies them. Do not invent them.
+
+Verify that the upstream branch has been merged and re-check the skill status before relying on this entry after the merge.
+
 ## GAP rule
 
 If no current qualified/released/candidate core is professionally compatible, record the missing competence as a GAP and route the classification to Agent Architect. Do not create a new professional core from this applied repository.
