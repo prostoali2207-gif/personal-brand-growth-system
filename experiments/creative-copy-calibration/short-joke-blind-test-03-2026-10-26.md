@@ -2,7 +2,7 @@
 
 experiment_id: PBGS-JOKES-20261026-03
 date: 2026-10-26
-status: LOCKED ORIGINALS / CREATOR EVALUATION PENDING
+status: EVALUATED / ALL THREE REJECTED / 0 OF 3 / USER FEEDBACK PRESERVED
 professional_roles: Social Content Creative 0.1.0 QUALIFIED; Authorial Voice v0.4 CANDIDATE / NOT QUALIFIED; Market & Competitive Intelligence 1.0.0 QUALIFIED for source research
 predecessors:
 - experiments/creative-copy-calibration/short-joke-blind-test-01-2026-10-26.md (0/3)
@@ -40,3 +40,26 @@ Future decisions:
 - No long display dashes, generic metaphors, standard office swearing gag, "не X, а Y" contrast, or invented narrator reaction from footage.
 - Source research can explain mechanisms but not promise laughter.
 - This case log freezes new 3 texts before user evaluation.
+
+## Creator evaluation (first-party) — 2026-10-26
+Exact creator response (verbatim): "Слепой тест №3. Мой выбор: ни одна. Комментарий: Все шутки тупые Первая шутка вообще непонятно как счастье где-то связано с урной. Вторая шутка беззубая, бородатая, шутки за триста, короче, вот эти вот для бабулек. Третья такая же, как вторая Зафиксируй результат и определи следующий шаг."
+
+Observed rating: A = NO, B = NO, C = NO; **0/3**. Total for the *three locked A/B/C blind tests*: **0/9**. All 9 locked originals remain preserved. This is creator assessment, not a representative audience estimate.
+
+### Failure diagnosis: keep user evidence separate from professional hypothesis
+- **A (explicit creator evidence):** He does not understand the purported causal connection between grandfather's happiness and the urn. A dead person's ashes standing at home cannot clearly establish where the deceased was happy, why the ashes were retained, or what the comic reversal is. The model privately inferred an existential backstory invisible from two stated sentences. **Mechanism: HIDDEN_PREMISE_GAP / UNRESOLVED_SEMANTICS.** This is NOT simply a complaint that the line was insufficiently morbid.
+- **B (explicit creator evidence):** "беззубая, бородатая, шутки за триста ... для бабулек". Professional inference: the boss punishing an injured employee is a very old generic cruelty-vs-rule-office formula. Mentioning ambulance raised stakes without earning freshness.
+- **C (explicit creator evidence):** "такая же, как вторая". Professional inference: generic politician/hospital/morgue irony with obvious causal implication, reminiscent of stale political anecdote; the dark object does not produce an original structural payoff.
+- **PORTFOLIO ROOT:** escalating topic darkness after previous 0/6 simply changed props while retaining recycled folk-anecdote structures. Worse, A lacked a legible joke. The model conflated "taboo topic" with comic force and inferred its own unstated premise. Creative pass-by-self-inspection repeatedly false-positive.
+
+### Action after third failed test: STOP GENERATION AND COLLECT POSITIVE ANCHORS
+1. Do **not** generate a speculative fourth A/B/C batch or rephrase the nine failures.
+2. Request **2–3 concrete jokes, sketches, comic scenes or brief clips the creator himself actually found funny**. Exact content or source links are preferred; an approximate retelling is sufficient. Ask only for positive samples, do not overload with a preference survey.
+3. Evaluate each positive anchor in its actual language/cultural context, comparing rhythm, performer/voice, taboo level, surprise mechanism, setup clarity, and punchline distinctiveness with the nine negatives. Do not copy comedian text.
+4. Form a short **positive/negative taste contrast matrix** with evidence provenance and uncertain boundaries. Negative examples already plentiful; absence of positive examples is the current binding GAP.
+5. Only then design #04 with 2–3 matched *new* original jokes, internally evaluated for explicit semantic completeness, obvious-punchline filtering, and fresh creative mechanisms. A blind creator rating remains the success gate.
+6. In the independent Agent Architect EXTEND track, flag AUTHORIAL_VOICE_0.4 candidate's false-positive quality gating and add HIDDEN_PREMISE_GAP, FOLK_JOKE_FAMILIARITY, and POSITIVE_ANCHOR_REQUIRED to future evaluation without altering the frozen candidate contract. The frozen candidate remains CANDIDATE / NOT QUALIFIED.
+7. For public personal-brand material, remain grounded in verified real projects and approve genre separately. This workshop does not authorize a dark tone in public business posts.
+
+### Confidence limits
+The exact negative verdict is USER FACT. Suggested joke-mechanism causes are PROFESSIONAL JUDGMENT/HYPOTHESIS. No verified success, model quality improvement, or actual laughter evidence exists yet.
