@@ -83,6 +83,21 @@ User additionally wants the entire workflow to avoid "safe mode" comedy: soft, g
 
 `quality-gates/ai-humor-negative-evidence-v01.md` stores verbatim 5 rejected jokes from the Kia shipping video (2026-10-26). These are first-party FAIL exemplars. `scripts/check-ru-humor-failures.cjs` catches only known phrases and must not be passed off as enforcing the mechanism gate. Human professional review above carries the generalization.
 
+## Direct new user-rejected standalone joke — 2026-10-26
+
+**Prompt:** "Придумай короткую шутку" (no topic, no video, no premise).
+**Actual assistant output (verbatim):** "На работе запретили мат. Теперь в трудные моменты мы просто произносим имя директора."
+**User judgment:** "Вообще не смешно. У тебя конченые шутки для бабушек."
+**Status:** CONFIRMED FIRST-PARTY FAIL for the creator. Do not portray it as a universal survey of comic taste.
+
+Mechanism: a stock two-sentence office joke: generic prohibition premise ("banned swearing") -> obvious substitution ("boss name is the swear word"). The punchline is already predictable when the first clause ends; it depends on no surprising details, dialogue, sharp observation or original perspective. It could circulate as a ready-made office joke without changing a word. The assistant chose a safe conventional punchline despite an explicit standing preference to avoid such choices.
+
+**Root cause**: the prior lint detects five exact Kia phrases and a few prose tics. These checks were unrelated to **standalone short-joke quality**. The human gate was not meaningfully applied; the response passed because it matched none of the blacklist phrases. This is **false-negative coverage**, not evidence that the new rules work. The current casebook says "source-specific" but a standalone prompt contains no external source; improv still requires a distinctive internal comic premise rather than generic joke retrieval.
+
+**Process correction**: In standalone joke requests with no named context, do not immediately produce the first stock office/family/doctor/school one-liner. Check whether the setup makes the punchline obvious, whether a weak punchline is being padded with a minor surprise, and whether the joke would be recognizable as a decades-old proverb/TV gag. Seek a concrete original setup with an actual expectation reversal; if you cannot find one, don't claim an untested line is funny. Never assert improved quality merely because written project rules or a regex pass exists. Store candidate as tentative until actual reader feedback.
+
+**Evaluative target**: add one adversarial case for short unthemed joke requests and a close positive control: a novel short joke can be just two sentences; do not ban brevity, work settings, or mention of bosses. The issue is the predictable substitute-the-boss-for-a-swear-word payoff.
+
 ## Research method and bias
 Selection criterion here is explicitly **mockery of actual AI joke content/mechanisms**, not adverse taste about safe/dark jokes. Primary source links and quoted/paraphrased reaction distinguished. No viral post, even with thousands of votes, proves prevalence in all users. Read contrary praise and mixed reactions, report historical model/time limits. Evidence is useful for defect identification, not a measurement of all chats or universal humor outcomes.
 
