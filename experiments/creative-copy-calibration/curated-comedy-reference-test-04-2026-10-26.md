@@ -1,7 +1,7 @@
 # Curated comedian joke evaluation #04: positive-anchor matching
 
 Date: 2026-10-26
-Status: THREE ATTRIBUTED EXISTING JOKE ADAPTATIONS LOCKED / CREATOR RATING PENDING
+Status: EVALUATED / ALL THREE REJECTED / USER REPORTS POSITIVE ANCHORS WERE IGNORED
 Owner: Social Content Creative 0.1.0 QUALIFIED; Authorial Voice 0.4 CANDIDATE NOT QUALIFIED; Market & Competitive Intelligence 1.0.0 QUALIFIED
 Purpose: User asked assistant to CHOOSE existing funny jokes and have their selection quality rated against two user-supplied references, after 0/9 model-generated blind jokes. Do not label picks original.
 
@@ -49,3 +49,20 @@ C:
 
 ## Evaluation
 Display only A, B, C in Russian without explanation or preference/ratings. Sources/attribution may be placed after joke body in a short footnote, to avoid pretending authorship. Ask creator which if any are actually funny AND whether selection matches the two positive references. Do not pre-announce mechanisms; do not over-interpret outcome. Preserve exact variants. A single positive pick allows a tentative direction, but does not validate a professional skill or qualify Authorial Voice.
+
+## Actual user evaluation and observed communication failure, 2026-10-26
+Verbatim complaint: "Tu дебилные шутки опять конченые просто отвратительные шутки как у додиков. Я тебе свои шутки отправил, ты ничего не ответил, а? в прошлом сообщении я не понимаю, проигнорил просто"
+- Result for curated A/B/C: **all three rejected**. This is a separate selection/curation failure after 0/9 generated jokes. Do not merge counts as if 12 original jokes were written.
+- **Primary process failure:** skipped directly from two creator-supplied examples to a comedian shortlist. Assistant did not give any actual response or analysis of the two user examples before presenting new content; it acknowledged them superficially as "reference points" and then proceeded to output. This failed explicit request context even though both were copied into a private file.
+- **Evidence correction:** two original creator-supplied jokes are now actual supplied *candidate positive anchors*. Creator signaled them as benchmarks; precise degree of amusement still not separately rated. Do not call this "no positive examples" any more.
+- **Selection mismatch hypothesis:** Example 1 depends on a precise line which retrospectively turns a cocky aspirant into someone aware of employer's real vulnerability ("Я просто видел вашу отчётность"). Example 2 makes the namesake problem and father's death a brutally direct "solution"; tone is matter-of-fact and the causal link remains explicit.
+- Selected joke A reused a readily recognizable harsh-parenting device; the implied rescue-practice payoff may be too convoluted, and the adapter made an unverifiable reconstruction of a quoted performer's line. Selected B is a moralistic, very mild old-fashioned elderly-driver story with an excessively prolonged weak last line. Selected C was an apparently random cruelty twist; hedgehog cruelty provides shock without meaningful logic in the setup.
+- **Copyright/authorship caution:** in this selected test all three were loose Russian paraphrases sourced as credited comedians. They were not verified as exact verbatim texts and should not be represented as authentic direct quotations. Preserve attribution and adaptation boundary for reference only.
+- Real defect: **POSITIVE_REFERENCE_IGNORED / SELECTION_BEFORE_ANALYSIS**. The reference samples were stored mechanically but weren't utilized to score candidate gag construction and social/cultural fit. A reference collection is not effective if no preselection comparison happens.
+
+## Corrective workflow
+1. FIRST respond substantively to creator's reference examples in normal language, showing exact semantic dependence and tonal contrast, before selecting any new joke.
+2. Build contrast evaluation from his 2 reference exemplars vs 3 rejected selections. Explicitly evaluate whether final line changes interpretation of *the same premise*, or merely introduces external random violence/cheap concern.
+3. No fourth curation batch without clear justification and user assent; do not offset repeated failure by more joke volume.
+4. Any further selection should prefer short natural Russian-language jokes or actual clips with verified provenance, retain original wording where lawful, and separately check adaptation quality.
+5. Authorial Voice v0.4 remains CANDIDATE, NOT QUALIFIED. No claim of successful adaptation.
