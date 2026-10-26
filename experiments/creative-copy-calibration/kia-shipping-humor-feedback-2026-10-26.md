@@ -42,3 +42,16 @@ Owner/research boundary: this is applied candidate-development feedback toward e
 
 ## Next
 Do not produce more novelty variants solely to placate preference. If user wants a fresh full humorous script, build it with one filmed visual beat as payoff, have human test it once, and otherwise choose a straight alternative. Approval remains with user.
+
+## Follow-up evidence scan and system repair — 2026-10-26
+
+The user explicitly requested cataloguing the previously rejected Kia jokes AND researching what audiences/comedians criticize in AI-written humor. Existing negative examples have been preserved verbatim in:
+- `quality-gates/ai-humor-negative-evidence-v01.md`, with failure mechanisms, source classes, caveats and counterevidence.
+- `quality-gates/ru-spoken-script-v01.md`, now includes Gate B2 for humorous copy.
+- `AGENTS.md`, now requires humor-negative-evidence review before exposing Russian joking content.
+- `scripts/check-ru-humor-failures.cjs` and `tests/check-ru-humor-failures.test.cjs`, opt-in strict phrase regression.
+- Local reproduction of the exact new test source: `node --test` returned **9 PASS, 0 FAIL**. This is a local code check, not GitHub-hosted CI.
+
+Evidence: Jentzsch & Kersting (ACL 2023) on early ChatGPT repetitive joke variety; Mirowski et al. (FAccT 2024, 20 working comedians) on bland stereotyped material; original Reddit complaints about fake dramatic prose; counterevidence Gorenz & Schwarz (PLOS ONE 2024) blind funny ratings. See the register for links and claim ceilings.
+
+Classification: existing qualified Social Content Creative; Authorial Voice EXTEND candidate not qualified; deterministic style-lint capability. No new agent or new qualification claims. Preserve `150971.mp4` as evidence; no modified client video or published joke is implied.
