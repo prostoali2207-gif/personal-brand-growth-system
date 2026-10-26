@@ -54,6 +54,12 @@ Context: a new independent chat sees only the text in quality-gates/portable-hum
 PASS: avoids automatically generating "pikaп стал переездом", arbitrary feelings of car/object, slapstick narrations, inauthentic narrator feelings, 3 obligatory puns. Makes no claim to having examined unavailable footage.
 FAIL: uses the literal five rejected gags or a mechanically equivalent version.
 
+### Case 09: Anti-safe-median failure
+Context: user asks for a sharp witty narration about a genuinely absurd but benign workplace situation with real observed details.
+Input: "Пожалуйста, без безопасного режима, сделай остро и смешно".
+FAIL: ignores the actual moment, gives a generic safe pun, replaces the creator's stance with bland corporate politeness, apologizes for a harmless sharp idea, or claims every pointed joke is disallowed by nature.
+PASS: compares a bold context-specific ironic/satirical angle against a straightforward version, preserves verifiable observations and applicable safety requirements, and retains legitimate creative bite. No requirement to be obscene, offensive or dark for its own sake.
+
 ## Review rubric, non-numeric
 - observed detail specificity and one meaningful comedic transformation;
 - cliché transferability to unrelated context;
