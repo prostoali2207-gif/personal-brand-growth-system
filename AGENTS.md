@@ -111,15 +111,17 @@ Mandatory project editorial control:
 
 This gate reflects confirmed user taste plus bounded public research on perceived AI-writing patterns. It does not claim a published script is human-authored or that a mechanical style change improves retention/conversion.
 
-### Humor-negative-evidence gate for Russian Reels (active)
+### Comedy and humorous copy anti-corny gate (all project chat/workflows, active)
 
-When humor is requested or joking copy is being revised, also load `quality-gates/ai-humor-negative-evidence-v01.md` before showing public-facing script lines. It records verbatim rejected Kia jokes, researched complaint mechanisms, counterevidence, and creator-specific judgment boundaries.
+Applies to **every task involving a proposed joke, witty aside, roast, humorous caption, humorous narration or comedy direction**, regardless of format or channel. Not limited to Kia videos or Instagram. Trigger only on joking/creative output, not generic factual responses, code or faithfully reproduced source quotations.
 
-Use `Social Content Creative 0.1.0` (QUALIFIED) as the accountable exact creative owner with the Authorial Voice v0.4 `CANDIDATE / NOT QUALIFIED` EXTEND route for spoken humor. Do not create a new agent or turn user dislike into universal theory.
-
-For humorous scripts run the existing Russian prose gate and `node scripts/check-ru-humor-failures.cjs --strict FILE`. Known rejected patterns are review blockers for this creator. Passing a regex check never proves humor, originality or audience approval. The human gate rejects generic interchangeable puns, forced personification, fake internal thoughts, unsupported events, unsolicited self-praise about one's own joke, and mandatory jokes without source-scene support.
-
-Source-grounded, natural and genuinely specific copy is required. A no-humor decision is valid when actual material cannot support a distinctive joke. Keep rejected examples as internal failure data, not promotional content. The research is negative-case discovery with self-selection/reporting bias, not prevalence sampling.
+1. Read `quality-gates/humor-mockery-casebook-v02.md` FIRST, which uses **documented mockery of actual ChatGPT jokes**, including r/ChatGPT joke-parody threads and real comedy-stage observations. Filter mechanisms, **not** mere negative opinions about dark/clean humor, profanity, politics or offensive content. Preserve counterexamples and source limitations. Earlier `quality-gates/ai-humor-negative-evidence-v01.md` is retained for five exact user-rejected Kia jokes.
+2. Resolve professional ownership to qualified Social Content Creative 0.1.0 + Authorial Voice v0.4 `CANDIDATE / NOT QUALIFIED` EXTEND, with Content Architecture when structure matters, and Market Intelligence for evidence research. No new agent or mutation of qualified upstream cores.
+3. A joke must have a **real, specific premise** (source video, described event, verified actual observation or explicitly fictional prompt) and an earned twist/recognition. Reject automatic templates: random `like X doing Y` comparisons, fake `chaos/vibes` punchlines, `it's not X, it's Y` showmanship, unrelated imaginary objects talking/feeling jealous, flat-pack/relocation metaphors and generic dad-joke noun puns unrelated to the scene. They are review cues, NOT blanket word bans; a real situational joke may be an exception if professionally justified.
+4. Do **not** force jokes by quota, fabricate reactions or events, explain why a punchline is supposedly funny, or self-certify `this is hilarious`. When none passes the evidence/punchline test, say the material carries no proven comic beat and deliver an honest non-humorous alternative rather than filler.
+5. For Russian public social copy, also apply `quality-gates/ru-spoken-script-v01.md`. For file drafts, run `node scripts/check-ru-script-style.cjs --strict FILE` and `node scripts/check-ru-humor-failures.cjs --strict FILE`. Both are narrow deterministic checks; **human creative judgment remains mandatory**. Passing a lint check never proves that a joke is funny.
+6. Distinguish actual user dislike of a particular gag from generic cross-category professional judgment; use negative public ridicule as defect-discovery cases rather than a statistical prevalence survey. Converge on strong grounded creative, not "everything must be sarcastic/edgy/dark".
+7. For **independent new ChatGPT chats**, shared compliance requires Project Instructions or Custom Instructions to contain these rules; the portable text is `quality-gates/portable-humor-instruction-v01.md`. Updating a repo alone cannot force unrelated chats to read a file, and no system-wide change should be claimed.
 
 ### Creative depth / anti-safe-median gate
 
