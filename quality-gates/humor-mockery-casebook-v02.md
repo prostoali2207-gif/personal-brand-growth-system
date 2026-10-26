@@ -98,6 +98,22 @@ Mechanism: a stock two-sentence office joke: generic prohibition premise ("banne
 
 **Evaluative target**: add one adversarial case for short unthemed joke requests and a close positive control: a novel short joke can be just two sentences; do not ban brevity, work settings, or mention of bosses. The issue is the predictable substitute-the-boss-for-a-swear-word payoff.
 
+## Practical failure: three supposedly distinct mechanisms, same safe comic world (2026-10-26)
+
+The first deliberately locked A/B/C short joke comparison was evaluated by the user: `none` / `0 of 3 funny`. Exact variants and first-party evaluation: `experiments/creative-copy-calibration/short-joke-blind-test-01-2026-10-26.md`.
+
+Root professional hypothesis: the model offered apparent mechanism labels (anxiety reversal, CAPTCHA reversal, corporate sincerity) while all three converged on low-friction office/technology/system situations and immediately guessable moral inversions. This is **CREATIVE_PORTFOLIO_HOMOGENEITY**, not merely bad comma placement and not a failure the five-phrase linter could detect.
+
+Additional gate for *any* A/B/C joke test:
+1. Do not accept variants merely because internal technique labels differ. Require visibly different situations, surprise targets and audience emotions.
+2. Before presenting, independently imagine the punchline after reading only the setup. If obvious, replace or cut.
+3. Separate actual user result from assistant's proposed explanation; the user said none were funny, not why.
+4. Keep three texts immutable once shown; register observed 0/3 and move to a new experiment.
+5. Human preference is the first reliable feedback. Additional jokes are new hypotheses; no claim of improved funniness before evaluation.
+6. Never substitute increasing shock/vulgarity for actual comic insight.
+
+Second test is locked separately in `experiments/creative-copy-calibration/short-joke-blind-test-02-2026-10-26.md`; still unvalidated.
+
 ## Research method and bias
 Selection criterion here is explicitly **mockery of actual AI joke content/mechanisms**, not adverse taste about safe/dark jokes. Primary source links and quoted/paraphrased reaction distinguished. No viral post, even with thousands of votes, proves prevalence in all users. Read contrary praise and mixed reactions, report historical model/time limits. Evidence is useful for defect identification, not a measurement of all chats or universal humor outcomes.
 
