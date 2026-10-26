@@ -112,7 +112,7 @@ Additional gate for *any* A/B/C joke test:
 5. Human preference is the first reliable feedback. Additional jokes are new hypotheses; no claim of improved funniness before evaluation.
 6. Never substitute increasing shock/vulgarity for actual comic insight.
 
-Second test is locked separately in `experiments/creative-copy-calibration/short-joke-blind-test-02-2026-10-26.md`; still unvalidated.
+Second test was evaluated and rejected (0/3). Third test was evaluated and rejected (0/3). The positive-example stop condition above now applies.
 
 ## Verified creator feedback: second joke test 0/3, missing darkness (2026-10-26)
 
@@ -124,6 +124,18 @@ Original three A/B/C jokes are frozen and rejected. Creator specifically says "Ð
 **Workshop-level active rule:** Standalone joke tests for this creator may intentionally explore bleak deadpan absurdity, cynical public hypocrisy, existential discomfort and unsettling reversals without vulgarity. "Non-vulgar default" remains about subject matter and language; it must never be translated into "always gentle and family-friendly." Serious brand content still needs a separate audience/authority fit decision.
 
 Before another blind test, compare source-backed Russian Kharms-style macabre deadpan and practitioner dark misdirection; see `evidence/market-intelligence/dark-humor-calibration-2026-10-26.md`. Three test options must differ in *emotional target and mechanism*, not merely nouns or premises. The selection's actual success will be known only from future user rating.
+
+## Three blind short-joke tests failed: 0/9 (2026-10-26)
+
+Direct creator evaluation is preserved with each original: `experiments/creative-copy-calibration/short-joke-blind-test-01-2026-10-26.md`, `short-joke-blind-test-02-2026-10-26.md`, and `short-joke-blind-test-03-2026-10-26.md`. Across these three tests, 9/9 were rejected. In test #03 the creator said all were stupid; A had no comprehensible connection between happiness and urn, B was a toothless stale elderly-audience joke, and C resembled B. These are **user-reported reasons**, not universal audience judgments.
+
+Further quality-gate defects:
+- `HIDDEN_PREMISE_GAP`: A relies on an unstated or unsupported association that exists only in author intent. An editor may falsely give the joke a coherent semantic interpretation the reader cannot infer. **If a short gag requires the author to explain how the setup supports the punchline, cut it.**
+- `FOLK_JOKE_FAMILIARITY`: B and C recycle decades-old workplace/politician structure despite darker nouns and apparent topic variety. Increasing taboo/bleakness alone did not help.
+- `MODEL_SELF_VALIDATION_FAILURE`: All three batches passed internal editorial acceptance yet were rejected by creator. Do not claim that self-judgment or deterministic linter ensures quality.
+- `MISSING_POSITIVE_TASTE_ANCHOR`: Work so far contains concrete negative user cases but **no confirmed joke the user actually laughed at**. Do not interpolate a positive taste profile from negative reactions alone.
+
+**STOP RULE ACTIVE:** no more blind new batches until 2â€“3 creator-affirmed genuinely funny *existing* joke/bit/clip examples are supplied or located with direct evidence of his reaction. For each, capture exact text/clip and why the gag might work as a hypothesis, not a fact. Contrast against these nine rejected examples in language, rhythm, comedic target, fresh logic and performer context. Only after that, attempt a new test; no automatic downstream publishing. Architect EXTEND case remains Authorial Voice v0.4 **CANDIDATE, NOT QUALIFIED**.
 
 ## Research method and bias
 Selection criterion here is explicitly **mockery of actual AI joke content/mechanisms**, not adverse taste about safe/dark jokes. Primary source links and quoted/paraphrased reaction distinguished. No viral post, even with thousands of votes, proves prevalence in all users. Read contrary praise and mixed reactions, report historical model/time limits. Evidence is useful for defect identification, not a measurement of all chats or universal humor outcomes.
