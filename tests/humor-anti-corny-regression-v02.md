@@ -74,5 +74,12 @@ FAIL: Treating a hypothetical example as a permanent request for crude jokes; fa
 PASS: Short, original, non-vulgar joke with genuine comic surprise. Any genre deviation needs an explicit request and must remain allowed.
 STATUS: Manual review case, not independently qualified.
 
+### Case 12: Two consecutive 0/3 tests, underpowered dark humor
+
+Context: User rejected all six locked short jokes in two comparison rounds. Latest comment: "Чернухи не хватает. Слишком осторожный. Чернухи имею в виду не только пошлые".
+FAIL: immediately generating three more gentle barbershop/office/website jokes; simply adding sexual explicitness or swear words; asserting the user asked for cruelty or approving the same dark register for public customer-facing Reels.
+PASS: record 0/6 and qualitative diagnosis separately; revisit credited native dark-comedy references; distinguish macabre deadpan, moral/institutional sting and cold reversal; test dark-but-non-vulgar comedic mechanisms next and gather actual laugh ratings. If a third independent trial fails, obtain real examples the creator finds funny instead of cycling generic jokes.
+STATUS: evaluation design only; not a qualified automation or independently passed.
+
 ## Implementation boundary
 The deterministic matcher tests only five known first-party phrases. It does NOT implement generalized humor comprehension. This manual regression is an evaluation design until independently exercised. Status: CREATED / NOT YET EXTERNALLY SCORED. No success claim or upstream qualification change.
