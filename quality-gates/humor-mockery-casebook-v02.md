@@ -114,6 +114,17 @@ Additional gate for *any* A/B/C joke test:
 
 Second test is locked separately in `experiments/creative-copy-calibration/short-joke-blind-test-02-2026-10-26.md`; still unvalidated.
 
+## Verified creator feedback: second joke test 0/3, missing darkness (2026-10-26)
+
+Evidence: `experiments/creative-copy-calibration/short-joke-blind-test-02-2026-10-26.md`.
+Original three A/B/C jokes are frozen and rejected. Creator specifically says "Чернухи не хватает. Слишком осторожный" and that black/dark humor is **not limited to vulgarity**. Total two trials = six assessed jokes, zero the creator found funny. Not population evidence.
+
+**New professional failure hypothesis:** `COMIC_EDGINESS_UNDERSHOOT`. The first repair diversified surface contexts but preserved harmless/wholesome emotional framing; dark material was used as scenic backdrop (homeless shelter) without a truly new or biting interpretation. Avoid escalating by adding only sexual, hateful, shocking or graphic words; those are not a joke.
+
+**Workshop-level active rule:** Standalone joke tests for this creator may intentionally explore bleak deadpan absurdity, cynical public hypocrisy, existential discomfort and unsettling reversals without vulgarity. "Non-vulgar default" remains about subject matter and language; it must never be translated into "always gentle and family-friendly." Serious brand content still needs a separate audience/authority fit decision.
+
+Before another blind test, compare source-backed Russian Kharms-style macabre deadpan and practitioner dark misdirection; see `evidence/market-intelligence/dark-humor-calibration-2026-10-26.md`. Three test options must differ in *emotional target and mechanism*, not merely nouns or premises. The selection's actual success will be known only from future user rating.
+
 ## Research method and bias
 Selection criterion here is explicitly **mockery of actual AI joke content/mechanisms**, not adverse taste about safe/dark jokes. Primary source links and quoted/paraphrased reaction distinguished. No viral post, even with thousands of votes, proves prevalence in all users. Read contrary praise and mixed reactions, report historical model/time limits. Evidence is useful for defect identification, not a measurement of all chats or universal humor outcomes.
 
