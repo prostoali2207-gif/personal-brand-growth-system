@@ -96,6 +96,21 @@ For creative cases use Creative Reference Intelligence v0.4 (or verified later v
 
 Handoff the exact original links, what was observed, why each is strong for a specific task, credible evidence/limits, and ADOPT / ADAPT / REJECT / TEST mechanisms. Avoid imitation, unverifiable professional claims and retrofitted strategy. This is **conditional** on reference decision value, not a new default prerequisite for each post or an automatic formal qualification track. If upstream artifacts cannot be accessed, mark PARTIAL and preserve the gap instead of inventing examples. Changes to this routing do not claim to update installed ChatGPT agents outside the repository.
 
+### Russian public-copy anti-template gate (active)
+
+Trigger: when drafting, revising, critiquing or approving **original Russian spoken/social/public copy** for this brand (Reels voiceover, short scripts, captions, social posts, landing copy). This also applies to proposed sample rewrites shown in project chats, before the text is exposed.
+
+Mandatory project editorial control:
+1. First use qualified `Social Content Creative 0.1.0` within its actual brief/evidence scope, plus the current Authorial Voice candidate where available. Existing Architect classification: **EXTEND** Social Content Creative, candidate NOT QUALIFIED; no new agent. Follow `decisions/social-content-authorial-voice-gap-2026-09-13.md` and upstream candidate contract.
+2. Load `quality-gates/ru-spoken-script-v01.md` and respect its scope, source-evidence ceiling, authorial taste and release boundary.
+3. For original authored Russian public copy, avoid Unicode long display dashes (U+2014, U+2013). Rewrite sentence punctuation/syntax instead of substituting hyphens mechanically. Exempt literal quotations, source data and code.
+4. Before exposing a draft, inspect formulaic `не X, а Y`, `не просто`, pseudo-dialogue, generic intensifiers, forced three-part rhythm, empty corporate enthusiasm, artificial suspense and repetitive conclusions. These are human editorial review signals, not an AI-detection oracle or automatically disallowed grammatical structures.
+5. Run `node scripts/check-ru-script-style.cjs --strict path/to/draft.txt` when a file/runtime is available; always also conduct human/contextual review and a read-aloud test for spoken copy. A linter PASS alone is insufficient. If the test was not run, do not claim it passed.
+6. Do not change verified facts, approved communication job, or experiment locks to satisfy punctuation or cliché checks. Keep A/B originals unchanged; an edited script is a new revision requiring separate evaluation.
+7. Failure regression is mandatory after repeated user-reported language defects. Repair the applied quality gate and tests; upstream EXTEND qualification remains separately owned by Agent Architect.
+
+This gate reflects confirmed user taste plus bounded public research on perceived AI-writing patterns. It does not claim a published script is human-authored or that a mechanical style change improves retention/conversion.
+
 ### Creative depth / anti-safe-median gate
 
 For creative/content/brand/visual decisions, also apply:
