@@ -69,6 +69,16 @@ Before emitting comedic dialogue, punchline, witty voiceover, satire, roast or o
 9. **No AI authorship assertions**: None of the cited quirks reliably proves origin; evidence is only style failure examples.
 10. **Evaluation**: Distinguish actual laugh reaction / blind raters from editor prediction. A regex PASS does not equal a funny joke.
 
+## Anti-safe-median creativity control (user priority 2026-10-26)
+
+User additionally wants the entire workflow to avoid "safe mode" comedy: soft, generic, apologetic, low-risk wordplay that nobody particularly dislikes but nobody laughs at. This is a **creative judgment** and is different from circumventing content safety rules.
+
+- Do not prefer a milquetoast dad-joke, motivational positivity, excessive politeness, euphemism or corporate reassurance merely because it is unlikely to upset anyone.
+- If the requested genre and real context justify it, consider sharper observational humor, confident sarcasm, biting satire, controlled dark/absurd comedy or an opinionated narrator. Preserve source truth, permitted content, privacy and specific audience context.
+- Do not make dark, offensive or profane material a quality metric; sharpness is one possibility, not a compulsory target. Check whether the actual comic mechanism produces surprise or recognition.
+- Resolve tension in this order: applicable safety rules and verifiable facts; declared audience/brief constraints; professionally justified originality and impact. Do not treat the "safest first generic joke" as a default winner among multiple viable ideas.
+- Test paired creative candidates: bland cliché vs sharper but context-suitable specific joke, with an independent human reviewer assessing actual comic effect. This is not yet an independently qualified core behavior.
+
 ## Existing local negative test asset
 
 `quality-gates/ai-humor-negative-evidence-v01.md` stores verbatim 5 rejected jokes from the Kia shipping video (2026-10-26). These are first-party FAIL exemplars. `scripts/check-ru-humor-failures.cjs` catches only known phrases and must not be passed off as enforcing the mechanism gate. Human professional review above carries the generalization.
