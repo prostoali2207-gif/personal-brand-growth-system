@@ -2,7 +2,7 @@
 
 experiment_id: PBGS-JOKES-20261026-01
 date: 2026-10-26
-status: LOCKED ORIGINALS / USER BLIND EVALUATION PENDING
+status: EVALUATED / REJECTED ALL THREE / ORIGINALS FROZEN
 owner: Social Content Creative v0.1.0 QUALIFIED + Authorial Voice v0.4 CANDIDATE, NOT QUALIFIED.
 research: evidence/market-intelligence/comedy-benchmark-practitioner-sample-2026-10-26.md
 negative reference: quality-gates/humor-mockery-casebook-v02.md, tests/humor-anti-corny-regression-v02.md
@@ -34,3 +34,18 @@ Display only A/B/C. No ranking, 'best joke' claim, or explanatory mechanism to u
 - No long dashes, formulaic 'не X, а Y', anthropomorphic cars, generic moving house, mandatory vulgarity or recycled supervisor-swearnames.
 - No paid release/publication.
 - Mechanical lint passing is insufficient; independent user feedback pending.
+
+## Creator evaluation: 2026-10-26
+- Exact choice: "В слепом тесте №1 ни одна шутка меня не рассмешила. Разбери причины и скорректируй следующий тест."
+- Result: A = NOT FUNNY, B = NOT FUNNY, C = NOT FUNNY; **0/3 accepted**. User supplied no individual causal account or ranking.
+- Do not derive public audience response from this single creator preference.
+
+## Professional error analysis (hypotheses, not user statements)
+- A: instruction "Без паники" creating anxiety is a predictable self-defeating-sign gag. The setup exposes nearly all the payoff before the last clause.
+- B: human/CAPTCHA interrogation is a well-worn human-versus-bot inversion, with an extra operator scene rather than an earned surprise. Excess words dull the joke.
+- C: "We value honesty" corporate hypocrisy -> employer requests tact is recognisable office satire, not sharp observation. Punchline is easily inferred.
+- Portfolio-level failure: all three ideas converge on gentle office/technical/institutional irony despite nominally different labels. No genuine sharpness, no concrete physical or social specificity, no meaningful breadth across comic worlds. Style linter passing did not establish audience humor.
+- Existing reference research is predominantly English stand-up, often long-form and selectively successful; it did not automatically transfer to Russian 1–2 sentence jokes.
+- **Root hypothesis:** creative direction converged on the safe thematic median and prematurely accepted the first clear logical reversal as a punchline.
+- Change for test #02: three disparate situations, short, concrete and visually imaginabile; select physical/social normalization of error, role inversion by an unlikely critic, and sharper hypocrisy/social reality satire. Preserve A/B/C independent mechanics and no-vulgarity. Do not explain or favor any variant before user's choice.
+- Evidence status: first-party creator score CONFIRMED; why they did not laugh is professional JUDGMENT/HYPOTHESIS until user explains.
