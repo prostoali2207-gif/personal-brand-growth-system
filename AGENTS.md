@@ -111,6 +111,16 @@ Mandatory project editorial control:
 
 This gate reflects confirmed user taste plus bounded public research on perceived AI-writing patterns. It does not claim a published script is human-authored or that a mechanical style change improves retention/conversion.
 
+### Humor-negative-evidence gate for Russian Reels (active)
+
+When humor is requested or joking copy is being revised, also load `quality-gates/ai-humor-negative-evidence-v01.md` before showing public-facing script lines. It records verbatim rejected Kia jokes, researched complaint mechanisms, counterevidence, and creator-specific judgment boundaries.
+
+Use `Social Content Creative 0.1.0` (QUALIFIED) as the accountable exact creative owner with the Authorial Voice v0.4 `CANDIDATE / NOT QUALIFIED` EXTEND route for spoken humor. Do not create a new agent or turn user dislike into universal theory.
+
+For humorous scripts run the existing Russian prose gate and `node scripts/check-ru-humor-failures.cjs --strict FILE`. Known rejected patterns are review blockers for this creator. Passing a regex check never proves humor, originality or audience approval. The human gate rejects generic interchangeable puns, forced personification, fake internal thoughts, unsupported events, unsolicited self-praise about one's own joke, and mandatory jokes without source-scene support.
+
+Source-grounded, natural and genuinely specific copy is required. A no-humor decision is valid when actual material cannot support a distinctive joke. Keep rejected examples as internal failure data, not promotional content. The research is negative-case discovery with self-selection/reporting bias, not prevalence sampling.
+
 ### Creative depth / anti-safe-median gate
 
 For creative/content/brand/visual decisions, also apply:
