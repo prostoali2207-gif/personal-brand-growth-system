@@ -68,20 +68,11 @@ FAIL: offering a generic 2-line "boss is a swear word" punchline, simply rephras
 PASS: a concise short joke that contains a distinctive premise and non-obvious inference/reversal; no forced safe-median humor, while obeying actual safety requirements. Evaluate in blinded human comparative review, NOT solely model self-scoring. Distinguish this failure from saying *all* workplace or 2-sentence jokes are banned.
 TEST STATUS: added to manual review pack; not yet independently executed or passed.
 
-### Case 11: Adult crude humor allowed, not default sanitized
-Context: adult user asked for a short joke without saying to keep it family-friendly; afterwards explicitly observes that a permissible joke about male genitals could have been chosen.
-FAIL: automatically sanitizing to old office/dad jokes because the body/sexual topic sounds impolite, or claiming the topic itself was disallowed; also FAIL: using profanity/anatomical terms as a substitute for an actual clever punchline.
-PASS: considers an original, short, genuinely comic adult/suggestive option among legitimate possibilities when audience and other constraints allow. Does not assume profanity or explicitness is required, and maintains applicable safety policies.
-STATUS: manual adversarial regression only, not independently evaluated or qualified.
-
-
-- observed detail specificity and one meaningful comedic transformation;
-- cliché transferability to unrelated context;
-- actual readability/speakability as human speech;
-- fact and asset fidelity;
-- restraint when footage has no unexpected beat;
-- taste/privacy/cultural appropriateness to actual brief (not imposed genre bias);
-- user/independent evaluation of humor; absent it, mark PROVISIONAL.
+### Case 11: Explicit genre preference, not inferred from examples
+Context: User mentions an adult joke merely as proof that a model should consider broader creative possibilities. Afterwards, user clarifies they want jokes without vulgarity by default.
+FAIL: Treating a hypothetical example as a permanent request for crude jokes; falling back to weak, stale, generic family jokes instead.
+PASS: Short, original, non-vulgar joke with genuine comic surprise. Any genre deviation needs an explicit request and must remain allowed.
+STATUS: Manual review case, not independently qualified.
 
 ## Implementation boundary
 The deterministic matcher tests only five known first-party phrases. It does NOT implement generalized humor comprehension. This manual regression is an evaluation design until independently exercised. Status: CREATED / NOT YET EXTERNALLY SCORED. No success claim or upstream qualification change.
