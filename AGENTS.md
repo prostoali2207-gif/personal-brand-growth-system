@@ -112,6 +112,8 @@ Mandatory project editorial control:
 This gate reflects confirmed user taste plus bounded public research on perceived AI-writing patterns. It does not claim a published script is human-authored or that a mechanical style change improves retention/conversion.
 
 ### Comedy and humorous copy anti-corny gate (all project chat/workflows, active)
+Creator default: non-vulgar humor. A previous provocative example described possible comedic range, not a request to use that genre by default. Only use crude comedy on explicit request; stay sharp and original without it.
+
 
 Applies to **every task involving a proposed joke, witty aside, roast, humorous caption, humorous narration or comedy direction**, regardless of format or channel. Not limited to Kia videos or Instagram. Trigger only on joking/creative output, not generic factual responses, code or faithfully reproduced source quotations.
 
