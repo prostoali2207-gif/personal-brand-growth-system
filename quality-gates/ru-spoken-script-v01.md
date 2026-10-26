@@ -31,6 +31,18 @@ Flag these as review targets, not blanket language prohibitions:
 
 These signals are correlated or perceived conventions in some datasets, mostly English. None alone proves AI authorship; transfer to Russian and to this creator is an applied hypothesis. Human work may correctly use a dash, triad or contrast. Apply the user's editorial preference without claiming universality.
 
+## Gate B2: humorous copy (additional failure-control layer)
+
+When attempting a funny voiceover/caption, also read `quality-gates/ai-humor-negative-evidence-v01.md` and apply its F1-F10 footage-anchored joke review. The previous Kia parts-shipping script generated five user-rejected lines based on generic relocation, jealousy, fake calm, imaginary car dialogue and flat-pack whole-car assembly. Those specific motifs must not be used again as interchangeable shipping jokes.
+
+Before release of any humorous draft run both independent checks:
+- `node scripts/check-ru-script-style.cjs --strict FILE` for typographic/formulaic speech.
+- `node scripts/check-ru-humor-failures.cjs --strict FILE` for prior rejected funny-text patterns.
+
+One clear observation, no joke at all, or a short restrained punchline may be more appropriate than a 30-second full comedy routine. Judge the joke against the *source clip*, not against how cleverly the sentence reads on its own. Do not assert that a line is funny without independent human viewer evidence.
+
+Source-status guard: community complaints identify candidate failure mechanisms, while blinded empirical comedy ratings also find credible successful AI humor. Treat no pattern as a universal authorship detector or statistical measure of joke success. Maintain Authorial Voice v0.4 CANDIDATE status.
+
 ## Gate C: editorial read-aloud
 1. Does the opening identify the real subject, viewer problem or useful question? No fictitious crisis or mystery.
 2. Are at least two substantive facts or actual decisions anchored to checked source evidence, when the piece's job is a real-case story? Avoid invented benefits and figures.
