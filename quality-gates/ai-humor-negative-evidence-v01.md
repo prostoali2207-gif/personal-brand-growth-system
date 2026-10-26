@@ -10,8 +10,19 @@ purpose: prevent recurring, transferable low-effort jokes in personal-brand scri
 - Authorial Voice v0.4: CANDIDATE / NOT QUALIFIED. Existing Architect EXTEND decision is `decisions/social-content-authorial-voice-gap-2026-09-13.md`, upstream issue `professional-ai-agents#302`. This register is applied quality control, not qualification of the extension.
 - Market & Competitive Intelligence 1.0.0: QUALIFIED source/claim provenance research.
 - Content Architecture v0.4: QUALIFIED/RELEASED macro narrative, does not own exact jokes.
-- Deterministic phrase patterns in `scripts/check-ru-script-style.cjs --humor` are a DETERMINISTIC TOOL: flag known failures, not evaluate whether people laugh.
+- Deterministic phrase patterns in `scripts/check-ru-humor-failures.cjs --strict` are a DETERMINISTIC TOOL: flag known failures, not evaluate whether people laugh.
 - No new core, professional or agent. Do not modify immutable qualified upstream professional models.
+
+## Current interpretation / user correction (2026-10-26)
+
+This earlier version mixed general AI-writing annoyance with concrete criticism of **failed jokes**. User corrected the scope: identify examples of people *mocking unfunny ChatGPT jokes*, not simply disliking certain humor genres or censorship.
+
+The governing narrowed source review and generalizable mechanism gate is now:
+`quality-gates/humor-mockery-casebook-v02.md`.
+
+Only direct source joke/mockery evidence can justify an anti-corny humor decision. Generic dissatisfaction, dark-vs-clean humor preference, and AI authorship signs are context, **not decisive humor failure evidence**. Existing original Kia rejected lines in this v0.1 document remain authoritative user-specific negative examples. Avoid claiming these exact five banned phrases are a universal humor detector.
+
+Implementation correction: the original v0.1 text referred to `scripts/check-ru-script-style.cjs --humor`, but that command **does not implement `--humor`**. The actual regression check is `node scripts/check-ru-humor-failures.cjs --strict FILE`. The standalone Russian style-lint is `node scripts/check-ru-script-style.cjs --strict FILE`. The v0.2 human review remains mandatory.
 
 ## Direct failure corpus: one user-rejected Kia video (highest authority FOR THIS CREATOR)
 
@@ -83,18 +94,18 @@ F9. **Editorial independence.** One user's subjective failure is strong for *thi
 F10. **Source proof.** Preserve key real business/process facts even when a comedic angle is used. Do not create imaginary clients, stock, rates, reactions or damage.
 
 ## Automation hook and scope
-Use `node scripts/check-ru-script-style.cjs --humor --strict FILE` for Russian humorous social text:
-- strict mode blocks known high-risk motifs detected in negative examples;
-- the tool raises `REVIEW` on close verbal formulas; it does not evaluate surprise/funniness.
+For Russian humorous social text, run `node scripts/check-ru-humor-failures.cjs --strict FILE` and the independent `node scripts/check-ru-script-style.cjs --strict FILE`:
+- the humor tool flags five known rejected Kia motifs; strict mode makes findings nonzero;
+- the style tool catches separate mechanical clichés/typography; neither evaluates surprise/funniness.
 - do not replace F1-F10 judgment, actual footage inspection or a viewer screening with automated PASS.
 - normal factual documents/code/source quotes exempt from rewriting.
 
 ## Regression requirements
-- Kia exact five rejected lines flagged when `--humor` is active and strict exit nonzero.
+- Kia exact five rejected lines flagged with `check-ru-humor-failures.cjs --strict` and strict exit nonzero.
 - Straight car-parts shipment narration produces no humor flags.
 - A legitimate mention of a house move in logistics context is not forbidden solely by the word `переезд`.
 - Deliberate, funny, grounded contrast is not universally banned by its grammar; specific project's anti-template taste and user review still govern.
-- Latest original B2 site script is unaffected by changes when `--humor` absent.
+- Latest original B2 site script is unaffected by changes without any changes to the historical script.
 - A/B experiment raw scripts remain unchanged; a new humorous revision must have independent evaluation before release.
 
 ## Ownership and next learning loop
