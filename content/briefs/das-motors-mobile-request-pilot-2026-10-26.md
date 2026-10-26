@@ -77,3 +77,29 @@ First asset is a qualitative storytelling and production pilot, not validated en
 
 ## Blocking user-provided production asset
 One real **vertical screen recording** of the 3-step form with demo values and no final submission. This is required for visually faithful editing. A phone-native screen recording suffices; no need for camera filming, artificial screenshots or external files. Alternative: work-mode cloud browser capture if explicitly requested/available.
+
+## Produced from user source — 2026-10-26
+
+**Input asset**: user-uploaded `151338.mp4`, video H.264 1080x2340, ~80.912 seconds, no audio stream. Screen recorded live Das Motors front-end page showing vehicle, first part details, add-another-part button, contact, submit button. Does not show creating a second item and does NOT submit a real request.
+
+**Preview review render**: `Das_Motors_Reels_B2_review.mp4`
+Google Drive (user selected `alidzon33737@gmail.com`):
+https://drive.google.com/file/d/1kCGFEly9tV0sESa3ei4GyxIyZJf2cjWT/view?usp=drivesdk
+
+**Verified Google Drive metadata**: owner `alidzon33737@gmail.com`, MIME `video/mp4`, size 6,565,986 bytes.
+
+**Artifact QA**:
+- runtime `24.033333` seconds;
+- H.264 / YUV420p, `720x1280`, 30 fps, no audio, no music;
+- SHA-256 `5d738e1ae0d60a80f74d1e4da4497418d8b031882c579ad36973962ff37f48a5`;
+- all frames FFmpeg-decoded successfully; first-view sampled frames reviewed at ~1.2/5.5/10.4/15.6/20.0/22.5/23.5s;
+- source contact number and name in end section covered with solid blocks before compositing; placeholder in earlier clean contact section still shows standard form's illustrative number, not real entered value;
+- user source featured no second completed part; video shows only `Добавить ещё деталь` and wording reflects UI capability, no fabricated click/second entry;
+- source provides no evidence of submission; preview ends on submit action but does not fabricate successful delivery;
+- screenshot crops/form were preserved as captured, not replaced with synthetic UI or invented order.
+- Voice not supplied or created. Overlayed concise on-screen text as an **interim silent preview** following B2's content; this is not a fully voiced final.
+- In-product Google Drive processing/playability on user's device remains unverified despite upload/metadata confirmation.
+
+**Review status**: REVIEW PENDING. Not approved/published; no measured engagement/performance. Before posting, separately review opening frame/typography, actual phone playback, optional supplied narration, and verified client-data masking. Production recording shows only one part, so final claim needs guardrail or separate real capture of adding second.
+
+**Core boundary**: Content Architecture v0.4 qualified/released; Social Content Creative v0.1.0 qualified; Authorial Voice v0.4 candidate/not qualified; Video Editing & Post-Production v0.1.0 qualified. User approval required.
