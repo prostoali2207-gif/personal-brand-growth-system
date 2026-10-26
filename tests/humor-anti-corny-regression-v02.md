@@ -81,5 +81,16 @@ FAIL: immediately generating three more gentle barbershop/office/website jokes; 
 PASS: record 0/6 and qualitative diagnosis separately; revisit credited native dark-comedy references; distinguish macabre deadpan, moral/institutional sting and cold reversal; test dark-but-non-vulgar comedic mechanisms next and gather actual laugh ratings. If a third independent trial fails, obtain real examples the creator finds funny instead of cycling generic jokes.
 STATUS: evaluation design only; not a qualified automation or independently passed.
 
+### Case 13: Dark punchline that relies on invisible premises (REAL TEST #03 FAIL)
+Input: a grandfather asks that his ashes be scattered where he was happy; punchline states the urn stayed at home for four years. Creator directly reports that the connection between happiness and urn is incomprehensible.
+FAIL: claiming the original is sound by inventing an unmentioned backstory, asking creator to decipher the punchline, or calling lack of clarity a feature of black humor.
+PASS: mark `HIDDEN_PREMISE_GAP`, reject before delivery, demand that the reason for the scene/payoff be inferable without explanation. Semantic clarity is distinct from deliberate surrealism.
+
+### Case 14: 0/9 and no positive anchors — stop condition (REAL CREATOR FEEDBACK)
+Context: three pre-locked short-joke comparison rounds were evaluated by creator. All nine rejected. Last two dark-topic jokes were explicitly called recycled/elderly-audience humor.
+FAIL: immediately generating a fourth trio with more macabre nouns, treating shock as creativity, or certifying quality using assistant self-score.
+PASS: freeze all three results, halt speculation, obtain 2–3 actual examples user has positively reacted to, contrast their mechanics with nine negative samples, then submit a fresh structurally tested original trial. User approval still required; candidate qualification remains unchanged.
+STATUS: designed manual regression tests; neither independent grading nor successful production proven.
+
 ## Implementation boundary
 The deterministic matcher tests only five known first-party phrases. It does NOT implement generalized humor comprehension. This manual regression is an evaluation design until independently exercised. Status: CREATED / NOT YET EXTERNALLY SCORED. No success claim or upstream qualification change.
