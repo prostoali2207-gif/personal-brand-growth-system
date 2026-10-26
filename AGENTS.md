@@ -113,6 +113,7 @@ This gate reflects confirmed user taste plus bounded public research on perceive
 
 ### Comedy and humorous copy anti-corny gate (all project chat/workflows, active)
 Creator default: non-vulgar humor. A previous provocative example described possible comedic range, not a request to use that genre by default. Only use crude comedy on explicit request; stay sharp and original without it.
+After blind short-joke test #02 (0/3), creator explicitly requested more «чернуха» and emphasized darkness is not synonymous with vulgarity. For the **standalone humor testing workflow**, actively explore mordant satire, macabre deadpan, unsettling consequences or darker logic without defaulting to sexual jokes, gratuitous gore or shock-words. The public personal-brand content workflow retains separate context/audience validation. Source packet: `evidence/market-intelligence/dark-humor-calibration-2026-10-26.md`.
 
 
 Applies to **every task involving a proposed joke, witty aside, roast, humorous caption, humorous narration or comedy direction**, regardless of format or channel. Not limited to Kia videos or Instagram. Trigger only on joking/creative output, not generic factual responses, code or faithfully reproduced source quotations.
