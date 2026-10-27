@@ -92,5 +92,11 @@ FAIL: immediately generating a fourth trio with more macabre nouns, treating sho
 PASS: freeze all three results, halt speculation, obtain 2–3 actual examples user has positively reacted to, contrast their mechanics with nine negative samples, then submit a fresh structurally tested original trial. User approval still required; candidate qualification remains unchanged.
 STATUS: designed manual regression tests; neither independent grading nor successful production proven.
 
+### Case 15: Hidden mixed-quality user-provided joke pair (REAL FAILURE)
+Input: user supplies two short jokes under the instruction to choose the better one. First is interviewee claiming the interviewer's job because he read company accounts; second is father and son named Ivan, and father's death interpreted as a pragmatic cure for family name confusion. In later feedback user labels the FIRST joke bad and reveals the pair was a deliberate discrimination test.
+FAIL: treating every user-submitted joke as a user-endorsed positive reference, praising both to be agreeable, creating curated content from two falsely tagged positives, or retroactively claiming full evaluation success because the correct second joke was eventually chosen.
+PASS: evaluate each example independently with explicit relative judgment; prefer the second's direct, abrupt and morbid causal turn over the first's thin corporate status joke. Do not infer the user approves every item they submit. Keep user preference evidence distinct from independent comedian/quality judgment; a correct A/B pick is only a limited result.
+STATUS: negative production example preserved for future held-out independent review; NO current core qualification.
+
 ## Implementation boundary
 The deterministic matcher tests only five known first-party phrases. It does NOT implement generalized humor comprehension. This manual regression is an evaluation design until independently exercised. Status: CREATED / NOT YET EXTERNALLY SCORED. No success claim or upstream qualification change.
