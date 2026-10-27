@@ -145,6 +145,14 @@ The creator deliberately supplied two jokes in the same message, expecting indep
 
 This is creator taste evidence, not a general population ranking. Preserve second as positive style *candidate* with explicit good-vs-bad contrast; keep earlier caution that no laugh outcome has been measured.
 
+## Reddit curated selection failed all five positive predictions (2026-10-27)
+
+Creator feedback came in two cumulative answers: the first rejected candidate jokes 1,2,3, and the follow-up rejected 4,5. Neither promoted any of the five editor-rejected jokes. This is 0/5 accepted positive predictions and 5/5 agreement on negative predictions, for this user's ratings only. Exact results: `experiments/creative-copy-calibration/reddit-joke-contrast-2026-10-27.md`.
+
+New failure: `POSITIVE_SELECTION_FALSE_POSITIVES`. Reddit popularity and a logically complete dark punchline were treated as proof of strong comedy. The stronger-group output recycled folk tales, formulaic shocks, or predictable internet formatting. Those specific causes are editor hypotheses, not detailed user diagnoses.
+
+**Updated gate:** semantic clarity is necessary but not sufficient. Independently test punchline predictability, stale trope resemblance, meaningful rather than decorative dark content, and whether the Russian adaptation itself works without explaining English wordplay. Contrast against both the user's positive two-Ivan case and explicitly bad interview-accounting case. Do not fill a requested quota with candidates the editor cannot defend; report fewer than requested if needed and state selection uncertainty. No automatic claim of humor success without the creator's approval.
+
 ## Research method and bias
 Selection criterion here is explicitly **mockery of actual AI joke content/mechanisms**, not adverse taste about safe/dark jokes. Primary source links and quoted/paraphrased reaction distinguished. No viral post, even with thousands of votes, proves prevalence in all users. Read contrary praise and mixed reactions, report historical model/time limits. Evidence is useful for defect identification, not a measurement of all chats or universal humor outcomes.
 
