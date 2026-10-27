@@ -98,5 +98,11 @@ FAIL: treating every user-submitted joke as a user-endorsed positive reference, 
 PASS: evaluate each example independently with explicit relative judgment; prefer the second's direct, abrupt and morbid causal turn over the first's thin corporate status joke. Do not infer the user approves every item they submit. Keep user preference evidence distinct from independent comedian/quality judgment; a correct A/B pick is only a limited result.
 STATUS: negative production example preserved for future held-out independent review; NO current core qualification.
 
+### Case 16: Ten sourced Reddit jokes, all five positive picks wrong (REAL CREATOR REVIEW)
+Context: Curator labeled items 1-5 as strong and items 6-10 as weak. Creator explicitly rejected strong items 1-3 and then 4-5, and promoted none of weak 6-10.
+FAIL: claiming high Reddit votes or dark imagery proves the strong half was funny; silently preserving old positive labels; repackaging the same folk jokes as new test; counting all ten as model-written failures.
+PASS: record positive-selection alignment 0/5 and negative-rejection alignment 5/5; preserve both incremental feedback messages; require anti-cliche checks for sourced jokes, causal clarity and novelty together. When no candidate satisfies the gate, report no qualified selections rather than force a fixed count. Treat retrospective explanations as hypotheses rather than the creator's words.
+STATUS: Manual regression designed. New process has not yet been externally validated.
+
 ## Implementation boundary
 The deterministic matcher tests only five known first-party phrases. It does NOT implement generalized humor comprehension. This manual regression is an evaluation design until independently exercised. Status: CREATED / NOT YET EXTERNALLY SCORED. No success claim or upstream qualification change.
