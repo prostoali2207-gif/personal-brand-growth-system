@@ -98,11 +98,12 @@ FAIL: treating every user-submitted joke as a user-endorsed positive reference, 
 PASS: evaluate each example independently with explicit relative judgment; prefer the second's direct, abrupt and morbid causal turn over the first's thin corporate status joke. Do not infer the user approves every item they submit. Keep user preference evidence distinct from independent comedian/quality judgment; a correct A/B pick is only a limited result.
 STATUS: negative production example preserved for future held-out independent review; NO current core qualification.
 
-### Case 16: Ten sourced Reddit jokes, all five positive picks wrong (REAL CREATOR REVIEW)
-Context: Curator labeled items 1-5 as strong and items 6-10 as weak. Creator explicitly rejected strong items 1-3 and then 4-5, and promoted none of weak 6-10.
-FAIL: claiming high Reddit votes or dark imagery proves the strong half was funny; silently preserving old positive labels; repackaging the same folk jokes as new test; counting all ten as model-written failures.
-PASS: record positive-selection alignment 0/5 and negative-rejection alignment 5/5; preserve both incremental feedback messages; require anti-cliche checks for sourced jokes, causal clarity and novelty together. When no candidate satisfies the gate, report no qualified selections rather than force a fixed count. Treat retrospective explanations as hypotheses rather than the creator's words.
-STATUS: Manual regression designed. New process has not yet been externally validated.
+### Case 16: Ten sourced Reddit jokes, ambiguous inverse-polarity questionnaire (REAL USER CORRECTION)
+
+Creator's definitive labels for the numbered ten examples: items **1,2,3 GOOD** and items **4,5,6,7,8,9,10 BAD**. First feedback incorrectly appeared to reject 1,2,3 because the user thought the UI was requesting liked choices; second feedback selected 4,5 after user noticed the opposite request. The assistant erroneously classified all five as BAD and escalated false evidence. Final score: 3 of 5 strong predictions accepted, 2 rejected, 5 of 5 weak predictions consistent; 8/10 agreement in this single subjective example.
+FAIL: using inverse-polarity question pairs and immediately interpreting taps as truthful labels when a misunderstanding is plausible; preserving earlier 0/5 result after explicit correction; using the wrong 0/5 to redesign a professional core; declaring user-approved jokes categorically stale.
+PASS: display explicit **GOOD/BAD/UNSURE per numbered item**, store raw input and normalized interpretation separately, and treat latest explicit correction as authoritative. Correct historical derived counts and downstream casebook/upstream handoffs. Preserve substantive user-approved S1-S3 as positive calibration samples. Do not change frozen qualification state.
+STATUS: process regression test designed, not independently run.
 
 ## Implementation boundary
 The deterministic matcher tests only five known first-party phrases. It does NOT implement generalized humor comprehension. This manual regression is an evaluation design until independently exercised. Status: CREATED / NOT YET EXTERNALLY SCORED. No success claim or upstream qualification change.
