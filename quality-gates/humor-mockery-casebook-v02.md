@@ -137,6 +137,14 @@ Further quality-gate defects:
 
 **STOP RULE ACTIVE:** no more blind new batches until 2–3 creator-affirmed genuinely funny *existing* joke/bit/clip examples are supplied or located with direct evidence of his reaction. For each, capture exact text/clip and why the gag might work as a hypothesis, not a fact. Contrast against these nine rejected examples in language, rhythm, comedic target, fresh logic and performer context. Only after that, attempt a new test; no automatic downstream publishing. Architect EXTEND case remains Authorial Voice v0.4 **CANDIDATE, NOT QUALIFIED**.
 
+## Creator's trick contrast pair: one weak example, one strong example (2026-10-27)
+
+The creator deliberately supplied two jokes in the same message, expecting independent classification. Interview / corporate accounts gag = explicitly labeled **BAD** by the creator; father+son same name / father's death as practical "solution" = the **GOOD** of the two. The model selected the second correctly in the direct forced choice, but earlier wrongly counted both as positive anchors, praised the interview gag and built a research/curation task from that false premise. Refer to `experiments/creative-copy-calibration/curated-comedy-reference-test-04-2026-10-26.md` for verbatim evidence and scope.
+
+**New systematic defect: `USER_SUBMISSION_ENDORSEMENT_LEAKAGE`.** A text shown by the user is an item to evaluate, not proof the user likes it. He may be including a trap/negative control. Do not flatter or call a weak setup "clever" solely from its source. Always evaluate user-supplied alternatives **independently**, ideally before learning explicit labels. Shared structural features such as setup + final-turn reframe are **not** sufficient proof: both examples share this feature but have opposite first-party ratings. Distinguish causally sharp and unexpectedly drastic solutions from tepid or contrived corporate quips.
+
+This is creator taste evidence, not a general population ranking. Preserve second as positive style *candidate* with explicit good-vs-bad contrast; keep earlier caution that no laugh outcome has been measured.
+
 ## Research method and bias
 Selection criterion here is explicitly **mockery of actual AI joke content/mechanisms**, not adverse taste about safe/dark jokes. Primary source links and quoted/paraphrased reaction distinguished. No viral post, even with thousands of votes, proves prevalence in all users. Read contrary praise and mixed reactions, report historical model/time limits. Evidence is useful for defect identification, not a measurement of all chats or universal humor outcomes.
 
