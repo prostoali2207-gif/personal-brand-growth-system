@@ -5,7 +5,7 @@ Status: EVALUATED / ALL THREE REJECTED / USER REPORTS POSITIVE ANCHORS WERE IGNO
 Owner: Social Content Creative 0.1.0 QUALIFIED; Authorial Voice 0.4 CANDIDATE NOT QUALIFIED; Market & Competitive Intelligence 1.0.0 QUALIFIED
 Purpose: User asked assistant to CHOOSE existing funny jokes and have their selection quality rated against two user-supplied references, after 0/9 model-generated blind jokes. Do not label picks original.
 
-## FIRST-PARTY POSITIVE REFERENCE CANDIDATES (supplied by creator)
+## USER-SUPPLIED CONTRASTIVE JOKES (one deliberate negative control)
 Reference 1 (exact user-provided text):
 "На собеседовании меня спросили:
 
@@ -20,12 +20,12 @@ Reference 1 (exact user-provided text):
 Reference 2 (user clarification / final corrected wording):
 "Меня и моего отца зовут Иван. Ну когда мама звала Иван, мы оба отвлекались. И мой отец придумал решение этому. Он взял и умер"
 
-These are USER-SUPPLIED POSITIVE REFERENCE CANDIDATES in the context of asking assistant to select. Treat degree of amusement as implied by choosing to present them, not independently measured laughter. Do not attribute jokes to user or to any comedian without proof.
+CORRECTED after direct user disclosure on 2026-10-27: First interview/accounting joke is a DELIBERATE NEGATIVE CONTROL (user calls it `шляпа`). Second two-Ivans/father joke is the stronger GOOD OPTION in this user's forced-choice test; the assistant selected the second correctly but previously praised both and treated both as positive anchors. User supplied the text; do not infer equal approval from presentation. Actual audible laughter remains unobserved. Do not attribute authorship.
 
 ## Mechanics HYPOTHESES (internal only before evaluation)
 Ref 1: boss mistakes knowledge of company failure for misplaced self-confidence; the last line reframes a positive assertion as a cold, evidence-based prediction and targets professional status / hypocrisy.
 Ref 2: mundane namesake ambiguity -> "solution" by father's death; serious family loss is treated as a convenient administrative solution. Premise and reversal tightly and causally linked; no sex or profanity.
-Shared: last-sentence radical reframing; confident matter-of-fact delivery; death/career degradation not obvious from setup; no need for bizarre metaphor or formulaic not-X-but-Y.
+They share the SURFACE FEATURE of a last-line reframe, but only the second met user's actual taste. Therefore a last-line reversal alone is not a positive discriminant. The first's report/accounting surprise is contrived and mild in creator feedback; the second's father-death "solution" is brutal, instantly causally understandable, and emotionally disproportionate. This is tentative professional interpretation; user verdict controls.
 
 ## LOCKED SOURCED EXISTING JOKE PICKS — FREE/SHORT RUSSIAN ADAPTATIONS, NO ORIGINALITY CLAIM
 
@@ -66,3 +66,6 @@ Verbatim complaint: "Tu дебилные шутки опять конченые 
 3. No fourth curation batch without clear justification and user assent; do not offset repeated failure by more joke volume.
 4. Any further selection should prefer short natural Russian-language jokes or actual clips with verified provenance, retain original wording where lawful, and separately check adaptation quality.
 5. Authorial Voice v0.4 remains CANDIDATE, NOT QUALIFIED. No claim of successful adaptation.
+
+## Held-out user disclosure: 2026-10-27
+Creator stated: "Шутка про собеседование тоже шляпа. Это был тест, ты выберешь хорошую или плохую шутку". Confirmed forced-choice label: interview = BAD, Ivan/father = GOOD relative choice. The assistant correctly chose the latter in the eventual forced choice yet repeatedly misclassified the interview line as a good reference merely because the creator presented it. This is `USER_SUBMISSION_ENDORSEMENT_LEAKAGE` / `SOURCE_AUTHORITY_BIAS` and selection did not faithfully independently judge individual lines. Correct future process: rate each user-supplied candidate on its own merit; treat submitted items as unlabelled, possibly intentionally misleading controls; do not pronounce them funny because of who supplied them; distinguish preference evidence from model's own taste estimate.
