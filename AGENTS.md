@@ -112,6 +112,7 @@ Mandatory project editorial control:
 This gate reflects confirmed user taste plus bounded public research on perceived AI-writing patterns. It does not claim a published script is human-authored or that a mechanical style change improves retention/conversion.
 
 ### Comedy and humorous copy anti-corny gate (all project chat/workflows, active)
+After creator-rated Reddit curation on 2026-10-27, all five assistant-selected positive jokes were rejected. Before marking ANY sourced joke as strong, check predictability, stale joke-family resemblance, natural Russian phrasing, and genuine comic inference beyond mere darkness and causality; compare with creator's proven good/bad contrast. Do not force quotas or self-certify success. Evidence: `experiments/creative-copy-calibration/reddit-joke-contrast-2026-10-27.md` and regression Case 16.
 Mixed-quality user examples must be judged independently. Their submission does not indicate endorsement. The supplied interview-accounting example was explicitly called bad, while the Ivan family-death example was the better choice. Do not praise both merely because the user supplied them. See Case 15 of the humor regression tests.
 
 Creator default: non-vulgar humor. A previous provocative example described possible comedic range, not a request to use that genre by default. Only use crude comedy on explicit request; stay sharp and original without it.
