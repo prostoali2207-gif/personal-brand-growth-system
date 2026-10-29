@@ -1,7 +1,7 @@
 # FleetDesk | Short-form spoken copy calibration 01
 
 date: 2026-10-29
-status: TWO DRAFTS LOCKED / NOT APPROVED FOR PUBLISHING / CREATOR RATING PENDING
+status: CREATOR RATED / B PREFERRED OVER A / B2 REVISION REQUESTED / NO PUBLICATION APPROVAL
 source project: prostoali2207-gif/uae-drive-suite
 source code: https://github.com/prostoali2207-gif/uae-drive-suite/blob/main/supabase/migrations/20261027141500_activate_fully_signed_draft_contracts.sql
 source owner: Social Content Creative v0.1.0 QUALIFIED; spoken-language extension Authorial Voice v0.4 CANDIDATE NOT QUALIFIED
@@ -60,3 +60,20 @@ Selection for review: A is the primary *draft candidate* IF sanitized, real mism
 
 ## Review hypotheses
 This is not a humor grade. Strong content selection should use real fact, visible contradiction, causal resolution, short spoken phrasing. No invented reaction or 'AI expert' image. The writer may choose to include zero jokes if none clearly improves the story.
+
+## Creator result, 2026-10-29
+Exact feedback: "Тест сценариев FleetDesk №1. Моя оценка: B лучше. Зафиксируй оценку, разберись в качестве текста и переходи к следующему этапу."
+- User directly prefers variant **B** over **A** in this ONE comparison; original A and B preserved unchanged.
+- No numerical rating, endorsement for publication, or explicit reason was supplied. Do not infer "B is universally better" or that the audience will watch longer.
+
+### Diagnostic judgment (hypothesis, not user's stated reason)
+- B's opening is a concrete decision dilemma, and the reveal of additional-driver + manager signatures is causally connected to its hook. No need to assert that there is a currently observed inconsistent UI.
+- A's opening requires a verified shot of a fully signed contract still in Draft, which has not been captured; it also explains the issue in more abstract administrative terms ("списку уже не доверяешь") and suggests system distrust with no observed business outcome.
+- B has flaws: a filler transition "Казалось бы"; vague abstract closing "одно слово ... проверяемый смысл"; an administrative "still needs checking" epilogue that weakens the viewer payoff. If user chooses B this does NOT automatically mean B is finished.
+- Mechanism hypothesis to retest: audience-facing WHAT IF -> overlooked required signer -> precise validation rule. Do not force comedy; no user evidence asked for a joke in this artifact.
+
+### Next stage
+- Produce **B2 as a new version**, do not mutate locked B.
+- Compress speech, replace vague closing with a causally useful fact, keep all caveats about code existence versus deployment verification in the production handoff.
+- Build shoot plan on anonymized/staged footage only; verify the database trigger actually deployed and fires on last required signature before claiming observable production success.
+- See `experiments/creative-copy-calibration/fleetdesk-reels-copy-b2-2026-10-29.md`.
