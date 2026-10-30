@@ -1,7 +1,7 @@
 # Kia Carnival shipment Reel: evidence-led buyer pain and narration proposal
 
 Date: 2026-10-30
-Status: DRAFT A REJECTED ON BUYER-PROBLEM/SOLUTION MISMATCH / REVISION NOT YET APPROVED / NOTHING EDITED
+Status: REVISED AFTER PRIMARY-SOURCE RESEARCH / BUYER PROBLEM CONFIRMED / DEMONSTRATED SOLUTION PARTIAL / TEXT ONLY
 Task: User rejected packing-video self-congratulation and wants buyer's *real* pain from ordering vehicle parts internationally. Source footage already inspected in predecessor (rear door and other Kia Carnival body panels, inspection, wrap and loading). Current task asks TEXT ONLY.
 Owners: Market & Competitive Intelligence v1.0.0 QUALIFIED (research), Social Content Creative v0.1.0 QUALIFIED (exact draft), Authorial Voice v0.4 CANDIDATE NOT QUALIFIED (spoken craft). No new agent.
 Prior negative: experiments/creative-copy-calibration/kia-carnival-shipment-captions-2026-10-29.md.
@@ -62,3 +62,38 @@ Failure class: `PAIN_TO_RESOLUTION_NONSEQUITUR` / `SECONDARY_PROCEDURE_AS_CORE_B
 - Do not claim this footage verifies packaging quality, edge protection, cargo restraint, successful arrival or fitment; visual proof of arrival unavailable.
 - The buyer's pain is not resolved by proving whose fault the dent was.
 - User has not rated draft B. No audio/video/subtitles should be edited for this text-only stage.
+
+
+## Research correction: first-party buyer accounts and credible packaging guidance (2026-10-30)
+
+This section supersedes any earlier implicit suggestion that filming or determining the time of a dent is a complete remedy for a damaged customer's part.
+
+### Source-backed buyer complaints (ANECDOTES, NOT POPULATION PREVALENCE)
+1. **Used spare part misrepresented on an international order:** Reddit r/FromJapanCodes post about a rare car part shipped from Japan: listing photos represented a near-new item but buyer alleges receiving badly used/rusted/scratched actual part; returning it would forfeit nonrefundable VAT/duty and outbound shipping. Direct first-person testimony: https://www.reddit.com/r/FromJapanCodes/comments/1uuyje3/item_not_as_described_issues/
+2. **Used salvage-yard panel condition hidden or disputed:** Reddit r/LegalAdviceUK buyer says seller represented a used car part as scratch-free; received chips/scuffs/scratches; return quote £70. Direct first-person buyer account: https://www.reddit.com/r/LegalAdviceUK/comments/123rzyc
+3. **Transport damage:** Reddit r/RockAuto buyer describes damaged shipment twice and destroyed outer/inner boxes, replacement/returns friction: https://www.reddit.com/r/RockAuto/comments/1wc212l/absolute_nightmare_with_rockauto_sent_damaged/
+4. **Wrong product causing repair delay:** Reddit r/RockAuto buyer living in Hawaii received wrong automotive part and explicitly reports the repair stopped while waiting for return/replacement and transport: https://www.reddit.com/r/RockAuto/comments/1sf6198/wrong_item_sent/
+5. **Return costs** can materially hurt buyer, but not identical to primary buyer job: https://www.reddit.com/r/RockAuto/comments/1r14vpr/rockauto_charging_more_to_return_parts_than_the/
+
+These accounts show that the types of pain genuinely occur, not how often or whether the same events happened in this shipment. Never say most international buyers encounter them.
+
+### Evidence-based preventive controls
+- **Before paying/order confirmation**: identify the exact part via official part number / model/VIN where possible; inspect photographs or video of the exact used unit, including defects and mounting points; agree on condition and what is included. This is a preventive workflow recommended from the buyer-complaint mechanism, NOT established as a performed service by this footage alone.
+- **Before and during shipping**: protect body-panel surfaces and exposed edges, cushion and box/crate according to material/dimensions, secure sufficiently against movement. FedEx official automotive shipment guidance recommends cushioning and boxing exposed sheet-metal doors, hoods and panels, protecting sharp edges and surfaces. https://www.fedex.com/en-us/shipping/how-to-ship-automotive.html and https://www.fedex.com/en-mq/shipping/packaging/how-to-pack/how-to-ship-automotive.html
+- A photo of an existing dent may document condition and support a dispute; it **does not prevent damage**. Filming packaging also does NOT prove that transit damage cannot occur.
+
+### What is actually visible in source video
+- 0-9 s: real Kia Carnival tailgate and close-up inspection of visible surface areas; fingers point to cosmetic marks on another body component.
+- 10-19 s: panels/trim and corrugated boxes, wrapped parts.
+- 20-30 s: large wrapped packages manually carried, staged and loaded into a pickup.
+- NOT verified: buyer saw photos before agreeing/paying, parts matched exact VIN, all fasteners intact, all vulnerable edges cushioned, carrier-grade securing, a traceable shipping label, cross-border arrival, customer receipt or installation.
+
+### Professional judgment and communication
+There are at least two relevant legitimate buyer pains: (A) paid for a specific condition/fit and receives something else; (B) purchased bulky panel arrives damaged during transit. Their remedies are NOT interchangeable: verify item before sale/shipping for A, correct protective packaging and handling for B. Return/refund paperwork is a fallback, not the solution to either.
+
+This clip supports an informative PREPARATION / intended risk-reduction story. It cannot honestly make a completed "we guarantee the part arrived intact and fits" claim. A buyer-facing Reel should state what is visibly done and which risk that action is intended to reduce, with no invented guarantees or success outcome. As a gate, confirm exact client-facing photo-sharing and edge protection/securement workflow before asserting those are performed operationally.
+
+### Suggested topic pivot, not final approved copy
+"За границей покупатель не может сам увидеть, что ему отправят. Если пришёл повреждённый или не тот кузовной элемент, ремонт откладывается, а возврат бывает дорогим. Для конкретных деталей Kia Carnival на видео видно осмотр, упаковку и погрузку. Этого недостаточно, чтобы обещать результат доставки: состояние и совместимость нужно проверять заранее, а сохранность подтверждается после получения."
+
+This is an evidence-based editorial premise, NOT a completed buyer-benefit testimonial and NOT a claim this business has solved these defects. The user currently asks to verify whether the pain is real and whether the solution is real, not to render/edit again. No publication approval.
