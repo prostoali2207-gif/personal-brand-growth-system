@@ -1,7 +1,7 @@
 # Kia Carnival shipment Reel: evidence-led buyer pain and narration proposal
 
 Date: 2026-10-30
-Status: RESEARCHED DRAFT / CREATOR REVIEW PENDING / NOTHING PUBLISHED OR EDITED
+Status: DRAFT A REJECTED ON BUYER-PROBLEM/SOLUTION MISMATCH / REVISION NOT YET APPROVED / NOTHING EDITED
 Task: User rejected packing-video self-congratulation and wants buyer's *real* pain from ordering vehicle parts internationally. Source footage already inspected in predecessor (rear door and other Kia Carnival body panels, inspection, wrap and loading). Current task asks TEXT ONLY.
 Owners: Market & Competitive Intelligence v1.0.0 QUALIFIED (research), Social Content Creative v0.1.0 QUALIFIED (exact draft), Authorial Voice v0.4 CANDIDATE NOT QUALIFIED (spoken craft). No new agent.
 Prior negative: experiments/creative-copy-calibration/kia-carnival-shipment-captions-2026-10-29.md.
@@ -36,3 +36,29 @@ General auto-parts fitment error is strong broad pain, yet source video does NOT
 - Claim 'будет с чем сравнить' requires these inspection frames to be preserved and available to the parties; if not verified, revise to a conditional or focus only on the importance of capture.
 - Do not certify content 10/10 without first-party reviewer evidence.
 - No assumptions about shipping destination, guaranteed delivery timeline, carrier, return policy, company performance.
+
+## First-party correction and root cause (2026-10-30)
+User: "А это разве избавление от боли? Клиенту какая разница вмятина была до или вовремя перевозки. Ему же просто целая запчасть нужна. Или я что-то не понимаю"
+Confirmed direct feedback: Draft A DOES NOT solve the stated buyer problem. For the purchaser, the primary desired outcome is receipt of an undamaged, fitting replacement part. Determining at which stage a dent occurred is a *secondary dispute-evidence procedure after harm*. The author presented photographic evidence for potential claims as if it were prevention or relief.
+
+Failure class: `PAIN_TO_RESOLUTION_NONSEQUITUR` / `SECONDARY_PROCEDURE_AS_CORE_BENEFIT`.
+- Customer job: get correctly matched, usable part delivered undamaged.
+- Risk: wrong fit, transit damage and costly delay/return.
+- Actions actually visible: inspection, plastic wrap/packing, loading of Kia Carnival body panels. Their observable existence is grounded; proper edge protection, securing method, delivery success and damage reduction are NOT VERIFIED by just seeing them happen.
+- What documentation can legitimately do: help compare condition if a dispute occurs; not prevent transit damage, make a damaged part usable or meet the primary purchase goal.
+- A compelling buyer-oriented script needs to align: stated risk -> prevention action visible/verified -> bounded outcome or explicitly intended goal. Must not assert guaranteed damage-free receipt if unknown.
+
+## Draft B (new, provisional, to be judged independently; original A preserved)
+Ждёшь кузовную деталь из другой страны. Получаешь посылку, а на двери вмятина.
+
+Теперь вместо ремонта машины снова поиск детали, доставка и ожидание.
+
+Здесь отправляют детали от Kia Carnival: их осматривают, упаковывают и загружают.
+
+У такой отправки простая цель: чтобы деталь доехала целой и её можно было установить.
+
+## Gate for B
+- Wording "ждёшь" is a generic hypothetical buyer situation, not a claim that this user, seller or actual customer suffered damage.
+- Do not claim this footage verifies packaging quality, edge protection, cargo restraint, successful arrival or fitment; visual proof of arrival unavailable.
+- The buyer's pain is not resolved by proving whose fault the dent was.
+- User has not rated draft B. No audio/video/subtitles should be edited for this text-only stage.
