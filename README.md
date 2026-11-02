@@ -8,4 +8,6 @@ Professional-core design, qualification, and reusable profession artifacts belon
 
 [Creative reference library / насмотренность](references/README.md): inspected editing/creative artifacts, exact evidence and limitations, searchable catalog, reusable mechanisms and the Claude/editor handoff.
 
+**Claude:** [workspace instructions](CLAUDE.md) · [first-time setup (Russian)](docs/claude-quickstart.md).
+
 Start with `AGENTS.md`.
