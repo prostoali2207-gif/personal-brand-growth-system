@@ -9,6 +9,7 @@ Purpose: turn inspected external or user-supplied examples into **traceable edit
 - [Catalog (machine-readable)](catalog.json)
 - [REF-0001: Claude video-editing lesson](entries/REF-0001-claude-editing-lesson.md)
 - [REF-0002: AI motion design — idea, options, animation](entries/REF-0002-ai-motion-design.md)
+- [REF-0003: Eight AI illustration style families](entries/REF-0003-eight-ai-illustration-styles.md)
 - [Reference intake card](templates/reference-card.md)
 - [Reference-to-Reel/Claude handoff](workflows/reference-to-reel-handoff.md)
 
