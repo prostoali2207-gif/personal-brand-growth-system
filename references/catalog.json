@@ -52,6 +52,30 @@
       ],
       "transfer_priority": "TEST",
       "status": "ACTIVE"
+    },
+    {
+      "id": "REF-0003",
+      "title": "Eight AI illustration style families (Instagram Reel)",
+      "entry_path": "entries/REF-0003-eight-ai-illustration-styles.md",
+      "source_type": "user-uploaded-video",
+      "source_filename": "155322.mp4",
+      "source_sha256": "539048f1a7bd888518fd474d48248a7d2568a17192cdea2beadc30b9d39d01c7",
+      "original_public_url": "https://www.instagram.com/reel/DdbQXTiMc83/",
+      "durable_source_available": false,
+      "inspected_at": "2026-11-02",
+      "admission": "INSPECTED_SINGLE_ARTIFACT",
+      "evidence_class": "CONTEXTUAL_CANDIDATE",
+      "reference_class": "VOICE_STYLE_CRAFT",
+      "medium": "short-form-vertical-style-list",
+      "use_cases": [
+        "animated-satire-art-direction",
+        "illustration-style-discovery",
+        "visual-styleframes",
+        "comic-dynamic-composition",
+        "palette-comparison"
+      ],
+      "transfer_priority": "TEST",
+      "status": "ACTIVE"
     }
   ]
 }
