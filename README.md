@@ -6,4 +6,6 @@ This repository stores project truth, evidence, approved brand claims, channel s
 
 Professional-core design, qualification, and reusable profession artifacts belong in `prostoali2207-gif/professional-ai-agents`, not here.
 
+[Creative reference library / насмотренность](references/README.md): inspected editing/creative artifacts, exact evidence and limitations, searchable catalog, reusable mechanisms and the Claude/editor handoff.
+
 Start with `AGENTS.md`.
