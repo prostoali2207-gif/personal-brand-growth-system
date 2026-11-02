@@ -26,6 +26,32 @@
       ],
       "transfer_priority": "TEST",
       "status": "ACTIVE"
+    },
+    {
+      "id": "REF-0002",
+      "title": "AI motion design: idea, variants, animation and iterative QC",
+      "entry_path": "entries/REF-0002-ai-motion-design.md",
+      "source_type": "user-uploaded-video",
+      "source_filename": "155169.mp4",
+      "source_sha256": "8ce4a099a7f730881498bd4f5d930e008acee0121c3a14c97bfae9b6e1c2a6e9",
+      "original_public_url": null,
+      "durable_source_available": false,
+      "inspected_at": "2026-11-02",
+      "admission": "INSPECTED_SINGLE_ARTIFACT",
+      "evidence_class": "CONTEXTUAL_CANDIDATE",
+      "reference_class": "VOICE_STYLE_CRAFT",
+      "medium": "long-form-horizontal-educational-video",
+      "use_cases": [
+        "ai-assisted-animation",
+        "motion-graphics-explainer",
+        "concept-variants",
+        "rough-cut-iteration",
+        "3d-product-explanation",
+        "scene-consistency",
+        "animated-system-diagrams"
+      ],
+      "transfer_priority": "TEST",
+      "status": "ACTIVE"
     }
   ]
 }
