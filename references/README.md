@@ -8,6 +8,7 @@ Purpose: turn inspected external or user-supplied examples into **traceable edit
 
 - [Catalog (machine-readable)](catalog.json)
 - [REF-0001: Claude video-editing lesson](entries/REF-0001-claude-editing-lesson.md)
+- [REF-0002: AI motion design — idea, options, animation](entries/REF-0002-ai-motion-design.md)
 - [Reference intake card](templates/reference-card.md)
 - [Reference-to-Reel/Claude handoff](workflows/reference-to-reel-handoff.md)
 
@@ -36,4 +37,4 @@ For no reference-dependent decision, do not load the library by ritual.
 
 External references are inspiration/evidence, never sources of fabricated claims about Ali's experience, clients or results. Do not reproduce signature graphics, voice, footage or music; use independently created assets and licensed materials. No music in Ali's content unless he explicitly changes that constraint. Public platform metrics, virality, course promises, and tutorial demonstrations do not prove business outcomes or reliable automation.
 
-**Source-access gap:** REF-0001 arrived as a private conversation attachment. The repository records filename, checksum and timecodes, but **does not host the original video**. Another worker must obtain authorized access to that media (or an original public link) before claiming to have rewatched it. Do not invent a URL.
+**Source-access gap:** REF-0001 and REF-0002 arrived as private conversation attachments. The repository records filenames, checksums and timecodes, but **does not host the original videos**. Another worker must obtain authorized access to the media (or verified original public links) before claiming to have rewatched them. Do not invent a URL.
