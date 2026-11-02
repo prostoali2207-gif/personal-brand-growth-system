@@ -349,6 +349,12 @@ Current applied capability:
 
 The capability is **CANDIDATE / NOT QUALIFIED**. It may be used in applied work under the project candidate-use rule, but must not be represented as qualified.
 
+## Applied creative-reference library
+
+When a reference-dependent creative/editing task is routed by the gates above, check the applied library at `references/README.md`, select relevant entries through `references/catalog.json`, and read their timestamped, evidence-limited source cards. Before Claude/editing execution, use `references/workflows/reference-to-reel-handoff.md` to carry specific transferable mechanisms, exact source access, approved facts/assets and QC requirements downstream.
+
+Library cards are **not** elite validation or proof of outcomes. `INSPECTED_SINGLE_ARTIFACT` entries may support bounded tests, not a universal craft benchmark. If the underlying video is not accessible to the current editor, do not claim to have rewatched it. Do not turn reference browsing into a mandatory step for deterministic/non-creative work.
+
 ## Applied workflow
 
 Typical flow, only when the task reaches those stages:
