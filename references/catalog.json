@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "library_type": "applied-creative-reference-library",
+  "updated_at": "2026-11-02",
+  "entries": [
+    {
+      "id": "REF-0001",
+      "title": "Claude: video editing and post-production explainer",
+      "entry_path": "entries/REF-0001-claude-editing-lesson.md",
+      "source_type": "user-uploaded-video",
+      "source_filename": "155165.mp4",
+      "source_sha256": "61b16b6f38a762454ae2040b438a5c4097c3e475a25ff7ea71535d0195370e80",
+      "original_public_url": null,
+      "durable_source_available": false,
+      "inspected_at": "2026-11-02",
+      "admission": "INSPECTED_SINGLE_ARTIFACT",
+      "evidence_class": "CONTEXTUAL_CANDIDATE",
+      "reference_class": "VOICE_STYLE_CRAFT",
+      "medium": "long-form-horizontal-educational-video",
+      "use_cases": [
+        "motion-graphics-explainer",
+        "screen-demonstration",
+        "tutorial-structure",
+        "ai-assisted-editing-workflow",
+        "reels-proof-overlay"
+      ],
+      "transfer_priority": "TEST",
+      "status": "ACTIVE"
+    }
+  ]
+}
